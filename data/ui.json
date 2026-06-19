@@ -1,0 +1,42 @@
+[
+  {
+    "id": "UI-CHINESE-INTRO",
+    "type": "ui_node",
+    "label_primary": "【中文介紹】",
+    "label_secondary": "Ch-intro",
+    "action": "setModule('zh','intro')",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "UI-CHINESE-FULL",
+    "type": "ui_node",
+    "label_primary": "【中文全文】",
+    "label_secondary": "Ch-full",
+    "action": "setModule('zh','full')",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "UI-ENGLISH-INTRO",
+    "type": "ui_node",
+    "label_primary": "【英文介紹】",
+    "label_secondary": "Eng-intro",
+    "action": "setModule('en','intro')",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "UI-ENGLISH-FULL",
+    "type": "ui_node",
+    "label_primary": "【英文全文】",
+    "label_secondary": "Eng-full",
+    "action": "setModule('en','full')",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "UI-RETURN-INTRO",
+    "type": "ui_node",
+    "label_primary_zh": "返回介紹",
+    "label_primary_en": "Back Intro",
+    "placement": "inside_full_text_modules",
+    "status": "ACTIVE"
+  }
+]

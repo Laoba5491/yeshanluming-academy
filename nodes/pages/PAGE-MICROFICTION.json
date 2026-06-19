@@ -1,0 +1,14 @@
+{
+  "id": "PAGE-MICROFICTION",
+  "type": "page_node",
+  "file": "micro.html",
+  "image_nodes": [
+    "IMG-ACADEMY-HEADER-MASTER-v2",
+    "IMG-ARTICLE-BACKGROUND-MASTER"
+  ],
+  "ui_nodes": [
+    "UI-BACK"
+  ],
+  "column_node": "PAGE-COLUMN-MASTER-MICROFICTION",
+  "status": "ACTIVE"
+}

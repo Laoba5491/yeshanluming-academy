@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>使用條款｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0403" data-notice-node="NOTICE-0403">
+  <h1 class="article-title">
+    <span id="noticeTitleZh"><span class="main-zh">使用條款</span><span class="sub-en">Terms of Use</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">Terms of Use</span><span class="sub-zh">使用條款</span></span>
+  </h1>
+  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院版權聲明（三）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Copyright Statement (III)</span></p>
+
+  <div class="notice-date">
+    <span id="noticeDateZh">發表日期：2026年6月16日</span>
+    <span id="noticeDateEn" class="hidden">Published: June 16, 2026</span>
+  </div>
+
+  <div class="modebar article-modebar notice-modebar policy-modebar" aria-label="使用條款內容切換">
+    <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <a class="toggle" href="notice004.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+    <button id="largeTextBtn" class="toggle large-text-toggle" onclick="toggleLargeText()"><span class="main">大字閱讀</span><span class="sub">Large Text</span></button>
+  </div>
+
+  <section id="noticeZh" class="text-block">使用本網站即表示您同意以下條款：
+
+內容使用
+本網站內容僅供閱讀、研究與學習用途。
+本網站內容僅代表作者個人觀點。
+本網站內容僅供一般資訊、閱讀、研究與學習參考，不構成法律、醫療、投資、稅務或其他專業建議。
+
+未經作者野山鹿鳴及其法定代理人書面授權：
+不得商業使用
+不得複製
+不得轉載
+不得修改
+不得重新發布
+
+責任限制
+本網站對下列事項不承擔責任：
+因使用本網站內容所造成之直接或間接損失
+因第三方網站內容所產生之任何問題
+因網路、設備或技術因素造成之服務中斷
+使用者應自行判斷及承擔因使用本網站內容所產生之風險。
+
+外部連結
+本網站如提供第三方網站連結，僅供參考。
+本網站不對第三方網站內容負責。
+
+條款修訂
+本網站保留隨時修改：
+網站內容
+網站功能
+使用條款
+隱私政策
+之權利。
+
+聯繫方式
+電子郵件：
+rainbowtrilogy@protonmail.com
+網站：
+yeshanluming.com</section>
+  <section id="noticeEn" class="text-block hidden">By accessing and using this Website, you agree to the following Terms of Use.
+
+Content Usage
+The content of this Website is provided for reading, research, and educational purposes only.
+All content published on this Website represents the personal views and opinions of the author.
+The content of this Website is provided for general informational, educational, and research purposes only and does not constitute legal, medical, financial, tax, or other professional advice.
+
+Without prior written authorization from Yeshan Luming or his legal representative, the following actions are prohibited:
+Commercial use
+Copying
+Reproduction
+Modification
+Republication
+
+Limitation of Liability
+This Website shall not be held responsible for:
+Any direct or indirect loss resulting from the use of content published on this Website
+Any issues arising from the content of third-party websites
+Service interruptions caused by network, equipment, technical, or other related factors
+Users assume all risks associated with the use of, or reliance upon, information contained on this Website.
+
+External Links
+Any links to third-party websites are provided for reference and convenience only.
+This Website assumes no responsibility for the content, accuracy, availability, or policies of third-party websites.
+
+Revisions and Updates
+This Website reserves the right to modify at any time:
+Website content
+Website features and functions
+Terms of Use
+Privacy Policy
+without prior notice.
+
+Contact Information
+Email:
+rainbowtrilogy@protonmail.com
+Website:
+yeshanluming.com</section>
+</article></section></main>
+<script>
+function setNoticeLang(lang){
+  const zh = lang === 'zh';
+  document.getElementById('noticeZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeTitleZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeTitleEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeLabelZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeLabelEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeDateZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeZhBtn').classList.toggle('active', zh);
+  document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+function toggleLargeText(){
+  document.body.classList.toggle('large-text');
+  const active = document.body.classList.contains('large-text');
+  document.getElementById('largeTextBtn').innerHTML = active
+    ? '<span class="main">正常字體</span><span class="sub">Normal Text</span>'
+    : '<span class="main">大字閱讀</span><span class="sub">Large Text</span>';
+}
+</script>
+</body></html>

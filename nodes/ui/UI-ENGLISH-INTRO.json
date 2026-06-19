@@ -1,0 +1,8 @@
+{
+  "id": "UI-ENGLISH-INTRO",
+  "type": "ui_node",
+  "label_primary": "【英文介紹】",
+  "label_secondary": "Eng-intro",
+  "action": "setModule('en','intro')",
+  "status": "ACTIVE"
+}

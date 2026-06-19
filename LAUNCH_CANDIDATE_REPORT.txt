@@ -1,0 +1,17 @@
+Launch candidate package
+Removed 011/012 remnants:
+nodes/articles/ARTICLE-MF-0011.json
+nodes/pages/PAGE-ARTICLE-MF-0011.json
+nodes/images/IMG-ARTICLE-MAIN-MF0011.json
+README_V0.6F_ADD_ARTICLE011.txt
+SELF_CHECK_V0.6F_ADD_ARTICLE011.json
+assets/images/article-main-mf0011.png
+SELF_CHECK_V0.6F_FIX_DIRECTORY_ARTICLE011.json
+assets/images/article-main-mf0012.png
+nodes/articles/ARTICLE-MF-0012.json
+nodes/pages/PAGE-ARTICLE-MF-0012.json
+nodes/images/IMG-ARTICLE-MAIN-MF0012.json
+README_V0.6G_ADD_ARTICLE012.txt
+SELF_CHECK_V0.6G_ADD_ARTICLE012.json
+README_V0.8G_HOTFIX_INTRO_010_011_012.txt
+SELF_CHECK_V0.8G_HOTFIX_INTRO_010_011_012.json

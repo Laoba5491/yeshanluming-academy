@@ -1,0 +1,86 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>聯繫我們｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0006" data-notice-node="NOTICE-0006">
+  <h1 class="article-title">
+    <span id="noticeTitleZh"><span class="main-zh">聯繫我們</span><span class="sub-en">Contact Us</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">Contact Us</span><span class="sub-zh">聯繫我們</span></span>
+  </h1>
+  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院公告（6）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Notice (6)</span></p>
+
+  <div class="notice-date">
+    <span id="noticeDateZh">發表日期：2026年6月15日</span>
+    <span id="noticeDateEn" class="hidden">Published: June 15, 2026</span>
+  </div>
+
+  <div class="modebar article-modebar notice-modebar" aria-label="公告內容切換">
+    <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <a class="toggle" href="academy-notices.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </div>
+
+  <section id="noticeZh" class="text-block">野山鹿鳴書院目前仍處於初建與測試階段，尚未開放網站內部留言或讀者互動功能。
+
+如因任何事項，需要與書院取得聯繫，請使用以下方式：
+
+聯繫方式
+
+電子郵件：
+
+rainbowtrilogy@protonmail.com
+
+網站：
+
+yeshanluming.com
+
+由於目前仍處於建設與測試階段，回覆電郵時間可能有所延遲，敬請見諒。
+
+感謝您的理解與支持。
+
+作者 野山鹿鳴 敬上
+
+野山鹿鳴書院創辦人</section>
+  <section id="noticeEn" class="text-block hidden">YeshanLuming Academy is currently in its early stage of development and testing. At this time, on-site comments and reader interaction features are not yet available.
+
+If you need to contact the Academy regarding any matter, please use the following methods:
+
+Contact Information
+
+Email:
+
+rainbowtrilogy@protonmail.com
+
+Website:
+
+yeshanluming.com
+
+As the Academy is still under construction and ongoing development, responses to emails may occasionally be delayed. We appreciate your understanding and patience.
+
+Thank you for your support.
+
+With best wishes,
+
+Yeshan Luming
+Founder and Author
+YeshanLuming Academy</section>
+</article></section></main>
+<script>
+function setNoticeLang(lang){
+  const zh = lang === 'zh';
+  document.getElementById('noticeZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeTitleZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeTitleEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeLabelZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeLabelEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeDateZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeZhBtn').classList.toggle('active', zh);
+  document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+</script>
+</body></html>

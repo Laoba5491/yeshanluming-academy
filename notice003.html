@@ -1,0 +1,74 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>作者野山鹿鳴介紹｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0003" data-notice-node="NOTICE-0003">
+  <h1 class="article-title">
+    <span id="noticeTitleZh"><span class="main-zh">作者野山鹿鳴介紹</span><span class="sub-en">About the Author: Yeshan Luming</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">About the Author: Yeshan Luming</span><span class="sub-zh">作者野山鹿鳴介紹</span></span>
+  </h1>
+  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院公告（3）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Notice (3)</span></p>
+
+  <div class="notice-date">
+    <span id="noticeDateZh">發表日期：2026年6月15日</span>
+    <span id="noticeDateEn" class="hidden">Published: June 15, 2026</span>
+  </div>
+
+  <div class="modebar article-modebar notice-modebar" aria-label="公告內容切換">
+    <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <a class="toggle" href="academy-notices.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </div>
+
+  <section id="noticeZh" class="text-block">作者野山鹿鳴長期從事文學創作， 本書院《小說天地》欄目中的各類小說作品，均為作者原創，首次公開發表。
+
+作者為美國寶石學院（GIA）畢業之寶石學家（Graduate Gemologist, GG），擁有多年寶石行業研究與從業經驗。本書院《寶石世界》各系列內容，均為作者原創。
+
+除寶石學專業知識介紹外，亦包括各類寶石背後的歷史與傳奇故事，希望透過這些故事，與讀者一起走進五彩繽紛、妙不可言的絢爛寶石世界。
+
+作者的研究與寫作涉獵面廣泛，對中國歷史與歐洲歷史興趣濃厚，並持續研究多年。《中國歷史回顧》與《歐洲歷史啟示》相關欄目作品，均為作者原創，建立在多年閱讀、學習、調查與研究基礎之上。
+
+感謝您的閱讀。
+
+希望您在這裡度過一段愉快的閱讀時光。
+
+作者 野山鹿鳴 敬上
+
+野山鹿鳴書院創辦人</section>
+  <section id="noticeEn" class="text-block hidden">Yeshan Luming has devoted many years to literary writing and creative work. The fiction published in the Fiction section of this Academy consists entirely of original works by the author and is being presented to the public here for the first time.
+
+The author is also a graduate of the Gemological Institute of America (GIA) and holds the title of Graduate Gemologist (GG). With many years of experience in gemological research and the gemstone industry, he has written all of the original content featured in the Academy’s World of Gemstones section.
+
+In addition to introducing professional gemological knowledge, these works explore the history, legends, and fascinating stories behind some of the world's most remarkable gemstones. Through these stories, readers are invited to enter a colorful and captivating world filled with beauty, mystery, and wonder.
+
+The author's interests and research extend across a wide range of subjects. He has maintained a long-standing interest in both Chinese and European history and has devoted many years to studying these fields. The works published in the Reflections on Chinese History and Lessons from European History sections are original writings based upon years of reading, learning, investigation, and research.
+
+Thank you for reading.
+
+We hope you enjoy your time at YeshanLuming Academy and find both knowledge and inspiration during your visit.
+
+With best wishes,
+
+Yeshan Luming
+Founder and Author
+YeshanLuming Academy</section>
+</article></section></main>
+<script>
+function setNoticeLang(lang){
+  const zh = lang === 'zh';
+  document.getElementById('noticeZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeTitleZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeTitleEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeLabelZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeLabelEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeDateZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeZhBtn').classList.toggle('active', zh);
+  document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+</script>
+</body></html>

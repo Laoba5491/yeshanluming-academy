@@ -1,0 +1,8 @@
+{
+  "id": "UI-READ-FULL",
+  "type": "ui_node",
+  "label_zh": "閱讀全文",
+  "label_en": "Read Full Text",
+  "action": "set_mode_full",
+  "status": "ACTIVE"
+}

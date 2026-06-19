@@ -1,0 +1,35 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>歐洲歷史啟示｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><div class="master-content">
+  <nav class="top-ui">
+    <button id="langBtn" class="academy-ui" onclick="toggleLang()"><span class="main">英文顯示</span><span class="sub">Show-Eng</span></button>
+    <a class="academy-ui" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </nav>
+  <section id="zhBlock">
+    <h1 class="page-title"><span class="title-zh">歐洲歷史啟示</span><span class="title-en">Lessons from European History</span></h1>
+    <div class="intro-text"><p>世界歷史上重大戰爭與動盪，幾乎都可以追溯到歐洲。</p>
+<p>從1756年開始的歐洲七年戰爭，到1803年開始的拿破崙戰爭，從1914年第一次世界大戰、到1939年開始的第二次世界大戰；列強爭霸，民族衝突，帝國擴張；冷戰陰影。至今俄烏衝突仍然繼續。</p>
+<p>歐洲為世界創造了燦爛文明，也曾多次把世界推向戰爭深淵。</p>
+<p>本欄目以作者野山鹿鳴的《歐洲戰爭啟示錄》系列為核心，回顧歐洲歷史，了解戰爭形成原因，人類為何一次次重蹈覆轍，希望從歷史中獲得啟示，避免新的世界大戰再次爆發。</p>
+<p>此外，本欄目亦收錄《帝國背後的女人·凱薩琳大帝傳奇》等歷史人物系列，從政治、文化、權力與人性的角度，更深入理解真正的歐洲歷史與文明。</p>
+<p>歷史不只是過去，如果人類不能記住歷史，歷史往往還會再次重演。</p></div><div class="directory-title">下面是歐洲歷史啟示欄目系列目錄</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">歐洲戰爭啟示錄</span><span class="en">Lessons from European History</span></div>
+<div class="series-card disabled"><span class="zh">帝國背後的女人·凱瑟琳大帝傳奇</span><span class="en">The Woman Behind the Empire · The Legend of Catherine the Great</span></div>
+<div class="series-card disabled"><span class="zh">烏克蘭悲歌與思考</span><span class="en">Ukrainian Tragedy and Reflections</span></div></div>
+  </section>
+  <section id="enBlock" class="hidden">
+    <h1 class="page-title"><span class="title-zh">Lessons from European History</span><span class="title-en">歐洲歷史啟示</span></h1>
+    <div class="intro-text en"><p>Nearly every major war and upheaval in modern world history can be traced back, in one way or another, to Europe.</p>
+<p>From the Seven Years’ War that began in 1756, to the Napoleonic Wars beginning in 1803; from the First World War in 1914, to the Second World War that erupted in 1939; struggles among great powers, ethnic conflicts, imperial expansion, and the long shadow of the Cold War — even today, the Russia–Ukraine conflict continues.</p>
+<p>Europe gave birth to brilliant civilizations, yet it also pushed the world to the edge of catastrophe again and again.</p>
+<p>Centered on the author Yeshan Luming’s series Lessons from European History, this section revisits European history, examines the causes of war, and explores why humanity repeatedly falls into the same cycles of destruction. Through history, it seeks to gain insight and help prevent the outbreak of another world war.</p>
+<p>This section also includes historical series such as The Woman Behind the Empire · The Legend of Catherine the Great, offering a deeper understanding of European history and civilization through the lenses of politics, culture, power, and human nature.</p>
+<p>History is not merely the past. If humanity cannot remember history, history will often repeat itself once again.</p></div><div class="directory-title">Below is the series directory for Lessons from European History</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">Lessons from European History</span><span class="en">歐洲戰爭啟示錄</span></div>
+<div class="series-card disabled"><span class="zh">The Woman Behind the Empire · The Legend of Catherine the Great</span><span class="en">帝國背後的女人·凱瑟琳大帝傳奇</span></div>
+<div class="series-card disabled"><span class="zh">Ukrainian Tragedy and Reflections</span><span class="en">烏克蘭悲歌與思考</span></div></div>
+  </section>
+</div></section></main>
+<script>let lang='zh';function toggleLang(){lang=lang==='zh'?'en':'zh';document.getElementById('zhBlock').classList.toggle('hidden',lang!=='zh');document.getElementById('enBlock').classList.toggle('hidden',lang!=='en');document.getElementById('langBtn').innerHTML=lang==='zh'?'<span class="main">英文顯示</span><span class="sub">Show-Eng</span>':'<span class="main">中文顯示</span><span class="sub">Show-Ch</span>';window.scrollTo({top:0,behavior:'smooth'});}</script>
+</body></html>

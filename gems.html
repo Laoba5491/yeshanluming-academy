@@ -1,0 +1,43 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>寶石世界｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><div class="master-content">
+  <nav class="top-ui">
+    <button id="langBtn" class="academy-ui" onclick="toggleLang()"><span class="main">英文顯示</span><span class="sub">Show-Eng</span></button>
+    <a class="academy-ui" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </nav>
+  <section id="zhBlock">
+    <h1 class="page-title"><span class="title-zh">寶石世界</span><span class="title-en">Realm of Gems</span></h1>
+    <div class="intro-text"><p>寶石，不只是財富與裝飾。</p>
+<p>每一顆寶石背後，都藏著地球極深處，億萬年的機緣巧合，萬里挑一機會孕育，也藏著人類文明、王朝興衰、愛情、欲望、戰爭與傳奇。</p>
+<p>本欄目包括鑽石、紅寶石、藍寶石、祖母綠、翡翠及珍珠等系列文章，既有嚴肅認真的寶石學知識介紹，又有寶石歷史故事傳奇，與讀者一起輕鬆進入神秘的寶石世界。</p>
+<p>作者野山鹿鳴係資深寶石學家，擁有美國寶石學院 GG 寶石學家頭銜，及多年寶石從業研究經驗。</p>
+<p>此外，亦收錄作者《羅浮宮珠寶大劫案》等結合歷史、藝術與珠寶傳奇的其它專題作品。</p>
+<p>這裡不只是介紹寶石，也是透過寶石，探視人類文明與命運的一面鏡子。</p></div><div class="directory-title">下面是寶石世界欄目系列目錄</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">鑽石篇</span><span class="en">Diamond Series</span></div>
+<div class="series-card disabled"><span class="zh">紅寶石篇</span><span class="en">Ruby Series</span></div>
+<div class="series-card disabled"><span class="zh">藍寶石篇</span><span class="en">Sapphire Series</span></div>
+<div class="series-card disabled"><span class="zh">祖母綠篇</span><span class="en">Emerald Series</span></div>
+<div class="series-card disabled"><span class="zh">翡翠篇</span><span class="en">Jadeite Series</span></div>
+<div class="series-card disabled"><span class="zh">珍珠篇</span><span class="en">Pearl Series</span></div>
+<div class="series-card disabled"><span class="zh">羅浮宮珠寶大劫案傳奇</span><span class="en">The Great Louvre Jewelry Heist</span></div></div>
+  </section>
+  <section id="enBlock" class="hidden">
+    <h1 class="page-title"><span class="title-zh">Realm of Gems</span><span class="title-en">寶石世界</span></h1>
+    <div class="intro-text en"><p>Gems are not merely symbols of wealth and ornament.</p>
+<p>Behind every gemstone lies an almost impossible miracle born deep within the earth over hundreds of millions of years. Hidden within them are also the stories of human civilization, the rise and fall of dynasties, love, desire, war, and legend.</p>
+<p>This section includes series devoted to diamonds, rubies, sapphires, emeralds, jadeite, pearls, and more. Alongside serious and carefully researched gemological knowledge, readers will also find historical stories and gemstone legends, entering together into the mysterious world of gems.</p>
+<p>The author, Yeshan Luming, is a senior gemologist who holds the Graduate Gemologist (GG) title from the Gemological Institute of America (GIA), with many years of professional experience and research in the gem trade.</p>
+<p>This section also includes other special works by the author, such as The Great Louvre Jewelry Heist, combining history, art, and the legends of jewels.</p>
+<p>Here, gemstones are not merely introduced as objects of beauty, but as mirrors reflecting human civilization and destiny.</p></div><div class="directory-title">Below is the series directory for Realm of Gems</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">Diamond Series</span><span class="en">鑽石篇</span></div>
+<div class="series-card disabled"><span class="zh">Ruby Series</span><span class="en">紅寶石篇</span></div>
+<div class="series-card disabled"><span class="zh">Sapphire Series</span><span class="en">藍寶石篇</span></div>
+<div class="series-card disabled"><span class="zh">Emerald Series</span><span class="en">祖母綠篇</span></div>
+<div class="series-card disabled"><span class="zh">Jadeite Series</span><span class="en">翡翠篇</span></div>
+<div class="series-card disabled"><span class="zh">Pearl Series</span><span class="en">珍珠篇</span></div>
+<div class="series-card disabled"><span class="zh">The Great Louvre Jewelry Heist</span><span class="en">羅浮宮珠寶大劫案傳奇</span></div></div>
+  </section>
+</div></section></main>
+<script>let lang='zh';function toggleLang(){lang=lang==='zh'?'en':'zh';document.getElementById('zhBlock').classList.toggle('hidden',lang!=='zh');document.getElementById('enBlock').classList.toggle('hidden',lang!=='en');document.getElementById('langBtn').innerHTML=lang==='zh'?'<span class="main">英文顯示</span><span class="sub">Show-Eng</span>':'<span class="main">中文顯示</span><span class="sub">Show-Ch</span>';window.scrollTo({top:0,behavior:'smooth'});}</script>
+</body></html>

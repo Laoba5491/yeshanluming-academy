@@ -1,0 +1,10 @@
+{
+  "id": "UI-LANGUAGE-TOGGLE",
+  "type": "ui_node",
+  "labels": {
+    "zh": "中文",
+    "en": "English"
+  },
+  "action": "toggle_language",
+  "status": "ACTIVE"
+}

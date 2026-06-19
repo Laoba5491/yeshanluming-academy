@@ -1,0 +1,9 @@
+{
+  "id": "UI-HOME-ENTER",
+  "type": "ui_node",
+  "label_zh": "進入書院",
+  "label_en": "Enter Academy",
+  "target": "micro.html",
+  "style": "primary_enter_button",
+  "status": "ACTIVE"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "IMG-ARTICLE-BACKGROUND-MASTER",
+  "type": "image_node",
+  "role": "article_background",
+  "file": "assets/images/article-background.jpg",
+  "display": {
+    "mode": "background",
+    "width": "100%",
+    "object_fit": "cover",
+    "opacity_layer": "0.86"
+  },
+  "status": "ACTIVE"
+}

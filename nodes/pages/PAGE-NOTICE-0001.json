@@ -1,0 +1,15 @@
+{
+  "id": "PAGE-NOTICE-0001",
+  "type": "notice_page",
+  "notice_id": "NOTICE-0001",
+  "template": "notice_full_zh_en",
+  "href": "notice001.html",
+  "status": "ACTIVE",
+  "ui": [
+    "中文全文",
+    "英文全文",
+    "返回目錄",
+    "返回首頁"
+  ],
+  "no_article_tools": true
+}

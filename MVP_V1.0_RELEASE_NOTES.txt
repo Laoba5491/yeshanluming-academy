@@ -1,0 +1,57 @@
+YeshanLuming Academy
+MVP V1.0 RELEASE - 10 STORIES LAUNCH EDITION
+Release Date: 06/18/2026
+
+Launch Decision:
+For first public launch, Micro Stories will include only stories (1) through (10).
+Stories (11) and (12) are temporarily removed from the public launch package.
+
+Reason:
+- Keep MVP launch stable, focused, and low-risk.
+- Use Micro Story (10), "Yamamoto Seventy-Six of Japan", as the closing piece of the first launch collection.
+- Stories (11) and (12) may be reviewed and reintroduced in a later version.
+
+Current Public Micro Stories:
+(1) Steel, Forged This Way
+(2) An AI Reflects on Steel, Forged This Way
+(3) A Temple Ahead, a Nunnery Behind
+(4) The Story of Li Dashan and His Mother
+(5) The Guangxu Emperor and His Music Box
+(6) My American Friend, David Johnson
+(7) Neukölln in Düsseldorf
+(8) Zhu Bajie Takes a Wife, and Loses Her Again
+(9) The Boy Who Cried Wolf, The Story of Viktor
+(10) Yamamoto Seventy-Six of Japan
+
+Functions retained:
+- Chinese Intro / Chinese Full
+- English Intro / English Full
+- Traditional/Simplified Chinese toggle
+- Large Text Reading
+- Read Aloud / Stop Reading
+- Directory and Home navigation
+
+Status:
+READY FOR FINAL LAUNCH REVIEW
+
+
+--- Original Notes ---
+YeshanLuming Academy
+MVP V1.0 RELEASE
+Release Date: 06/16/2026
+
+Major Achievements (06/14/2026 - 06/16/2026)
+- Micro Stories 10-12 integrated
+- Public Notices completed
+- Copyright Policies (401/402/403) completed
+- Traditional/Simplified Chinese toggle completed
+- Read Aloud / Stop Reading completed
+- Large Font Reading completed
+- UI standardization completed
+- Critical bug fixes completed
+
+Status:
+Pre-Launch Approved MVP
+
+Next Phase:
+Full-site verification and launch preparation.

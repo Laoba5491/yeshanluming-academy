@@ -1,0 +1,14 @@
+{
+  "id": "IMG-ARTICLE-MAIN-MF0001",
+  "type": "image_node",
+  "role": "article_main_image",
+  "file": "assets/images/article-main.png",
+  "display": {
+    "mode": "article_hero",
+    "width": "100%",
+    "max_width": "860px",
+    "height": "auto"
+  },
+  "status": "ACTIVE",
+  "note": "雨天機場版主圖。"
+}

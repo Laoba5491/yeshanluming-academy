@@ -1,0 +1,20 @@
+{
+  "id": "IMG-ACADEMY-HEADER-MASTER-v3",
+  "type": "image_node",
+  "role": "academy_header",
+  "file": "assets/images/academy-header-v3.jpg",
+  "display": {
+    "desktop_height": "150px",
+    "intended_desktop_range": "120px-160px",
+    "mobile_height": "100px",
+    "intended_mobile_range": "90px-110px",
+    "width": "100%",
+    "object_fit": "cover",
+    "object_position": "center",
+    "placement": "top_band_full_width",
+    "border": "none",
+    "shadow": "none"
+  },
+  "status": "ACTIVE",
+  "note": "v0.0.6：報頭改為頁面頂部全寬融合區。"
+}

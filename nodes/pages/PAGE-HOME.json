@@ -1,0 +1,12 @@
+{
+  "id": "PAGE-HOME",
+  "type": "page_node",
+  "file": "index.html",
+  "image_nodes": [
+    "IMG-HOME-COVER-MASTER"
+  ],
+  "ui_nodes": [
+    "UI-HOME-ENTER"
+  ],
+  "status": "ACTIVE"
+}

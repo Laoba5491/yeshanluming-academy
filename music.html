@@ -1,0 +1,45 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>音樂之鄉｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><div class="master-content">
+  <nav class="top-ui">
+    <button id="langBtn" class="academy-ui" onclick="toggleLang()"><span class="main">英文顯示</span><span class="sub">Show-Eng</span></button>
+    <a class="academy-ui" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </nav>
+  <section id="zhBlock">
+    <h1 class="page-title"><span class="title-zh">音樂之鄉</span><span class="title-en">Land of Music</span></h1>
+    <div class="intro-text"><p>音樂，是人類靈魂深處最動人的聲音。</p>
+<p>本欄目不以播放音樂為主，因為這個世界從不缺少音樂平台。我們真正希望介紹的，是音樂背後的人。</p>
+<p>那些偉大的音樂家、作曲家、歌手與演奏者，他們如何在苦難、孤獨、戰爭、愛情與命運之中，創作出震撼人心的不朽傳世作品；那些流傳世界的旋律背後，又隱藏著怎樣的人生故事與時代特色。</p>
+<p>從貝多芬，到阿炳；從西方古典音樂，到中國傳統名曲。本欄目將與讀者一起，不只「聽見音樂」，而是「理解音樂」。</p>
+<p>因為真正偉大的音樂，往往也是人類靈魂的歷史。</p></div><div class="directory-title">下面是音樂之鄉欄目系列目錄</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">中國的貝多芬·瞎子阿炳
+音樂之鄉（1）</span><span class="en">China’s Beethoven · Blind Musician Abing
+Land of Music (1)</span></div>
+<div class="series-card disabled"><span class="zh">世界的貝多芬·天才與傳奇
+音樂之鄉（2）</span><span class="en">The World’s Beethoven · Genius and Legend
+Land of Music (2)</span></div>
+<div class="series-card disabled"><span class="zh">高山流水·知音的千年迴響
+音樂之鄉（3）</span><span class="en">High Mountains and Flowing Water · A Thousand-Year Echo of True Understanding
+Land of Music (3)</span></div></div>
+  </section>
+  <section id="enBlock" class="hidden">
+    <h1 class="page-title"><span class="title-zh">Land of Music</span><span class="title-en">音樂之鄉</span></h1>
+    <div class="intro-text en"><p>Music is the most moving voice from the depths of the human soul.</p>
+<p>This section is not centered on playing music, because the world already has no shortage of music platforms. What we truly hope to introduce are the people behind the music.</p>
+<p>These great musicians, composers, singers, and performers — how they created immortal masterpieces amid suffering, loneliness, war, love, and fate; and what kinds of life stories and historical spirit lie hidden behind those melodies that have echoed across the world.</p>
+<p>From Beethoven to Blind Musician Abing; from Western classical music to traditional Chinese masterpieces, this section hopes to guide readers not merely to “hear music,” but to “understand music.”</p>
+<p>For truly great music is often also the history of the human soul.</p></div><div class="directory-title">Below is the series directory for Land of Music</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">China’s Beethoven · Blind Musician Abing
+Land of Music (1)</span><span class="en">中國的貝多芬·瞎子阿炳
+音樂之鄉（1）</span></div>
+<div class="series-card disabled"><span class="zh">The World’s Beethoven · Genius and Legend
+Land of Music (2)</span><span class="en">世界的貝多芬·天才與傳奇
+音樂之鄉（2）</span></div>
+<div class="series-card disabled"><span class="zh">High Mountains and Flowing Water · A Thousand-Year Echo of True Understanding
+Land of Music (3)</span><span class="en">高山流水·知音的千年迴響
+音樂之鄉（3）</span></div></div>
+  </section>
+</div></section></main>
+<script>let lang='zh';function toggleLang(){lang=lang==='zh'?'en':'zh';document.getElementById('zhBlock').classList.toggle('hidden',lang!=='zh');document.getElementById('enBlock').classList.toggle('hidden',lang!=='en');document.getElementById('langBtn').innerHTML=lang==='zh'?'<span class="main">英文顯示</span><span class="sub">Show-Eng</span>':'<span class="main">中文顯示</span><span class="sub">Show-Ch</span>';window.scrollTo({top:0,behavior:'smooth'});}</script>
+</body></html>

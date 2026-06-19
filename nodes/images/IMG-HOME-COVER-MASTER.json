@@ -1,0 +1,15 @@
+{
+  "id": "IMG-HOME-COVER-MASTER",
+  "type": "image_node",
+  "role": "home_cover",
+  "file": "assets/images/home-cover.jpg",
+  "display": {
+    "mode": "contain_full_view",
+    "width": "100vw",
+    "height": "100vh",
+    "object_fit": "contain",
+    "position": "center"
+  },
+  "status": "ACTIVE",
+  "note": "首頁乾淨底板完整顯示；不裁切中間。"
+}

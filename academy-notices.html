@@ -1,0 +1,31 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>野山鹿鳴書院公告｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><div class="master-content">
+  <nav class="top-ui">
+    <button id="langBtn" class="academy-ui" onclick="toggleLang()"><span class="main">英文顯示</span><span class="sub">Show-Eng</span></button>
+    <a class="academy-ui" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </nav>
+  <section id="zhBlock">
+    <h1 class="page-title"><span class="title-zh">野山鹿鳴書院公告</span><span class="title-en">Yeshan Luming Academy — Public Notices</span></h1>
+    <div class="series-card-list"><a class="series-card active" href="notice001.html"><span class="zh">（1）野山鹿鳴書院網站上線公告</span><span class="en">(1) Welcome to YeshanLuming Academy</span></a>
+<a class="series-card active" href="notice002.html"><span class="zh">（2）野山鹿鳴書院介紹</span><span class="en">(2) About YeshanLuming Academy</span></a>
+<a class="series-card active" href="notice003.html"><span class="zh">（3）作者野山鹿鳴介紹</span><span class="en">(3) About the Author: Yeshan Luming</span></a>
+<a class="series-card active" href="notice004.html"><span class="zh">（4）野山鹿鳴書院版權聲明</span><span class="en">(4) Copyright and Website Policies</span></a>
+<a class="series-card active" href="notice005.html"><span class="zh">（5）新書發布 · 系列更新預告</span><span class="en">(5) New Releases and Upcoming Series</span></a>
+<a class="series-card active" href="notice006.html"><span class="zh">（6）聯繫我們</span><span class="en">(6) Contact Us</span></a></div>
+  </section>
+  <section id="enBlock" class="hidden">
+    <h1 class="page-title"><span class="title-zh">Yeshan Luming Academy — Public Notices</span><span class="title-en">野山鹿鳴書院公告</span></h1>
+    <div class="series-card-list"><a class="series-card active" href="notice001.html"><span class="zh">(1) Welcome to YeshanLuming Academy</span><span class="en">（1）野山鹿鳴書院網站上線公告</span></a>
+<a class="series-card active" href="notice002.html"><span class="zh">(2) About YeshanLuming Academy</span><span class="en">（2）野山鹿鳴書院介紹</span></a>
+<a class="series-card active" href="notice003.html"><span class="zh">(3) About the Author: Yeshan Luming</span><span class="en">（3）作者野山鹿鳴介紹</span></a>
+<a class="series-card active" href="notice004.html"><span class="zh">(4) Copyright and Website Policies</span><span class="en">（4）野山鹿鳴書院版權聲明</span></a>
+<a class="series-card active" href="notice005.html"><span class="zh">(5) New Releases and Upcoming Series</span><span class="en">（5）新書發布 · 系列更新預告</span></a>
+<a class="series-card active" href="notice006.html"><span class="zh">(6) Contact Us</span><span class="en">（6）聯繫我們</span></a></div>
+  </section>
+</div></section></main>
+<script>let lang='zh';function toggleLang(){lang=lang==='zh'?'en':'zh';document.getElementById('zhBlock').classList.toggle('hidden',lang!=='zh');document.getElementById('enBlock').classList.toggle('hidden',lang!=='en');document.getElementById('langBtn').innerHTML=lang==='zh'?'<span class="main">英文顯示</span><span class="sub">Show-Eng</span>':'<span class="main">中文顯示</span><span class="sub">Show-Ch</span>';window.scrollTo({top:0,behavior:'smooth'});}</script>
+</body></html>

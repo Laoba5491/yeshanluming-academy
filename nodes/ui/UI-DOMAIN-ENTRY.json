@@ -1,0 +1,8 @@
+{
+  "id": "UI-DOMAIN-ENTRY",
+  "type": "ui_node",
+  "label": "yeshanluming.com",
+  "target": "index.html",
+  "note": "本地原型中連到 index.html；正式部署時域名指向網站根目錄。",
+  "status": "ACTIVE"
+}

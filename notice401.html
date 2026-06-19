@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>版權聲明｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0401" data-notice-node="NOTICE-0401">
+  <h1 class="article-title">
+    <span id="noticeTitleZh"><span class="main-zh">版權聲明</span><span class="sub-en">Copyright Notice</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">Copyright Notice</span><span class="sub-zh">版權聲明</span></span>
+  </h1>
+  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院版權聲明（一）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Copyright Statement (I)</span></p>
+
+  <div class="notice-date">
+    <span id="noticeDateZh">發表日期：2026年6月16日</span>
+    <span id="noticeDateEn" class="hidden">Published: June 16, 2026</span>
+  </div>
+
+  <div class="modebar article-modebar notice-modebar policy-modebar" aria-label="版權文件內容切換">
+    <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <a class="toggle" href="notice004.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+    <button id="largeTextBtn" class="toggle large-text-toggle" onclick="toggleLargeText()"><span class="main">大字閱讀</span><span class="sub">Large Text</span></button>
+  </div>
+
+  <section id="noticeZh" class="text-block">本網站（野山鹿鳴書院，YeshanLuming Academy，以下簡稱「本網站」）所發布之全部內容，包括但不限於：
+
+文字作品
+小說作品
+歷史文章
+寶石學文章
+音樂與文化文章
+中英文雙語內容
+圖片與插圖
+網站排版與整體結構
+
+均依法享有完整著作權。
+
+除另有註明之引用資料、公共領域（Public Domain）資料或依法合理使用之內容外，本網站發表之內容均為作者野山鹿鳴原創。
+
+本網站全部內容，無論中文或英文版本，均屬作者野山鹿鳴之原創知識產權，並受美國著作權法及國際著作權公約（包括但不限於《伯爾尼公約》）保護。
+
+使用限制
+
+未經作者野山鹿鳴及其法定代理人書面授權：
+不得複製
+不得轉載
+不得出版
+不得用於商業用途
+不得用於人工智慧模型訓練、資料集建立或其他類似用途
+
+合理使用
+
+在符合 Fair Use（合理使用）原則下，可進行有限引用。
+但必須：
+明確標註來源
+附原文連結
+不得歪曲原意
+
+聯繫方式
+
+電子郵件：
+rainbowtrilogy@protonmail.com
+網站：
+yeshanluming.com
+
+本網站未明示授予之任何權利，均由作者保留。
+© YeshanLuming Academy
+All Rights Reserved</section>
+  <section id="noticeEn" class="text-block hidden">All content published on this website (YeshanLuming Academy, hereinafter referred to as “the Website”), including but not limited to:
+
+Literary works
+Fiction works
+Historical articles
+Gemological articles
+Music and cultural articles
+Bilingual Chinese-English content
+Images and illustrations
+Website design, layout, and overall structure
+
+is protected by copyright and applicable intellectual property laws.
+
+Except for materials specifically identified as quotations, public-domain materials, or content used under applicable legal exceptions such as Fair Use, all content published on this Website is the original work of the author, Yeshan Luming.
+
+All content appearing on this Website, regardless of language version, constitutes the intellectual property of Yeshan Luming and is protected under the copyright laws of the United States and applicable international copyright treaties, including but not limited to the Berne Convention.
+
+Restrictions on Use
+
+Without prior written authorization from Yeshan Luming or his legal representative, the following actions are prohibited:
+
+Copying
+Reproducing
+Publishing
+Commercial use of any content
+Use of any content for artificial intelligence training, dataset creation, or other similar purposes
+
+Fair Use
+
+Limited quotation or reference may be permitted under the principles of Fair Use.
+Any such use must:
+Clearly identify the source
+Include a link to the original content whenever applicable
+Not distort, misrepresent, or alter the original meaning
+
+Contact Information
+
+Email:
+rainbowtrilogy@protonmail.com
+Website:
+yeshanluming.com
+
+All rights not expressly granted herein are reserved by the author.
+© YeshanLuming Academy
+All Rights Reserved</section>
+</article></section></main>
+<script>
+function setNoticeLang(lang){
+  const zh = lang === 'zh';
+  document.getElementById('noticeZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeTitleZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeTitleEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeLabelZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeLabelEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeDateZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeZhBtn').classList.toggle('active', zh);
+  document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+function toggleLargeText(){
+  document.body.classList.toggle('large-text');
+  const active = document.body.classList.contains('large-text');
+  document.getElementById('largeTextBtn').innerHTML = active
+    ? '<span class="main">正常字體</span><span class="sub">Normal Text</span>'
+    : '<span class="main">大字閱讀</span><span class="sub">Large Text</span>';
+}
+</script>
+</body></html>

@@ -1,0 +1,83 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>微型小說｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><div class="master-content">
+  <nav class="top-ui">
+    <button id="microLangBtn" class="academy-ui" onclick="toggleMicroLang()"><span class="main">英文顯示</span><span class="sub">Show-Eng</span></button>
+    <a class="academy-ui" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </nav>
+
+  <section id="microZh">
+    <h1 class="page-title"><span class="title-zh">微型小說</span><span class="title-en">Microfiction</span></h1>
+    <div class="directory-title">微型小說系列目錄</div>
+    <div id="microZhPage1" class="series-card-list">
+      <a class="series-card active" href="article001.html"><span class="zh">（1）鋼鐵是這樣鍊成的</span><span class="en">Steel, Forged This Way</span></a>
+      <a class="series-card active" href="article002.html"><span class="zh">（2）AI機器人·讀《鋼鐵是這樣鍊成的》有感</span><span class="en">An AI Reflects on Steel, Forged This Way</span></a>
+      <a class="series-card active" href="article003.html"><span class="zh">（3）前有和尚廟，後有姑子庵</span><span class="en">A Temple Ahead, a Nunnery Behind</span></a>
+      <a class="series-card active" href="article004.html"><span class="zh">（4）李大山和媽媽的故事</span><span class="en">The Story of Li Dashan and His Mother</span></a>
+      <a class="series-card active" href="article005.html"><span class="zh">（5）光緒皇帝和他的八音盒</span><span class="en">The Guangxu Emperor and His Music Box</span></a>
+      <a class="series-card active" href="article006.html"><span class="zh">（6）我的美國朋友，大衛·約翰遜</span><span class="en">My American Friend, David Johnson</span></a>
+    </div>
+    <div id="microZhPage2" class="series-card-list hidden">
+      <a class="series-card active" href="article007.html"><span class="zh">（7）杜塞爾多夫的紐克隆</span><span class="en">Neukölln in Düsseldorf</span></a>
+      <a class="series-card active" href="article008.html"><span class="zh">（8）猪八戒娶媳婦，怎麼又丟了？</span><span class="en">Zhu Bajie Takes a Wife, and Loses Her Again</span></a>
+      <a class="series-card active" href="article009.html"><span class="zh">（9）狼來了，小男孩維克托的故事</span><span class="en">The Boy Who Cried Wolf, The Story of Viktor</span></a>
+      <a class="series-card active" href="article010.html"><span class="zh">（10）日本的山本七十六</span><span class="en">Yamamoto Seventy-Six of Japan</span></a>
+    </div>
+  </section>
+
+  <section id="microEn" class="hidden">
+    <h1 class="page-title"><span class="title-zh">Microfiction</span><span class="title-en">微型小說</span></h1>
+    <div class="directory-title">Microfiction Series Directory</div>
+    <div id="microEnPage1" class="series-card-list">
+      <a class="series-card active" href="article001.html"><span class="zh">(1) Steel, Forged This Way</span><span class="en">鋼鐵是這樣鍊成的</span></a>
+      <a class="series-card active" href="article002.html"><span class="zh">(2) An AI Reflects on Steel, Forged This Way</span><span class="en">AI機器人·讀《鋼鐵是這樣鍊成的》有感</span></a>
+      <a class="series-card active" href="article003.html"><span class="zh">(3) A Temple Ahead, a Nunnery Behind</span><span class="en">前有和尚廟，後有姑子庵</span></a>
+      <a class="series-card active" href="article004.html"><span class="zh">(4) The Story of Li Dashan and His Mother</span><span class="en">李大山和媽媽的故事</span></a>
+      <a class="series-card active" href="article005.html"><span class="zh">(5) The Guangxu Emperor and His Music Box</span><span class="en">光緒皇帝和他的八音盒</span></a>
+      <a class="series-card active" href="article006.html"><span class="zh">(6) My American Friend, David Johnson</span><span class="en">我的美國朋友，大衛·約翰遜</span></a>
+    </div>
+    <div id="microEnPage2" class="series-card-list hidden">
+      <a class="series-card active" href="article007.html"><span class="zh">(7) Neukölln in Düsseldorf</span><span class="en">杜塞爾多夫的紐克隆</span></a>
+      <a class="series-card active" href="article008.html"><span class="zh">(8) Zhu Bajie Takes a Wife, and Loses Her Again</span><span class="en">猪八戒娶媳婦，怎麼又丟了？</span></a>
+      <a class="series-card active" href="article009.html"><span class="zh">(9) The Boy Who Cried Wolf, The Story of Viktor</span><span class="en">狼來了，小男孩維克托的故事</span></a>
+      <a class="series-card active" href="article010.html"><span class="zh">(10) Yamamoto Seventy-Six of Japan</span><span class="en">日本的山本七十六</span></a>
+    </div>
+  </section>
+
+  <div class="micro-page-controls">
+    <button id="microPrevBtn" class="academy-ui" onclick="setMicroPage(1)" style="display:none"><span class="main">上一頁</span><span class="sub">Page Up</span></button>
+    <button id="microNextBtn" class="academy-ui" onclick="setMicroPage(2)"><span class="main">下一頁</span><span class="sub">Next Page</span></button>
+  </div>
+</div></section></main>
+<script>
+let microLang='zh';
+let microPage=1;
+function refreshMicroStatic(){
+  document.getElementById('microZh').classList.toggle('hidden', microLang!=='zh');
+  document.getElementById('microEn').classList.toggle('hidden', microLang!=='en');
+  document.getElementById('microZhPage1').classList.toggle('hidden', microPage!==1);
+  document.getElementById('microZhPage2').classList.toggle('hidden', microPage!==2);
+  document.getElementById('microEnPage1').classList.toggle('hidden', microPage!==1);
+  document.getElementById('microEnPage2').classList.toggle('hidden', microPage!==2);
+  document.getElementById('microPrevBtn').style.display = microPage===2 ? 'inline-block' : 'none';
+  document.getElementById('microNextBtn').style.display = microPage===1 ? 'inline-block' : 'none';
+  document.getElementById('microLangBtn').innerHTML = microLang==='zh'
+    ? '<span class="main">英文顯示</span><span class="sub">Show-Eng</span>'
+    : '<span class="main">中文顯示</span><span class="sub">Show-Ch</span>';
+}
+function setMicroPage(page){
+  microPage=page;
+  refreshMicroStatic();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function toggleMicroLang(){
+  microLang=microLang==='zh'?'en':'zh';
+  refreshMicroStatic();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+window.addEventListener('DOMContentLoaded', refreshMicroStatic);
+</script>
+</body></html>

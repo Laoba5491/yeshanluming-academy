@@ -1,0 +1,18 @@
+{
+  "id": "PAGE-ARTICLE-MF-0001",
+  "type": "page_node",
+  "file": "article001.html",
+  "article_node": "ARTICLE-MF-0001",
+  "image_nodes": [
+    "IMG-ACADEMY-HEADER-MASTER-v2",
+    "IMG-ARTICLE-BACKGROUND-MASTER",
+    "IMG-ARTICLE-MAIN-MF0001"
+  ],
+  "ui_nodes": [
+    "UI-LANGUAGE-TOGGLE",
+    "UI-READ-FULL",
+    "UI-RETURN-INTRO",
+    "UI-BACK"
+  ],
+  "status": "ACTIVE"
+}

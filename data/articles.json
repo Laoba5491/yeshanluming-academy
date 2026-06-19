@@ -1,0 +1,98 @@
+[
+  {
+    "order": 1,
+    "title_zh": "鋼鐵是這樣鍊成的",
+    "title_en": "Steel, Forged This Way",
+    "href": "article001.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 2,
+    "title_zh": "AI機器人·讀《鋼鐵是這樣鍊成的》有感",
+    "title_en": "An AI Reflects on Steel, Forged This Way",
+    "href": "article002.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 3,
+    "title_zh": "前有和尚廟，後有姑子庵",
+    "title_en": "A Temple Ahead, a Nunnery Behind",
+    "href": "article003.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 4,
+    "title_zh": "李大山和媽媽的故事",
+    "title_en": "The Story of Li Dashan and His Mother",
+    "href": "article004.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 5,
+    "title_zh": "光緒皇帝和他的八音盒",
+    "title_en": "The Guangxu Emperor and His Music Box",
+    "href": "article005.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 6,
+    "title_zh": "我的美國朋友，大衛·約翰遜",
+    "title_en": "My American Friend, David Johnson",
+    "href": "article006.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 7,
+    "title_zh": "杜塞爾多夫的紐克隆",
+    "title_en": "Neukölln in Düsseldorf",
+    "href": "article007.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 8,
+    "title_zh": "猪八戒娶媳婦，怎麼又丟了？",
+    "title_en": "Zhu Bajie Takes a Wife, and Loses Her Again",
+    "href": "article008.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 9,
+    "title_zh": "狼來了，小男孩維克托的故事",
+    "title_en": "The Boy Who Cried Wolf, The Story of Viktor",
+    "href": "article009.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 10,
+    "title_zh": "日本的山本七十六",
+    "title_en": "Yamamoto Seventy-Six of Japan",
+    "href": "article010.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 11,
+    "title_zh": "抗日英雄王二小和英國維克托的故事",
+    "title_en": "The Story of Wang Erxiao, a Young Anti-Japanese Hero, and Victor from England",
+    "href": "article011.html",
+    "series_id": "microfiction",
+    "status": "active"
+  },
+  {
+    "order": 12,
+    "title_zh": "少年寶玉的煩惱",
+    "title_en": "The Troubles of Young Baoyu",
+    "href": "article012.html",
+    "series_id": "microfiction",
+    "status": "active"
+  }
+]

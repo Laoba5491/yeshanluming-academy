@@ -1,0 +1,16 @@
+{
+  "id": "ARTICLE-MF-0010",
+  "series_id": "microfiction",
+  "order": 10,
+  "title_zh": "日本的山本七十六",
+  "title_en": "Yamamoto Seventy-Six of Japan",
+  "page": "article010.html",
+  "image_id": "IMG-ARTICLE-MAIN-MF0010",
+  "modules": {
+    "zh_intro": true,
+    "zh_full": true,
+    "en_intro": true,
+    "en_full": true
+  },
+  "status": "ACTIVE"
+}

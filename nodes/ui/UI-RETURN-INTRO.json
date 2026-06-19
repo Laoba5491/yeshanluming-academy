@@ -1,0 +1,8 @@
+{
+  "id": "UI-RETURN-INTRO",
+  "type": "ui_node",
+  "label_primary_zh": "返回介紹",
+  "label_primary_en": "Back Intro",
+  "placement": "inside_full_text_modules",
+  "status": "ACTIVE"
+}

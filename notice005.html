@@ -1,0 +1,81 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>新書發布 · 系列更新預告｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0005" data-notice-node="NOTICE-0005">
+  <h1 class="article-title">
+    <span id="noticeTitleZh"><span class="main-zh">新書發布 · 系列更新預告</span><span class="sub-en">New Releases and Upcoming Series</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">New Releases and Upcoming Series</span><span class="sub-zh">新書發布 · 系列更新預告</span></span>
+  </h1>
+  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院公告（5）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Notice (5)</span></p>
+
+  <div class="notice-date">
+    <span id="noticeDateZh">發表日期：2026年6月15日</span>
+    <span id="noticeDateEn" class="hidden">Published: June 15, 2026</span>
+  </div>
+
+  <div class="modebar article-modebar notice-modebar" aria-label="公告內容切換">
+    <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <a class="toggle" href="academy-notices.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </div>
+
+  <section id="noticeZh" class="text-block">野山鹿鳴書院網站今日正式上線，目前網站仍處於建設與測試初期階段，本次屬於第一次測試性上線發佈。
+
+目前已上線內容，僅包括《小說天地》欄目中的《微型小說》系列，共十篇作品，供讀者閱讀與測試使用。
+
+未來將陸續推出更多小說作品，以及下列欄目的系列內容：
+
+寶石世界欄目
+音樂之鄉欄目
+中國歷史回顧欄目
+歐洲歷史啟示欄目
+
+感謝您的耐心與支持，敬請期待更多精彩內容。
+
+作者 野山鹿鳴 敬上
+
+野山鹿鳴書院創辦人</section>
+  <section id="noticeEn" class="text-block hidden">YeshanLuming Academy officially opens today.
+
+At present, the website is still in its early stage of development and testing. This release represents the Academy’s first public test launch.
+
+The content currently available online consists of the Micro Stories series in the Fiction section, featuring a total of ten works for readers to enjoy and help evaluate during the testing period.
+
+In the future, additional fiction works will be published, together with new content from the following sections:
+
+The World of Gemstones
+The Land of Music
+Reflections on Chinese History
+Lessons from European History
+
+As the Academy continues to grow, more series and works will gradually be added.
+
+Thank you for your patience and support.
+We look forward to sharing many more stories, articles, and discoveries with you in the future.
+
+With best wishes,
+
+Yeshan Luming
+Founder and Author
+YeshanLuming Academy</section>
+</article></section></main>
+<script>
+function setNoticeLang(lang){
+  const zh = lang === 'zh';
+  document.getElementById('noticeZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeTitleZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeTitleEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeLabelZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeLabelEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeDateZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeZhBtn').classList.toggle('active', zh);
+  document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+</script>
+</body></html>

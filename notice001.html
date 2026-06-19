@@ -1,0 +1,82 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>野山鹿鳴書院網站上線公告｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0001" data-notice-node="NOTICE-0001">
+  <h1 class="article-title">
+    <span id="noticeTitleZh"><span class="main-zh">野山鹿鳴書院網站上線公告</span><span class="sub-en">Welcome to YeshanLuming Academy</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">Welcome to YeshanLuming Academy</span><span class="sub-zh">野山鹿鳴書院網站上線公告</span></span>
+  </h1>
+  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院公告（1）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Notice (1)</span></p>
+
+  <div class="notice-date"><span id="noticeDateZh">發表日期：2026年6月15日</span><span id="noticeDateEn" class="hidden">Published: June 15, 2026</span></div>
+
+  <div class="modebar article-modebar notice-modebar" aria-label="公告內容切換">
+    <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <a class="toggle" href="academy-notices.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </div>
+
+  <section id="noticeZh" class="text-block">尊敬的讀者：
+
+經過長時間準備，野山鹿鳴書院（YeshanLuming Academy）今日正式上線，與大家見面。
+
+野山鹿鳴書院創建的宗旨，是為讀者提供一個安靜、舒適的網上閱讀園地。書院內容包括作者野山鹿鳴多年來創作的各類作品，涵蓋小說、歷史、寶石、音樂等多個領域。
+
+本書院所有內容，均以中文與英文兩種文字同步發表，方便不同語言背景的讀者閱讀與交流。
+
+目前書院網站仍處於初期測試階段，已上線之中文內容採用繁體中文版本，並提供大字閱讀功能，以提升閱讀舒適度。
+
+為方便不同地區中文讀者閱讀，本書院同時提供繁體中文與簡體中文切換功能；並設有朗讀功能，讀者可依個人需要，自由選擇閱讀或聆聽內容。
+
+目前書院仍處於建設與完善階段。本次屬於測試性上線發佈，僅提供部分內容供讀者閱讀與測試。若功能或內容仍有不足之處，敬請讀者諒解。
+
+未來我們將持續增加新內容，逐步完善各項功能，努力為讀者提供更好的閱讀體驗。
+
+希望您能在野山鹿鳴書院舒適閱讀，度過一段愉快而充實的時光。
+
+作者   野山鹿鳴 敬上
+野山鹿鳴書院創辦人</section>
+  <section id="noticeEn" class="text-block hidden">Dear Readers,
+
+After a long period of preparation, YeshanLuming Academy is pleased to officially open its doors and welcome readers from around the world.
+
+The purpose of YeshanLuming Academy is simple: to provide a quiet, comfortable, and enjoyable online reading environment. The Academy brings together the works of author Yeshan Luming, including many years of writing and research in a wide range of fields, such as fiction, history, gemology, music, and cultural studies.
+
+All content published on this website is presented in both Chinese and English, allowing readers from different linguistic backgrounds to read, learn, and exchange ideas more easily.
+
+At present, the Academy remains in its early testing stage. The Chinese content currently available online is published in Traditional Chinese, and a large-font reading option is provided to enhance reading comfort.
+
+To better serve Chinese readers in different regions, the website also offers Traditional Chinese and Simplified Chinese switching options. In addition, a read-aloud function is available, allowing visitors to choose between reading and listening according to their personal preferences.
+
+As the Academy is still under active development, this release should be regarded as a public testing launch. Only part of the planned content is currently available for reading and evaluation. We appreciate your understanding if certain features or sections are not yet fully complete.
+
+In the months ahead, we will continue to add new content, improve existing features, and gradually expand the Academy, with the goal of providing an increasingly rewarding reading experience for our readers.
+
+We sincerely hope that you will enjoy your time at YeshanLuming Academy, and that your visits here will be both pleasant and enriching.
+
+With best wishes,
+
+Yeshan Luming
+Founder and Author
+YeshanLuming Academy</section>
+</article></section></main>
+<script>
+function setNoticeLang(lang){
+  const zh = lang === 'zh';
+  document.getElementById('noticeZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeTitleZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeTitleEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeLabelZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeLabelEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeDateZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeZhBtn').classList.toggle('active', zh);
+  document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+</script>
+</body></html>

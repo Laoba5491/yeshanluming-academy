@@ -1,0 +1,8 @@
+{
+  "id": "UI-CHINESE-FULL",
+  "type": "ui_node",
+  "label_primary": "【中文全文】",
+  "label_secondary": "Ch-full",
+  "action": "setModule('zh','full')",
+  "status": "ACTIVE"
+}

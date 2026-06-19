@@ -1,0 +1,14 @@
+[
+  {
+    "id": "PAGE-COLUMN-MASTER-MICROFICTION",
+    "type": "column_page_node",
+    "title_zh": "微型小說",
+    "title_en": "Microfiction",
+    "description_zh": "第一盞燈：從一篇微型小說開始，讓書院在瀏覽器裡亮起來。",
+    "description_en": "The first lamp: beginning with one microfiction, the Academy appears in the browser.",
+    "items": [
+      "ARTICLE-MF-0001"
+    ],
+    "status": "ACTIVE"
+  }
+]

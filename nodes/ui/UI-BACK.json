@@ -1,0 +1,8 @@
+{
+  "id": "UI-BACK",
+  "type": "ui_node",
+  "label_zh": "返回",
+  "label_en": "Back",
+  "style": "secondary_nav_button",
+  "status": "ACTIVE"
+}

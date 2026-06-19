@@ -1,0 +1,52 @@
+[
+  {
+    "id": "PAGE-HOME",
+    "type": "page_node",
+    "file": "index.html",
+    "image_nodes": [
+      "IMG-HOME-COVER-MASTER"
+    ],
+    "ui_nodes": [
+      "UI-HOME-ENTER"
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-MICROFICTION",
+    "type": "page_node",
+    "file": "micro.html",
+    "image_nodes": [
+      "IMG-ACADEMY-HEADER-MASTER",
+      "IMG-ARTICLE-BACKGROUND-MASTER"
+    ],
+    "ui_nodes": [
+      "UI-BACK"
+    ],
+    "column_node": "PAGE-COLUMN-MASTER-MICROFICTION",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-ARTICLE-MF-0001",
+    "type": "page_node",
+    "file": "article001.html",
+    "article_node": "ARTICLE-MF-0001",
+    "image_nodes": [
+      "IMG-ACADEMY-HEADER-MASTER",
+      "IMG-ARTICLE-BACKGROUND-MASTER",
+      "IMG-ARTICLE-MAIN-MF0001"
+    ],
+    "ui_nodes": [
+      "UI-LANGUAGE-TOGGLE",
+      "UI-READ-FULL",
+      "UI-RETURN-INTRO",
+      "UI-BACK"
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-NOTICE-0001",
+    "type": "notice_page",
+    "href": "notice001.html",
+    "status": "ACTIVE"
+  }
+]

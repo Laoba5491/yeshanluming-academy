@@ -1,0 +1,74 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>野山鹿鳴書院介紹｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0002" data-notice-node="NOTICE-0002">
+  <h1 class="article-title">
+    <span id="noticeTitleZh"><span class="main-zh">野山鹿鳴書院介紹</span><span class="sub-en">About YeshanLuming Academy</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">About YeshanLuming Academy</span><span class="sub-zh">野山鹿鳴書院介紹</span></span>
+  </h1>
+  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院公告（2）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Notice (2)</span></p>
+
+  <div class="notice-date">
+    <span id="noticeDateZh">發表日期：2026年6月15日</span>
+    <span id="noticeDateEn" class="hidden">Published: June 15, 2026</span>
+  </div>
+
+  <div class="modebar article-modebar notice-modebar" aria-label="公告內容切換">
+    <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <a class="toggle" href="academy-notices.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </div>
+
+  <section id="noticeZh" class="text-block">野山鹿鳴書院，是作者野山鹿鳴建立的個人網上圖書館，存放作者多年來創作與整理的各類作品。
+
+目前書院規劃分為五個主要欄目：小說天地、寶石世界、音樂之鄉、中國歷史回顧、歐洲歷史啟示。每個欄目下又包含若干系列，讀者可透過各欄目首頁了解詳細內容。
+
+本書院是真正的個人圖書館網站，目前仍處於建設初期階段。由於作者個人時間與精力有限，既需建設網站，也需持續充實內容，因此更新速度可能較為緩慢，部分功能亦可能尚未完善，希望讀者能夠理解與包容。
+
+本書院的長期目標，是保存作者作品，並透過中英雙語方式，與不同語言、不同文化背景的讀者交流，增進彼此了解與理解。
+
+感謝您的到訪。
+
+作者 野山鹿鳴 敬上</section>
+  <section id="noticeEn" class="text-block hidden">YeshanLuming Academy is the personal online library established by author Yeshan Luming. It serves as a home for the many works he has written, researched, and compiled over the years.
+
+At present, the Academy is organized into five major sections:
+
+Fiction, The World of Gemstones, The Land of Music, Reflections on Chinese History, and Lessons from European History.
+
+Each section contains a number of individual series. Readers may visit the homepage of each section to explore its contents in greater detail.
+
+YeshanLuming Academy is a true personal library website and is still in the early stages of development. Because the author works alone, balancing both website construction and the ongoing creation of new content, updates may sometimes proceed at a slower pace, and certain features may not yet be fully complete.
+
+We sincerely appreciate your understanding and patience during this stage of growth.
+
+The long-term goal of the Academy is to preserve the author's works and to encourage communication between readers from different languages and cultural backgrounds through a bilingual Chinese-English publishing model, promoting greater understanding and mutual appreciation.
+
+Thank you for visiting.
+
+With best wishes,
+
+Yeshan Luming
+Founder and Author
+YeshanLuming Academy</section>
+</article></section></main>
+<script>
+function setNoticeLang(lang){
+  const zh = lang === 'zh';
+  document.getElementById('noticeZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeTitleZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeTitleEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeLabelZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeLabelEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeDateZh').classList.toggle('hidden', !zh);
+  document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
+  document.getElementById('noticeZhBtn').classList.toggle('active', zh);
+  document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+</script>
+</body></html>

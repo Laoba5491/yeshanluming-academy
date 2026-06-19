@@ -1,0 +1,17 @@
+{
+  "id": "IMG-ACADEMY-HEADER-MASTER-v2",
+  "type": "image_node",
+  "role": "academy_header",
+  "file": "assets/images/academy-header-v2.png",
+  "display": {
+    "mode": "integrated_transparent_header",
+    "width": "min(86vw, 980px)",
+    "max_height": "150px",
+    "object_fit": "contain",
+    "background": "transparent",
+    "border": "none",
+    "shadow": "none"
+  },
+  "status": "ACTIVE",
+  "note": "v0.0.6 新報頭：去除卡片邊框與陰影，透明融合文章底板。"
+}

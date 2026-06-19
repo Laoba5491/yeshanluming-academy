@@ -1,0 +1,31 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>中國歷史回顧｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><div class="master-content">
+  <nav class="top-ui">
+    <button id="langBtn" class="academy-ui" onclick="toggleLang()"><span class="main">英文顯示</span><span class="sub">Show-Eng</span></button>
+    <a class="academy-ui" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </nav>
+  <section id="zhBlock">
+    <h1 class="page-title"><span class="title-zh">中國歷史回顧</span><span class="title-en">Journey Through Chinese History</span></h1>
+    <div class="intro-text"><p>中國歷史，並不只是朝代更替與帝王將相。</p>
+<p>真正的歷史，也藏在普通人的命運裡，藏在戰爭、文化、制度、思想、酒宴、貨幣與千百年的人情世故之中。</p>
+<p>本欄目以作者野山鹿鳴，《漫談中國歷史趣事》長篇系列為核心，用講故事的方式，和讀者一起走進五千年中國歷史。同時也收錄作者，關於中國酒文化、中國貨幣小知識等專題系列，從不同角度，理解中國文明的形成與演變。</p>
+<p>這裡不是冰冷的歷史教科書。而是講故事，看見真正活過的人；透過歷史，理解歷史和今天的中國。</p></div><div class="directory-title">下面是中國歷史回顧欄目系列目錄</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">漫談中國歷史趣事</span><span class="en">Informal Talks on Interesting Stories from Chinese History</span></div>
+<div class="series-card disabled"><span class="zh">中國酒文化</span><span class="en">Chinese Liquor Culture</span></div>
+<div class="series-card disabled"><span class="zh">中國貨幣小知識</span><span class="en">Basic Knowledge of Chinese Currency</span></div></div>
+  </section>
+  <section id="enBlock" class="hidden">
+    <h1 class="page-title"><span class="title-zh">Journey Through Chinese History</span><span class="title-en">中國歷史回顧</span></h1>
+    <div class="intro-text en"><p>Chinese history is not merely the succession of dynasties and the stories of emperors and generals.</p>
+<p>True history is also hidden within the destinies of ordinary people, within war, culture, systems, ideas, banquets, currency, and the countless human emotions and social realities accumulated over thousands of years.</p>
+<p>Centered on the author Yeshan Luming’s long-running series Informal Talks on Interesting Stories from Chinese History, this section invites readers to journey through five thousand years of Chinese civilization through the art of storytelling. It also includes the author’s special series on Chinese liquor culture, basic knowledge of Chinese currency, and other topics, exploring the formation and evolution of Chinese civilization from different perspectives.</p>
+<p>This is not a cold history textbook. It is a storytelling platform where you see people who truly lived; a way to understand history and contemporary China through the lens of history.</p></div><div class="directory-title">Below is the series directory for Journey Through Chinese History</div><div class="series-card-list"><div class="series-card disabled"><span class="zh">Informal Talks on Interesting Stories from Chinese History</span><span class="en">漫談中國歷史趣事</span></div>
+<div class="series-card disabled"><span class="zh">Chinese Liquor Culture</span><span class="en">中國酒文化</span></div>
+<div class="series-card disabled"><span class="zh">Basic Knowledge of Chinese Currency</span><span class="en">中國貨幣小知識</span></div></div>
+  </section>
+</div></section></main>
+<script>let lang='zh';function toggleLang(){lang=lang==='zh'?'en':'zh';document.getElementById('zhBlock').classList.toggle('hidden',lang!=='zh');document.getElementById('enBlock').classList.toggle('hidden',lang!=='en');document.getElementById('langBtn').innerHTML=lang==='zh'?'<span class="main">英文顯示</span><span class="sub">Show-Eng</span>':'<span class="main">中文顯示</span><span class="sub">Show-Ch</span>';window.scrollTo({top:0,behavior:'smooth'});}</script>
+</body></html>

@@ -1,0 +1,2 @@
+MINI_ACADEMY_STAGE2_v0.5A_SIX_SECTIONS_FIXED
+修正 v0.5：六欄目入口全部改為真連結；五個新增欄目首頁使用各自正式內容，不再複製小說天地內容。

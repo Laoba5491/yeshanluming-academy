@@ -1,0 +1,15 @@
+{
+  "id": "NOTICE-0001",
+  "section_id": "academy_notices",
+  "order": 1,
+  "title_zh": "野山鹿鳴書院網站上線公告",
+  "title_en": "Welcome to YeshanLuming Academy",
+  "page": "notice001.html",
+  "modules": {
+    "zh_full": true,
+    "en_full": true,
+    "zh_intro": false,
+    "en_intro": false
+  },
+  "status": "ACTIVE"
+}
