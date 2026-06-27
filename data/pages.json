@@ -48,5 +48,46 @@
     "type": "notice_page",
     "href": "notice001.html",
     "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-SERIES-RED-MANSION",
+    "type": "series_page",
+    "file": "red-mansion.html",
+    "image_nodes": [
+      "IMG-ACADEMY-HEADER-MASTER-v2",
+      "IMG-ARTICLE-BACKGROUND-MASTER"
+    ],
+    "ui_nodes": [
+      "UI-LANGUAGE-TOGGLE",
+      "UI-BACK"
+    ],
+    "column_node": "PAGE-COLUMN-RED-MANSION",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-ARTICLE-RED-0100",
+    "type": "article_page",
+    "file": "red-mansion-preface.html",
+    "article_node": "ARTICLE-RED-0100",
+    "image_nodes": [
+      "IMG-ACADEMY-HEADER-MASTER",
+      "IMG-ARTICLE-BACKGROUND-MASTER",
+      "IMG-ARTICLE-RED-0100"
+    ],
+    "ui_nodes": [
+      "UI-LANGUAGE-TOGGLE",
+      "UI-READ-FULL",
+      "UI-RETURN-INTRO",
+      "UI-BACK"
+    ],
+    "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-ARTICLE-RED-0101",
+    "type": "article",
+    "url": "red-mansion-qin-keqing.html",
+    "title_cn": "秦可卿·天香樓上的那根繩子",
+    "title_en": "Qin Keqing: The Rope on the Tower of Heavenly Fragrance",
+    "status": "DRAFT"
   }
 ]

@@ -94,5 +94,27 @@
     "href": "article012.html",
     "series_id": "microfiction",
     "status": "active"
+  },
+  {
+    "id": "ARTICLE-RED-0100",
+    "title_cn": "紅樓夢黑色少女死亡名單及其它　序",
+    "title_en": "The Black List of Girls’ Deaths in Dream of the Red Chamber — and Others: Preface",
+    "series_id": "SERIES-RED-MANSION",
+    "section": "小說天地",
+    "order": 100,
+    "url": "red-mansion-preface.html",
+    "image": "assets/images/red-mansion-preface.png",
+    "status": "DRAFT"
+  },
+  {
+    "id": "ARTICLE-RED-0101",
+    "title_cn": "秦可卿·天香樓上的那根繩子",
+    "title_en": "Qin Keqing: The Rope on the Tower of Heavenly Fragrance",
+    "series_id": "SERIES-RED-MANSION",
+    "section": "小說天地",
+    "order": 101,
+    "url": "red-mansion-qin-keqing.html",
+    "image": "assets/images/red-mansion-qin-keqing.png",
+    "status": "DRAFT"
   }
 ]

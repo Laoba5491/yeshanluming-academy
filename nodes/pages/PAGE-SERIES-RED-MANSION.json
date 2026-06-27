@@ -1,0 +1,15 @@
+{
+  "id": "PAGE-SERIES-RED-MANSION",
+  "type": "series_page",
+  "file": "red-mansion.html",
+  "image_nodes": [
+    "IMG-ACADEMY-HEADER-MASTER-v2",
+    "IMG-ARTICLE-BACKGROUND-MASTER"
+  ],
+  "ui_nodes": [
+    "UI-LANGUAGE-TOGGLE",
+    "UI-BACK"
+  ],
+  "column_node": "PAGE-COLUMN-RED-MANSION",
+  "status": "ACTIVE"
+}

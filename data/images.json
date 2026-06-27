@@ -102,5 +102,26 @@
     },
     "status": "ACTIVE",
     "note": "微型小說（12）《少年寶玉的煩惱》主圖。"
+  },
+  {
+    "id": "IMG-ARTICLE-RED-0100",
+    "type": "image_node",
+    "role": "article_main_image",
+    "file": "assets/images/red-mansion-preface.png",
+    "display": {
+      "mode": "article_hero",
+      "width": "100%",
+      "max_width": "860px",
+      "height": "auto"
+    },
+    "status": "ACTIVE",
+    "note": "中篇小說《紅樓夢黑色少女死亡名單及其它》序主圖。"
+  },
+  {
+    "id": "IMG-ARTICLE-RED-0101",
+    "url": "assets/images/red-mansion-qin-keqing.png",
+    "title_cn": "秦可卿·天香樓上的那根繩子",
+    "title_en": "Qin Keqing: The Rope on the Tower of Heavenly Fragrance",
+    "status": "DRAFT"
   }
 ]

@@ -1,0 +1,17 @@
+《野山鹿鳴書院》第二階段第一次內容更新
+FINAL APPROVED RELEASE
+
+日期：2026-06-26
+
+本版內容：
+1. 建立《紅樓夢黑色少女死亡名單及其它》系列頁。
+2. 建立《紅樓夢黑色少女死亡名單及其它｜序》（100）。
+3. 建立《秦可卿·天香樓上的那根繩子》（101）。
+4. ARTICLE MASTER v1.0 正式生效。
+5. SERIES MASTER v1.0 正式生效。
+
+本版用途：
+- 完整網站 ZIP：作者永久保存與本地檢查。
+- GitHub 更新包 ZIP：上傳 GitHub 後由 Cloudflare Pages 自動部署。
+
+狀態：FINAL APPROVED
