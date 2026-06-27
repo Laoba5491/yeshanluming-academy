@@ -89,5 +89,30 @@
     "title_cn": "秦可卿·天香樓上的那根繩子",
     "title_en": "Qin Keqing: The Rope on the Tower of Heavenly Fragrance",
     "status": "DRAFT"
+  },
+  {
+    "id": "PAGE-NOTICE-0005",
+    "title_cn": "新書發布 · 系列更新預告 06272026",
+    "title_en": "New Releases and Upcoming Series 06272026",
+    "url": "notice005.html",
+    "type": "notice_latest",
+    "order": 5
+  },
+  {
+    "id": "PAGE-NOTICE005-DIRECTORY",
+    "title_cn": "新書發布 · 系列更新預告｜歷史目錄",
+    "title_en": "New Releases and Upcoming Series — Archive",
+    "url": "notice005-directory.html",
+    "type": "notice_archive_directory",
+    "order": 5.1
+  },
+  {
+    "id": "PAGE-NOTICE005-ARCHIVE-20260615",
+    "title_cn": "第一次測試性上線發佈",
+    "title_en": "First Public Test Launch",
+    "url": "notice005-archive-20260615.html",
+    "type": "notice_archive",
+    "series_id": "NOTICE005-ARCHIVE",
+    "order": 100
   }
 ]

@@ -1,0 +1,42 @@
+<!-- NOTICE005_DIRECTORY_v1: Historical directory for notice005 latest announcement page. -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>新書發布 · 系列更新預告｜歷史目錄｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body data-series-master="v1">
+<main class="master-page"><section class="master-sheet"><div class="master-content" data-page-node="PAGE-NOTICE005-DIRECTORY">
+  <nav class="top-ui">
+    <button id="langBtn" class="academy-ui" onclick="toggleLang()"><span class="main">英文顯示</span><span class="sub">Show-Eng</span></button>
+    <a class="academy-ui" href="notice005.html"><span class="main">返回最新版</span><span class="sub">Latest</span></a>
+    <a class="academy-ui" href="academy-notices.html"><span class="main">返回公告專欄</span><span class="sub">Notices</span></a>
+    <a class="academy-ui" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </nav>
+  <section id="zhBlock">
+    <h1 class="page-title series-title"><span class="title-zh">新書發布 · 系列更新預告｜歷史目錄</span><span class="title-en">New Releases and Upcoming Series — Archive</span></h1>
+    <div class="intro-text">本頁保存「新書發布 · 系列更新預告」歷次公告。公告欄第 5 項 notice005.html 永遠顯示最新版；舊版公告按時間順序保存於本目錄。</div>
+    <div class="directory-title">歷史公告目錄</div>
+    <div class="series-card-list">
+      <a class="series-card active" href="notice005-archive-20260615.html"><span class="zh">第一次測試性上線發佈</span><span class="en">First Public Test Launch</span></a>
+    </div>
+  </section>
+  <section id="enBlock" class="hidden">
+    <h1 class="page-title series-title"><span class="title-zh">New Releases and Upcoming Series — Archive</span><span class="title-en">新書發布 · 系列更新預告｜歷史目錄</span></h1>
+    <div class="intro-text en">This page preserves the previous announcements under “New Releases and Upcoming Series.” Notice item 5, notice005.html, always displays the latest announcement. Older notices are stored here in chronological order.</div>
+    <div class="directory-title">Archive Directory</div>
+    <div class="series-card-list">
+      <a class="series-card active" href="notice005-archive-20260615.html"><span class="zh">First Public Test Launch</span><span class="en">第一次測試性上線發佈</span></a>
+    </div>
+  </section>
+</div></section></main>
+<script>
+let lang='zh';
+function toggleLang(){
+  lang=lang==='zh'?'en':'zh';
+  document.getElementById('zhBlock').classList.toggle('hidden',lang!=='zh');
+  document.getElementById('enBlock').classList.toggle('hidden',lang!=='en');
+  document.getElementById('langBtn').innerHTML=lang==='zh'
+    ? '<span class="main">英文顯示</span><span class="sub">Show-Eng</span>'
+    : '<span class="main">中文顯示</span><span class="sub">Show-Ch</span>';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body></html>

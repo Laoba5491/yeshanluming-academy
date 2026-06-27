@@ -1,69 +1,74 @@
-<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!-- NOTICE005_LATEST_MODEL_v1: notice005.html is always the latest announcement page. -->
 <!doctype html>
 <html lang="zh-Hant">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>新書發布 · 系列更新預告｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>新書發布 · 系列更新預告 06272026｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
 <body>
-<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0005" data-notice-node="NOTICE-0005">
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-NOTICE-0005">
   <h1 class="article-title">
-    <span id="noticeTitleZh"><span class="main-zh">新書發布 · 系列更新預告</span><span class="sub-en">New Releases and Upcoming Series</span></span>
-    <span id="noticeTitleEn" class="hidden"><span class="main-en">New Releases and Upcoming Series</span><span class="sub-zh">新書發布 · 系列更新預告</span></span>
+    <span id="noticeTitleZh"><span class="main-zh">新書發布 · 系列更新預告 06272026</span><span class="sub-en">New Releases and Upcoming Series 06272026</span></span>
+    <span id="noticeTitleEn" class="hidden"><span class="main-en">New Releases and Upcoming Series 06272026</span><span class="sub-zh">新書發布 · 系列更新預告 06272026</span></span>
   </h1>
-  <p class="article-label"><span id="noticeLabelZh">野山鹿鳴書院公告（5）</span><span id="noticeLabelEn" class="hidden">YeshanLuming Academy Notice (5)</span></p>
+  <p class="article-label"><span id="noticeLabelZh">新書發布 · 系列更新預告（最新版）</span><span id="noticeLabelEn" class="hidden">New Releases and Upcoming Series (Latest)</span></p>
 
   <div class="notice-date">
-    <span id="noticeDateZh">發表日期：2026年6月15日</span>
-    <span id="noticeDateEn" class="hidden">Published: June 15, 2026</span>
+    <span id="noticeDateZh">更新日期：2026年6月27日</span>
+    <span id="noticeDateEn" class="hidden">Updated: June 27, 2026</span>
   </div>
 
   <div class="modebar article-modebar notice-modebar" aria-label="公告內容切換">
     <button id="noticeZhBtn" class="toggle active" onclick="setNoticeLang('zh')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
     <button id="noticeEnBtn" class="toggle" onclick="setNoticeLang('en')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
-    <a class="toggle" href="academy-notices.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <button id="bigBtn" class="toggle" onclick="toggleBigText()"><span class="main">大字閱讀</span><span class="sub">Large</span></button>
+    <button id="readBtn" class="toggle" onclick="readCurrentNotice()"><span class="main">開始朗讀</span><span class="sub">Read</span></button>
+    <a class="toggle" href="notice005-directory.html"><span class="main">歷史目錄</span><span class="sub">Archive</span></a>
+    <a class="toggle" href="academy-notices.html"><span class="main">返回公告</span><span class="sub">Notices</span></a>
     <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
   </div>
 
-  <section id="noticeZh" class="text-block">野山鹿鳴書院網站今日正式上線，目前網站仍處於建設與測試初期階段，本次屬於第一次測試性上線發佈。
+  <section id="noticeZh" class="text-block">野山鹿鳴書院正式上線以來，經過一段時間的測試、糾錯與修正，網站目前已基本運行穩定。
 
-目前已上線內容，僅包括《小說天地》欄目中的《微型小說》系列，共十篇作品，供讀者閱讀與測試使用。
+現在開始，書院正式進入第二階段：內容建設與持續充實階段。第二階段首先將陸續發表作者的中篇小說系列：《紅樓夢黑色少女死亡名單及其它》隨後將繼續發表另一部中篇小說：《珍妃玉如意》。
 
-未來將陸續推出更多小說作品，以及下列欄目的系列內容：
+由於目前網站建設、內容整理、作品創作，與網站更新，內容輸入等工作，均由作者一人負責，因此書院建設，尤其是內容輸入工作，將採取穩步推進的方式，更新速度可能相對較慢，敬請各位讀者諒解。
 
-寶石世界欄目
-音樂之鄉欄目
-中國歷史回顧欄目
-歐洲歷史啟示欄目
+依目前規劃，預計約需兩年左右時間，完成書院五個主要欄目各系列的初步建設。（此處所指為各系列均有內容發表，並非全部完成。）作者將盡最大努力，持續加快內容整理與發表速度。
 
-感謝您的耐心與支持，敬請期待更多精彩內容。
+除了目前網站已公布的各個欄目與系列之外，作者尚有大量作品尚未公開，未來將隨著書院建設的推進，陸續與讀者見面。
 
-作者 野山鹿鳴 敬上
+衷心感謝各位讀者一路以來的支持與鼓勵。
 
+祝您在《野山鹿鳴書院》度過一段愉快而充實的閱讀時光。
+
+作者　野山鹿鳴
 野山鹿鳴書院創辦人</section>
-  <section id="noticeEn" class="text-block hidden">YeshanLuming Academy officially opens today.
+  <section id="noticeEn" class="text-block hidden">Since the official launch of YeshanLuming Academy, the website has undergone continuous testing, debugging, and refinement. After this initial period of improvement, the website has now reached a stable operating stage.
 
-At present, the website is still in its early stage of development and testing. This release represents the Academy’s first public test launch.
+Beginning today, the Academy officially enters Phase Two of its development: Content Expansion and Ongoing Publication. The first major project of this phase will be the publication of the author&#x27;s novella series:
+The Black List of Girls&#x27; Deaths in Dream of the Red Chamber — and Others
+This will be followed by another novella series:
+The Jade Ruyi of Imperial Consort Zhen.
 
-The content currently available online consists of the Micro Stories series in the Fiction section, featuring a total of ten works for readers to enjoy and help evaluate during the testing period.
+At present, the author is personally responsible for website maintenance, content preparation, writing, translation, and publication. As a result, new content will be added steadily rather than rapidly. Your patience and understanding are sincerely appreciated.
 
-In the future, additional fiction works will be published, together with new content from the following sections:
+According to the current plan, it is expected to take approximately two years for all five major content sections of the Academy to contain representative works from each planned series. (This refers to the initial publication of each series rather than the completion of the entire project.)
 
-The World of Gemstones
-The Land of Music
-Reflections on Chinese History
-Lessons from European History
+The author will continue making every effort to further accelerate the organization and publication of new content.
+In addition to the works already announced on the website, many additional works remain unpublished and will be introduced gradually as the Academy continues to grow.
 
-As the Academy continues to grow, more series and works will gradually be added.
+Thank you for your continued encouragement and support.
 
-Thank you for your patience and support.
-We look forward to sharing many more stories, articles, and discoveries with you in the future.
-
-With best wishes,
+We sincerely hope that your time at YeshanLuming Academy will be both enjoyable and rewarding.
 
 Yeshan Luming
 Founder and Author
 YeshanLuming Academy</section>
 </article></section></main>
 <script>
+let noticeLang='zh';
+let bigText=false;
+let reading=false;
 function setNoticeLang(lang){
+  noticeLang = lang;
   const zh = lang === 'zh';
   document.getElementById('noticeZh').classList.toggle('hidden', !zh);
   document.getElementById('noticeEn').classList.toggle('hidden', zh);
@@ -75,7 +80,35 @@ function setNoticeLang(lang){
   document.getElementById('noticeDateEn').classList.toggle('hidden', zh);
   document.getElementById('noticeZhBtn').classList.toggle('active', zh);
   document.getElementById('noticeEnBtn').classList.toggle('active', !zh);
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+  reading=false;
+  document.getElementById('readBtn').querySelector('.main').textContent='開始朗讀';
   window.scrollTo({top:0, behavior:'smooth'});
+}
+function toggleBigText(){
+  bigText=!bigText;
+  document.getElementById('noticeZh').style.fontSize = bigText ? '1.26rem' : '';
+  document.getElementById('noticeEn').style.fontSize = bigText ? '1.18rem' : '';
+  document.getElementById('bigBtn').classList.toggle('active', bigText);
+}
+function readCurrentNotice(){
+  if (!window.speechSynthesis) return;
+  const btn=document.getElementById('readBtn').querySelector('.main');
+  if (reading){
+    window.speechSynthesis.cancel();
+    reading=false;
+    btn.textContent='開始朗讀';
+    return;
+  }
+  const text=(noticeLang==='zh'?document.getElementById('noticeZh'):document.getElementById('noticeEn')).innerText;
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang=noticeLang==='zh'?'zh-TW':'en-US';
+  u.rate=0.85;
+  u.onend=function(){reading=false;btn.textContent='開始朗讀';};
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(u);
+  reading=true;
+  btn.textContent='停止朗讀';
 }
 </script>
 </body></html>

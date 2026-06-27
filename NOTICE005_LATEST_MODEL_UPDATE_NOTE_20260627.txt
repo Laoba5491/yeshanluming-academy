@@ -1,0 +1,15 @@
+公告欄第 5 項更新模型修正版
+
+正式規則：
+notice005.html 永遠作為最新版公告頁。
+
+本次修正：
+1. notice005.html 改為 06272026 最新公告。
+2. 建立 notice005-directory.html 作為歷史目錄。
+3. 建立 notice005-archive-20260615.html 作為第一次測試性上線發布歷史頁。
+4. 刪除前一版中不符合終極目標的 notice005-launch-test.html / notice005-update-20260627.html。
+5. 最新公告頁與歷史頁均只有中文全文 / 英文全文兩模塊。
+6. 最新公告頁增加：大字閱讀、朗讀、歷史目錄、返回公告、返回首頁。
+
+後續規則：
+每次更新 notice005.html 時，先將舊 notice005.html 轉為 archive 頁，再用新公告覆蓋 notice005.html，並更新 notice005-directory.html。
