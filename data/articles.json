@@ -116,5 +116,29 @@
     "url": "red-mansion-qin-keqing.html",
     "image": "assets/images/red-mansion-qin-keqing.png",
     "status": "DRAFT"
+  },
+  {
+    "id": "ARTICLE-RED-0102",
+    "title_cn": "金釧兒·一句玩笑一條命",
+    "title_en": "Jinchuan’er · One Joke, One Life",
+    "url": "red-mansion-jinchuan.html",
+    "order": 102,
+    "series_id": "SERIES-RED-MANSION"
+  },
+  {
+    "id": "ARTICLE-RED-0103",
+    "title_cn": "尤三姐·鴛鴦劍濺血證清白",
+    "title_en": "Yousanjie · Blood Splashed from the Mandarin Duck Swords to Prove Her Innocence",
+    "url": "red-mansion-yousanjie.html",
+    "order": 103,
+    "series_id": "SERIES-RED-MANSION"
+  },
+  {
+    "id": "ARTICLE-RED-0104",
+    "title_cn": "尤二姐·萬般忍耐無活路·吞金而亡",
+    "title_en": "You Erjie · Endless Forbearance, Yet No Escape · Swallowing Gold to Her Death",
+    "url": "red-mansion-you-erjie.html",
+    "order": 104,
+    "series_id": "SERIES-RED-MANSION"
   }
 ]
