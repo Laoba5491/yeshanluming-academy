@@ -140,5 +140,29 @@
     "url": "red-mansion-you-erjie.html",
     "order": 104,
     "series_id": "SERIES-RED-MANSION"
+  },
+  {
+    "id": "ARTICLE-RED-0105",
+    "title_cn": "晴雯之死",
+    "title_en": "Qingwen's Death",
+    "url": "red-mansion-qingwen.html",
+    "order": 105,
+    "series_id": "SERIES-RED-MANSION"
+  },
+  {
+    "id": "ARTICLE-RED-0106",
+    "title_cn": "撞牆而死的司棋",
+    "title_en": "Crashing into the Wall: The Death of Siqi",
+    "url": "red-mansion-siqi.html",
+    "order": 106,
+    "series_id": "SERIES-RED-MANSION"
+  },
+  {
+    "id": "ARTICLE-RED-0107",
+    "title_cn": "深宮歸天的賈元春",
+    "title_en": "Jia Yuanchun's Return to Heaven Behind the Palace Walls",
+    "url": "red-mansion-yuanchun.html",
+    "order": 107,
+    "series_id": "SERIES-RED-MANSION"
   }
 ]

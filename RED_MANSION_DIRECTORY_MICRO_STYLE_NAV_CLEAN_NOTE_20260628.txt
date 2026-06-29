@@ -1,0 +1,13 @@
+紅樓夢系列目錄分頁 UI 清理修正版
+
+日期：2026-06-28
+
+修正內容：
+1. 目錄分頁 UI 改為與微型小說一致的 micro-page-controls + academy-ui 小型暗紅色圓角按鈕。
+2. 第一頁 red-mansion.html：100–105，底部「下一頁」。
+3. 第二頁 red-mansion-page2.html：106–107，底部「上一頁」。
+4. 徹底移除上一版殘留的大卡片式換頁框邊。
+5. 不修改文章內容、文章 UI、圖片、data、nodes。
+
+正式建議：
+以 micro-page-controls 作為全站系列目錄分頁統一樣式。
