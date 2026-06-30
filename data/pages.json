@@ -180,5 +180,38 @@
     "section": "fiction",
     "series_id": "SERIES-RED-MANSION",
     "order": 107
+  },
+  {
+    "id": "PAGE-ARTICLE-RED-0108",
+    "article_id": "ARTICLE-RED-0108",
+    "title_cn": "林黛玉之死",
+    "title_en": "The Death of Lin Daiyu",
+    "url": "red-mansion-lin-daiyu.html",
+    "type": "article",
+    "section": "fiction",
+    "series_id": "SERIES-RED-MANSION",
+    "order": 108
+  },
+  {
+    "id": "PAGE-ARTICLE-RED-0109",
+    "article_id": "ARTICLE-RED-0109",
+    "title_cn": "賈府的大小姐賈迎春之死",
+    "title_en": "The Death of Jia Yingchun, Eldest Young Lady of the Jia Family",
+    "url": "red-mansion-jia-yingchun.html",
+    "type": "article",
+    "section": "fiction",
+    "series_id": "SERIES-RED-MANSION",
+    "order": 109
+  },
+  {
+    "id": "PAGE-ARTICLE-RED-0110",
+    "article_id": "ARTICLE-RED-0110",
+    "title_cn": "可憐的香菱之死",
+    "title_en": "The Death of the Pitiful Xiangling",
+    "url": "red-mansion-xiangling.html",
+    "type": "article",
+    "section": "fiction",
+    "series_id": "SERIES-RED-MANSION",
+    "order": 110
   }
 ]
