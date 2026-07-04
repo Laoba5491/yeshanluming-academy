@@ -1,0 +1,803 @@
+<!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>妙玉之劫｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-ARTICLE-RED-0111" data-article-node="ARTICLE-RED-0111">
+  <img class="article-hero" src="assets/images/red-mansion-series.png" alt="妙玉之劫 文章圖像">
+  <h1 class="article-title">
+    <span data-lang="zh"><span class="main-zh">妙玉之劫</span><span class="sub-en">The Ordeal of Miaoyu</span></span>
+    <span data-lang="en" class="hidden"><span class="main-en">The Ordeal of Miaoyu</span><span class="sub-zh">妙玉之劫</span></span>
+  </h1>
+  <p class="article-label"><span data-lang="zh">中篇小說（111）</span><span data-lang="en" class="hidden">Novella (111)</span></p>
+  <div class="modebar article-modebar article-ui-standard" aria-label="文章內容切換">
+  <div class="ui-row ui-row-content">
+    <button class="toggle" data-module-btn="zh-full" data-lang-btn="zh" data-mode-btn="full" onclick="setModule('zh','full')"><span class="main">中文全文</span><span class="sub">Ch-full</span></button>
+    <button class="toggle" data-module-btn="zh-intro" data-lang-btn="zh" data-mode-btn="intro" onclick="setModule('zh','intro')"><span class="main">中文介紹</span><span class="sub">Ch-intro</span></button>
+    <button id="tcScBtn" class="toggle" type="button"><span class="main">繁體/簡體</span><span class="sub">TC/SC</span></button>
+    <button class="toggle" data-module-btn="en-full" data-lang-btn="en" data-mode-btn="full" onclick="setModule('en','full')"><span class="main">英文全文</span><span class="sub">Eng-full</span></button>
+    <button class="toggle" data-module-btn="en-intro" data-lang-btn="en" data-mode-btn="intro" onclick="setModule('en','intro')"><span class="main">英文介紹</span><span class="sub">Eng-intro</span></button>
+  </div>
+  <div class="ui-row ui-row-tools">
+    <button id="largeTextBtn" class="toggle large-text-toggle" onclick="toggleLargeText()"><span class="main">大字閱讀</span><span class="sub">Large Text</span></button>
+    <button id="readAloudBtn" class="toggle" type="button"><span class="main">開始朗讀</span><span class="sub">Read Aloud</span></button>
+    <a class="toggle" href="red-mansion-page2.html"><span class="main">返回目錄</span><span class="sub">Directory</span></a>
+    <a class="toggle" href="index.html"><span class="main">返回首頁</span><span class="sub">Home</span></a>
+  </div>
+</div>
+  <section class="text-block" data-lang="zh" data-mode="intro">紅樓夢中的妙玉，是金陵十二金釵中排名第六位的人物， 位於林黛玉、薛寶釵、賈元春、賈探春、史湘雲之後。 她的排名十分特殊。她是唯一與賈府沒有任何血緣或親屬關係的世外之人，其排位順序，卻如此之高，超越了王熙鳳、迎春、惜春等賈府核心人物和千金小姐。 
+
+在她前面的五位都是什麼人物？ 林黛玉， 寶玉的真愛， 薛寶釵， 寶玉後來的妻子， 賈元春， 皇妃，寶玉的親姐姐， 賈探春， 寶玉庶出的妹妹， 史湘雲， 寶玉有緣無份的紅顏知己。 
+
+妙玉之所以可以排在第六位， 不是因為別的， 她其實是寶玉的另一位有緣無份的紅顏知己。與另一位紅顏知己史湘雲不同， 妙玉實際上是賈寶玉的精神導師，更多是精神上的紅顏知己，他們本質上是一類人，是與世俗格格不入的世外“畸人”。
+
+妙玉才華洋溢、氣質清高，卻孤傲寡合，最終在賈府衰敗後遭遇劫難，下場令人唏噓。
+
+大觀園裡那麼多女孩，如同百花園中的奇花異草， 有人嬌美如花，有人乖巧可人，有人多愁善感，有人大度溫存。
+
+可妙玉卻完全不同， 她美得讓人驚艷， 美得讓人看她會屏住呼吸。 可是這樣的美人， 卻沒有一點人間溫度。她是一個地地道道的冰美人，真真如同一塊冰，身上冷氣襲人，絕對拒人於千里之外。
+
+別人都覺得妙玉性格古怪， 難以接近， 可寶玉不同， 他不但喜歡她， 接近她， 而且深深地懂她， 敬重她。</section>
+  <section class="text-block hidden" data-lang="zh" data-mode="full">紅樓夢中的妙玉，是金陵十二金釵中排名第六位的人物， 位於林黛玉、薛寶釵、賈元春、賈探春、史湘雲之後。 她的排名十分特殊。她是唯一與賈府沒有任何血緣或親屬關係的世外之人，其排位順序，卻如此之高，超越了王熙鳳、迎春、惜春等賈府核心人物和千金小姐。 
+
+在她前面的五位都是什麼人物？ 林黛玉， 寶玉的真愛， 薛寶釵， 寶玉後來的妻子， 賈元春， 皇妃，寶玉的親姐姐， 賈探春， 寶玉庶出的妹妹， 史湘雲， 寶玉有緣無份的紅顏知己。 
+
+妙玉之所以可以排在第六位， 不是因為別的， 她其實是寶玉的另一位有緣無份的紅顏知己。與另一位紅顏知己史湘雲不同， 妙玉實際上是賈寶玉的精神導師，更多是精神上的紅顏知己，他們本質上是一類人，是與世俗格格不入的世外“畸人”。
+
+妙玉才華洋溢、氣質清高，卻孤傲寡合，最終在賈府衰敗後遭遇劫難，下場令人唏噓。
+
+大觀園裡那麼多女孩，如同百花園中的奇花異草， 有人嬌美如花，有人乖巧可人，有人多愁善感，有人大度溫存。
+
+可妙玉卻完全不同， 她美得讓人驚艷， 美得讓人看她會屏住呼吸。 可是這樣的美人， 卻沒有一點人間溫度。她是一個地地道道的冰美人，真真如同一塊冰，身上冷氣襲人，絕對拒人於千里之外。
+
+別人都覺得妙玉性格古怪， 難以接近， 可寶玉不同， 他不但喜歡她， 接近她， 而且深深地懂她， 敬重她。 
+
+因為他知道，人若拼命把自己活得如此辛苦， 只為保持高潔孤傲，往往說明，她心裡其實比誰都害怕，這個世界的污濁會污染了她， 會毀了她 。
+
+可是事與願違， 妙玉的高潔孤傲， 在賈府的庇護轟然倒塌後， 她一直視為生命的那種高潔孤傲， 竟蕩然無存， 被人侮辱糟蹋的比誰都慘。
+
+妙玉原本出身極好。她祖上是蘇州的書香仕宦之家，父母愛之無所不用其極，自幼錦衣玉食，讀書識字，對於傳統的琴，棋，茶道，花藝方面造詣極高 。她生得極美，又有極高的才情，所以曹雪芹在書中， 對她才有「氣質美如蘭，才華馥比仙」之極高批語。
+
+可是上帝是公平的， 不會把一切好的東西， 都只給了一個人。 有人說是妙玉的命不好， 她幼年多病，父母尋遍名醫， 無法治癒。 後來家人請人算命，說她命薄，若不入空門，恐怕活不長久。
+
+父母不願女兒吃苦，為此曾經試圖用替身， 代她遁入空門， 為她祈福， 卻都不成功。 於是，愛女心切， 卻又萬般無奈的父母， 在她年紀很小時，只好送她去尼姑庵帶髮修行，可是妙玉自己， 卻從未真正看破紅塵， 沒有真正遁入空門 。
+
+妙玉遁入空門與常人不同， 不是為了信仰和修行 ，而是為了健康。 富裕的家庭背景， 使她與單身遁入空門的常人不同， 她雖然進入佛門， 卻是帶髮修行。 而且和在家裡一樣， 帶著僕婦，丫鬟，隨時伺候，與在家時的大小姐生活無異 。
+
+後來她父母相繼去世，她孤身一人， 無奈只能帶著僕婦，丫鬟，投靠蘇州玄墓蟠香寺，帶髮修行。後來與師傅，以瞻仰觀音遺跡與貝葉遺文為名，一起來到京城，住在城西牟尼庵中。 
+
+這是妙玉從蘇州到京城後的暫居之地， 牟尼庵，與一般女性修行的場所有所不同， 它的規模不大， 是為貴族女性出家修行的特殊場所。 
+
+妙玉的師傅後來生病， 圓寂前， 囑咐她不要回蘇州， 留在京城等待機緣。 
+
+妙玉如何進入賈府， 入住大觀園內的「櫳翠庵」， 原著中， 是這樣描寫的：
+
+「又有林之孝家的來回：「采訪聘買得十個小尼姑，小道姑都有了，連新作的二十分道袍也有了。外有一個帶髮修行的，本是蘇州人氏，祖上也是讀書仕宦之家。因生了這位姑娘自小多病，買了許多替身兒皆不中用，到底這位姑娘親自入了空門，方纔好了，
+
+所以帶髮修行，今年才十八歲，法名妙玉。如今父母俱已亡故，身邊只有兩個老嬤嬤，一個小丫頭伏侍。文墨也極通，經文也不用學了，模樣兒又極好。因聽見『長安』都中有觀音遺跡並貝葉遺文，去歲隨了師父上來，現在西門外牟尼院住著。他師父極精演先天神數，於去冬圓寂了。
+
+妙玉本欲扶靈回鄉的，他師父臨寂遺言，說他『衣食起居不宜回鄉。在此靜居，後來自然有你的結果』。所以他竟未回鄉。」
+
+王夫人不等回完，便說：「既這樣，我們何不接了他來。」林之孝家的回道：「請他，他說『侯門公府，必以貴勢壓人，我再不去的。』」
+
+王夫人笑道：「他既是官宦小姐，自然驕傲些，就下個帖子請他何妨。」林之孝家的答應了出去，命書啟相公寫請帖去請妙玉。次日遣人備車轎去接等後話，暫且擱過，此時不能表白。』
+
+從這段描寫， 可以看出， 妙玉是十分驕傲自重的， 是後來賈府用最隆重的「下請帖」儀式，才將妙玉風風光光地接進了大觀園。這在賈府歷史上， 對待僧尼人士的關係處理中，絕無僅有的一次超高級規格。
+
+妙玉入住大觀園的住所，名為「櫳翠庵」，這個地方的環境設計與妙玉的性格完全契合。 無論是環境布局： 還是地理位置， 都保持是大觀園中，唯一，也是最清淨的「佛門淨土」。  櫳翠庵掩映在山石樹木之中，環境極其清幽。
+
+櫳翠庵是大觀園這個世俗女兒國樂園中，唯一一個，女出家人的庵堂。
+
+這個庵堂就在眾多姊妹居住的園子裡，代表妙玉雖然帶髮修行， 卻未能真正斬斷世俗， 遠離紅塵。 而她的居所， 又與其他姐妹的住所保持相當距離，代表和顯示了她的孤高自許 。
+
+櫳翠庵內最著名的景觀就是漫天的紅梅。梅花「傲雪迎霜」的高傲特性，正是妙玉清高、不與世俗同流合污的性格寫照。而梅花的紅色，又暗示了妙玉的內心，一個妙齡女子， 雖然入了空門， 卻沒有完全斬斷人世情緣。
+
+妙玉原本在蘇州修行，為何千里迢迢來到京城，最終住進賈府大觀園？曹雪芹在書中給出了兩個線索：
+
+第一，妙玉在蘇州時，因為「文墨極高，脾氣執拗」，引起了當地某些權貴的不滿和嫉恨，導致她在蘇州「不容於地方」。為了逃避蘇州當地權貴的糾纏與騷擾，只好以到京城瞻仰觀音貝葉經文為名，跟著師父來到京城。
+
+第二， 妙玉的師父在京城圓寂前，給妙玉留下一句神秘遺言：「衣食起居不宜回鄉。在此靜居，後來自然有你的結果」
+
+師父已經預見到妙玉回鄉會遭遇不幸，讓她留在京城等待命運的安排。
+
+而住進賈府的大觀園，便是師父所預言的那個「結果」的開端。大觀園給了她暫時的庇護，卻也成了她最終落入深淵的起點。
+
+妙玉入住大觀園時，並非像普通尼姑那樣孑然一身、四大皆空。她是以「帶髮修行」的小姐身份入住。她身邊跟隨兩個老嬤嬤和一個小丫鬟 ，伺候她的起居。
+
+她雖然身穿緇衣， 尼姑服，卻保留了頭髮，身邊依然有僕人，丫鬟伺候。這種「半出家、半小姐」的奢華修行狀態，說明她從未真正體驗過佛門清苦，她雖然人在佛門，卻依然享受著世俗官宦小姐的物質特權。
+
+這也呼應了曹雪芹判詞中對她的評語：「欲潔何曾潔，雲空未必空。可憐金玉質，終陷淖泥中」。妙玉入住櫳翠庵，是賈府用最隆重的禮法，將一個最不符合世俗禮法的清高女子，接進了紅塵富貴窩。
+
+櫳翠庵的清幽與紅梅，為妙玉提供了短暫的世外桃源；但她帶著僕人、帶著對物質和精神極致講究的「半俗」狀態入住，也注定了當賈府這座大山倒塌時，這座庵堂根本無法保護她。
+
+所以妙玉雖然人在佛門，心卻仍在人間。她拼命想與塵世隔絕，卻始終無法真正做到六根清淨。她像一個被硬生生卡在兩個世界中間的人，既回不到紅塵，也入不了空門，所以她才會那樣孤獨。
+
+最能說明妙玉人品的一段， 是曹雪芹原著第四十一回， 「賈寶玉品茶櫳翠庵」。
+
+曹雪芹透過一場看似平常的奉茶接待，將妙玉的極致潔癖、驚人財富、階級傲慢，以及她命運中的巨大諷刺，展現得淋漓盡致。
+
+這一段描寫的是賈母與劉老老到訪櫳翠庵的品茶事件。驚人的超高檔茶具，暗示妙玉神祕的豪門背景。 妙玉雖然是個出家人，但她所擁有的器皿，連過慣極度奢華生活的賈府人都為之震驚。
+
+這直接印證了她入住大觀園時，「半俗半尼」的貴族小姐身份。
+
+為了更清楚了解妙玉， 下面把賈母在妙玉的「櫳翠庵」喝茶的原文， 抄錄一段如下：
+
+「
+當下賈母等吃過茶，又帶了劉姥姥至櫳翠庵來。妙玉忙接了進去。至院中見花木繁盛，賈母笑道：“到底是他們修行的人，沒事常常修理，比別處越發好看。”一面說，一面便往東禪堂來。
+
+妙玉笑往里讓，賈母道：“我們才都吃了酒肉，你這里頭有菩薩，沖了罪過。我們這里坐坐，把你的好茶拿來，我們吃一杯就去了。
+
+”妙玉聽了，忙去烹了茶來。寶玉留神看他是怎麼行事。
+
+只見妙玉親自捧了一個海棠花式雕漆填金雲龍獻壽的小茶盤，里面放一個成窯五彩小蓋鐘，捧與賈母。
+
+賈母道：“我不吃六安茶。”
+
+妙玉笑說：“知道。這是老君眉。”
+
+賈母接了，又問是什麼水。妙玉笑回“是舊年蠲的雨水。”
+
+賈母便吃了半盞，便笑著遞與劉姥姥說：“你嘗嘗這個茶。”劉姥姥便一口吃盡，笑道：“好是好，就是淡些，再熬濃些更好了。”賈母眾人都笑起來。然後眾人都是一色官窯脫胎填白蓋碗。」
+
+這裡妙玉給賈母飲茶用的「成窯五彩小蓋鐘」， 那是明代官窯珍品，價值連城。 
+
+後來妙玉又把寶釵， 黛玉拉到裡屋， 喝體己茶，給寶釵用的茶具是「瓟斝 」， 那是晉代珍玩 、上有晉代大家王愷的題字； 黛玉用的茶具是「點犀䀉」  那是極罕見的古玉器。
+
+後來寶玉也來了， 妙玉給寶玉用的茶具綠玉斗 ， 是她的私用茶具，這在當時男女關係敏感的時代， 是一種明顯的親近暗示，連寶玉自己都感到不妥，  後改用「九曲十環一百二十節蟠虯整雕竹根」的一個大盒，給寶玉用， 那是連賈府都拿不出的珍寶。
+
+這些器物不僅僅是值錢，更是有價無市的文化圖騰至寶，從側面揭示了妙玉祖上的官職與財富，在鼎盛時期應該不亞於賈府。
+
+這場戲最劇烈的戲劇衝突，就是表現妙玉對劉姥姥的「嫌惡」上。賈母喝了半杯茶，隨手把茶杯遞給劉姥姥嚐。劉姥姥一口喝盡。
+
+妙玉後來竟然下令：「將那成窯鐘子擱在外邊，不要收進來。」 
+
+僅僅因為劉姥姥這個貧苦農婦用過一次，這隻價值連城的明代成窯名瓷，在妙玉眼裡就變成了「不可洗滌的髒物」，寧可扔掉，也不要了。
+
+寶玉了解妙玉的脾氣， 後來主動向妙玉提議：「那鐘子白碎了可惜，不如給了那貧婆子吧，她賣了也可以度日。」
+
+因為是寶玉說的， 妙玉想了想才勉強答應，但仍傲慢地說：「幸而我沒吃過，若我吃過的，我就砸碎了也不給她！」
+
+劉姥姥走後，連劉姥姥走過的地， 她都嫌髒，用了好幾桶水，要把劉姥姥走過、坐過的地方徹底沖洗一遍。
+
+妙玉的孤高與炫耀， 並不只是在茶具的使用上。 連沏茶所用的水， 也是大有門道， 非一般人可以理解。 
+
+妙玉請寶釵， 黛玉入內喝體己茶， 黛玉因問：“這也是舊年的雨水？”
+
+妙玉冷笑道：“你這麼個人，竟是大俗人，連水也嘗不出來。這是五年前我在玄墓蟠香寺住著，收的梅花上的雪，共得了那一鬼臉青的花瓮一瓮，總舍不得吃，埋在地下，今年夏天才開了。我只吃過一回，這是第二回了。你怎麼嘗不出來？隔年蠲的雨水那有這樣輕浮，如何吃得。”
+
+「你這麼個人，竟是大俗人，連水也嚐不出來！」妙玉竟然當面嘲笑，紅樓夢裡的第一才女， 心比天高的林黛玉「俗」，整個紅樓夢裡， 也就是妙玉才敢這樣說， 也是體現了她在品味上的絕對自信與孤傲。
+
+妙玉這種「不合時宜」的作風，在大觀園裡並非人人買帳。她的貧賤之交，學生邢岫煙， 她是大觀園中最清醒、最隨和的姑娘之一 ，就曾一針見血地評價過妙玉：「她為人孤癖，不合時宜……僧不僧，俗不俗，女不女，男不男，成個什麼道理！」
+
+邢岫煙了解妙玉。她點出妙玉的清高其實是一種「傲慢的執念」。
+
+妙玉自以為看破紅塵，但她其實被自己的「潔癖」和「出身」死死捆綁住。她瞧不起世俗，卻又依附於世俗賈府的富貴；她追求空靈，卻對茶具、茶水、階級有著最執著的分別心。
+
+曹雪芹在第四十一回，描寫妙玉對劉姥姥的極端嫌棄，到了小說後面，卻如同迴旋鏢， 化作了她命運最殘酷的黑色幽默。
+
+賈府敗落後，劉姥姥從被施捨者， 變成救贖者。正是這個被妙玉嫌棄「髒」的劉姥姥，在賈府敗落後， 變賣家產、長途跋涉，從煙花巷中救出了王熙鳳的女兒巧姐。
+
+而妙玉， 這個孤高自賞， 離世高潔的大小姐， 半出家人，卻沒有任何人出手相助， 她成為了最悲慘的被踐踏者。 
+
+這個嫌劉姥姥髒、連她走過的地，都要用水洗三遍的妙玉，卻在月黑風高之夜，被最骯髒、最粗暴，最殘忍的強盜，用迷香迷暈劫走，肉體與精神，徹底被世俗最底層惡魔， 肆意玷污，「終陷泥淖中」， 何等諷刺的結局？
+
+因此， 雖然妙玉入住了大觀園， 她仍然將自己封的死死的， 不願與她認為的俗人交往。 她幾乎不與人親近，別人吟詩作對，她冷眼旁觀；別人遊園賞花，她獨自在庵中煮茶。她待人冷淡，近乎刻薄。劉姥姥用過她的茶杯，雖然價值連城，她嫌髒，就乾脆不要了。她對賈府那些富貴公子、太太奶奶，也沒有多少敬意。
+
+許多人都覺得妙玉古怪，可寶玉卻沒有，因為寶玉也是個與世俗格格不入的人。
+
+別人追求功名富貴，他偏偏厭惡；別人講究仕途經濟，他偏偏不屑。他天生便對這個世界有一種說不出的反感。而妙玉，也正因如此，才開始真正注意到寶玉， 從欣賞寶玉， 到喜歡寶玉。
+
+她發現，這個賈家的公子哥兒，居然真的不像一般俗人。
+
+在櫳翠庵品茶那一次，妙玉拿出了自己珍藏多年的茶具。那些杯盞皆是古玩珍器，平日她連碰都不肯讓人碰。她給寶釵與黛玉用珍貴的古董茶盞，卻偏偏把自己平日專用的綠玉斗遞給寶玉。
+
+連寶玉自己都愣了一下，因為那不是普通待客之禮。在那樣講究男女之防的年代，一個女子把自己所用之物，給一個男子使用，其中意味，絕不尋常。
+
+可妙玉不是一般女子。她對寶玉的感情，也不只是普通男女之情。她真正欣賞的，是寶玉那種不肯向俗世低頭的性情。她覺得寶玉與自己一樣，都是這個世界裡的異類。她甚至把寶玉視為唯一能稍稍理解自己的人。只是，她比林黛玉更悲哀。
+
+林黛玉至少還有寶玉的真愛，而妙玉，什麼都沒有。她太高傲，也太乾淨， 變成潔癖。她把自己活成了一座孤島。她不肯接近別人，也不允許別人接近自己。她拼命維持著那份高潔，高傲，像是在與整個污濁世界對抗。
+
+可是在《紅樓夢》描述的那個世界裡，越是高潔，高傲，乾淨的人，往往下場越慘。
+
+後來賈府敗了，大觀園散了。那些曾經在園中吟詩作賦的妙齡女子，一個個都走向了自己的悲慘結局。有人病死，有人自盡，有人被折磨致死。而妙玉，也終於失去了最後的一點庇護。
+
+關於她最後的結局，曹雪芹並沒有真正寫明。可是越不明寫，越令人不寒而慄。因為書中的暗示，已經足夠了。
+
+許多脂批與後世紅學家都認為，妙玉後來遭強盜擄走，遭到玷污。她那樣高潔孤傲的人，最後卻落入最污穢、最不堪的境地。這幾乎是《紅樓夢》中最殘酷的一種毀滅。
+
+因為她最珍視的東西，不是生命，而是孤傲高潔。而現實世界，偏偏把她最珍視的東西徹底碾碎。寶玉後來每次想起妙玉，都會想起櫳翠庵中的那場雪。
+
+那天妙玉站在白雪之中，一身素衣，宛如雕像， 她美得令人窒息， 卻神情冷淡，如一塊冰。那時候的大觀園還沒有敗，所有人都以為，這樣的清淨日子還會一直過下去。可誰也沒想到，那竟已是她一生中最後的安穩時光。
+
+後來寶玉終於明白，妙玉其實從來不是不染塵埃。她只是拼命想在塵埃污濁裡，保住自己最後一點乾淨。
+
+可是， 可憐的妙玉， 就是這樣一點小小的追求， 都不可得， 最後這個幾乎是世界上最孤傲高潔的人， 卻落得個最骯髒， 最不堪， 最殘酷，備受侮辱糟蹋的無比悲慘下場，。。。。。。
+
+怪誰呢？ 曹雪芹沒有寫， 讀者自己悟吧 ，。。。。。。
+
+最後， 欣賞曹雪芹在紅樓夢第五回中， 為妙玉寫的判詞， 個中哲理令人深思：
+
+太虛幻境薄命司「金陵十二釵正冊」裡對妙玉的判詞為
+
+
+《世難容》
+
+氣質美如蘭，才華馥比仙。
+天生成孤癖人皆罕。
+
+你道是啖肉食腥膻，視綺羅俗厭；
+卻不知好高人愈嫉，過潔世同嫌。
+
+可嘆這，青燈古殿人將老，辜負了紅粉朱樓春色闌，到頭來依舊是風塵骯髒違心願。
+
+好一似無瑕白玉遭泥陷，又何須王孫公子嘆無緣?
+
+
+
+（未完待續）</section>
+  <section class="text-block hidden" data-lang="en" data-mode="intro">In Dream of the Red Chamber, Miaoyu ranks sixth among the Twelve Beauties of Jinling, after Lin Daiyu, Xue Baochai, Jia Yuanchun, Jia Tanchun, and Shi Xiangyun. Her ranking is highly unusual. She is the only figure among them who has no blood tie or kinship connection to the Jia family, and yet her position is so high that she surpasses Wang Xifeng, Yingchun, Xichun, and other central women and young ladies of the Jia household.
+
+Who are the five women ranked before her? Lin Daiyu, Baoyu's true love. Xue Baochai, Baoyu's later wife. Jia Yuanchun, the Imperial Consort and Baoyu's elder sister. Jia Tanchun, Baoyu's concubine-born younger sister. Shi Xiangyun, Baoyu's intimate female soulmate with whom he was destined to have affinity but no final union.
+
+The reason Miaoyu can rank sixth is nothing else: she is in fact another of Baoyu's intimate female soulmates, one bound to him by affinity yet fated never to belong to him. Unlike Shi Xiangyun, another such soulmate, Miaoyu is in truth Jia Baoyu's spiritual guide. She is more a soulmate of the spirit than of ordinary human affection. At their core, they are the same kind of people—eccentrics outside the secular world, beings who simply cannot fit into ordinary society.
+
+Miaoyu is overflowing with talent and possesses a rare, refined temperament. Yet she is aloof, proud, and solitary. In the end, after the decline of the Jia family, she encounters disaster, and her fate leaves one sighing with sorrow.
+
+Among all the girls in the Grand View Garden, they are like rare flowers and unusual plants in a great garden of a hundred blossoms. Some are delicate and beautiful as flowers; some are obedient and charming; some are sensitive and sorrowful; some are generous and gentle.
+
+But Miaoyu is completely different. Her beauty is startling. Her beauty makes people hold their breath when they look at her. Yet such a beauty carries not the slightest warmth of the human world. She is a true ice beauty, truly like a block of ice, coldness radiating from her body, keeping everyone a thousand miles away.</section>
+  <section class="text-block hidden" data-lang="en" data-mode="full">In Dream of the Red Chamber, Miaoyu ranks sixth among the Twelve Beauties of Jinling, after Lin Daiyu, Xue Baochai, Jia Yuanchun, Jia Tanchun, and Shi Xiangyun. Her ranking is highly unusual. She is the only figure among them who has no blood tie or kinship connection to the Jia family, and yet her position is so high that she surpasses Wang Xifeng, Yingchun, Xichun, and other central women and young ladies of the Jia household.
+
+Who are the five women ranked before her? Lin Daiyu, Baoyu's true love. Xue Baochai, Baoyu's later wife. Jia Yuanchun, the Imperial Consort and Baoyu's elder sister. Jia Tanchun, Baoyu's concubine-born younger sister. Shi Xiangyun, Baoyu's intimate female soulmate with whom he was destined to have affinity but no final union.
+
+
+The reason Miaoyu can rank sixth is nothing else: she is in fact another of Baoyu's intimate female soulmates, one bound to him by affinity yet fated never to belong to him. Unlike Shi Xiangyun, another such soulmate, Miaoyu is in truth Jia Baoyu's spiritual guide. She is more a soulmate of the spirit than of ordinary human affection. At their core, they are the same kind of people—eccentrics outside the secular world, beings who simply cannot fit into ordinary society.
+
+Miaoyu is overflowing with talent and possesses a rare, refined temperament. Yet she is aloof, proud, and solitary. In the end, after the decline of the Jia family, she encounters disaster, and her fate leaves one sighing with sorrow.
+
+Among all the girls in the Grand View Garden, they are like rare flowers and unusual plants in a great garden of a hundred blossoms. Some are delicate and beautiful as flowers; some are obedient and charming; some are sensitive and sorrowful; some are generous and gentle.
+
+But Miaoyu is completely different. Her beauty is startling. Her beauty makes people hold their breath when they look at her. Yet such a beauty carries not the slightest warmth of the human world. She is a true ice beauty, truly like a block of ice, coldness radiating from her body, keeping everyone a thousand miles away.
+
+Other people all think Miaoyu strange in temperament and difficult to approach. Baoyu is different. He not only likes her and draws near to her; he also understands her deeply and respects her.
+
+Because he knows that when a person forces herself to live with such painful effort merely to preserve purity, aloofness, and pride, it often means that deep inside, she is more afraid than anyone else—afraid that the filth of this world will contaminate her, and destroy her.
+
+But things go against her wishes. After the shelter of the Jia family collapses with a crash, the purity and aloof pride that Miaoyu has always regarded as life itself vanish completely. She is humiliated and defiled more cruelly than anyone else.
+
+Miaoyu originally came from an excellent family background. Her ancestors belonged to a scholarly and official family in Suzhou. Her parents loved her to the utmost, sparing no effort for her. From childhood, she lived in silk and fine food, learned to read and write, and attained a very high level of cultivation in the traditional arts of music, chess, tea, and flower arrangement. She was extraordinarily beautiful and possessed exceptional talent. That is why Cao Xueqin gave her such a lofty judgment in the book: "Her temperament is as beautiful as an orchid; her talent is more fragrant than an immortal's."
+
+But Heaven is fair. It does not give every good thing to one person alone. Some say that Miaoyu's fate was unfortunate. As a child, she was often ill. Her parents searched everywhere for famous physicians, yet none could cure her. Later, the family asked someone to tell her fortune, and they were told that her life was fragile; if she did not enter the Buddhist gate, she might not live long.
+
+Her parents could not bear to let their daughter suffer. For this reason, they once tried to use substitutes, sending others into religious life on her behalf to pray for her. But none of it worked. And so, loving their daughter desperately yet utterly helpless, her parents had no choice but to send her to a nunnery when she was still very young, where she practiced as a Buddhist novice while keeping her hair. Yet Miaoyu herself had never truly seen through the red dust of the world, nor had she truly entered the Buddhist gate.
+
+Later, after both of her parents passed away, Miaoyu found herself alone in the world. With no one left to rely on, she could only leave home with her two elderly nursemaids and a young maidservant and seek refuge at Xuanmu Panxiang Monastery (玄墓蟠香寺) in Suzhou, where she continued her Buddhist practice while keeping her hair. Later, accompanied by her master, she traveled to the capital under the pretext of paying homage to sacred Buddhist relics—sites associated with Guanyin, the Bodhisattva of Compassion, and the treasured palm-leaf Buddhist scriptures preserved there. They eventually settled at Muni Nunnery (牟尼庵) on the western outskirts of the imperial city.
+
+Muni Nunnery became Miaoyu's temporary home after leaving Suzhou. Unlike ordinary convents for Buddhist women, it was small and quiet, intended primarily for women of noble birth who had entered religious life. It was not a place of hardship, but a secluded sanctuary for ladies from distinguished families.
+
+Some time later, Miaoyu's master fell gravely ill. Before passing away, she left Miaoyu one final instruction: do not return to Suzhou. Remain in the capital and wait for your destined opportunity.
+
+How, then, did Miaoyu eventually enter the Jia household and come to reside in Longcui Nunnery (櫳翠庵) within the Grand View Garden?
+
+Cao Xueqin tells the story in the original novel.
+
+"Lin Zhixiao's wife came to report:
+
+'We have already found ten young Buddhist and Daoist novices, and twenty new robes have been prepared. There is also a young woman practicing Buddhism while keeping her hair. She is a native of Suzhou, born into a scholarly family of officials.
+
+She was sickly from childhood. Her family tried every possible substitute ritual, but nothing worked. Only after she herself entered religious life did her health improve.
+
+She is now eighteen years old, with the religious name Miaoyu. Both of her parents have passed away. She is attended only by two elderly nursemaids and one young maid. She is highly accomplished in literature, has no need to study the Buddhist scriptures further, and is remarkably beautiful.
+
+Hearing that the capital possessed sacred relics of Guanyin and ancient Buddhist palm-leaf manuscripts, she followed her master here last year and is now living at Muni Nunnery outside the western gate.
+
+Her master, who was highly skilled in divination, passed away last winter.
+
+Miaoyu had intended to escort her master's coffin back to Suzhou, but before dying, her master instructed her:
+
+"Your future does not lie in returning home. Remain here quietly, and in time your destiny will reveal itself."
+
+So she never returned to Suzhou.'"
+
+Before the report was even finished, Lady Wang said,
+
+"If that is the case, why don't we invite her here?"
+
+Lin Zhixiao's wife replied,
+
+"We did ask her. She answered, 'The great aristocratic houses always rely upon their rank and power to overawe others. I will never go.'"
+
+Lady Wang smiled.
+
+"Since she herself comes from an official family, it is only natural that she should possess some pride. Then let us send her a formal invitation."
+
+Lin Zhixiao's wife withdrew at once, instructing the household secretary to prepare an official invitation. The following day, a carriage and attendants were dispatched to escort Miaoyu with full ceremony.
+
+From this passage, one immediately sees how proud and self-respecting Miaoyu was. Only after the Jia family followed the highest etiquette—issuing an official written invitation instead of a casual summons—did she finally agree to enter the Grand View Garden.
+
+Throughout the history of the Jia household, this was an honor granted to no other monk or nun. It was an extraordinary gesture of respect.
+
+Miaoyu's residence inside the Grand View Garden was called Longcui Nunnery. Every aspect of its design perfectly reflected her character. Whether its secluded location or its carefully arranged surroundings, it remained the Garden's only true sanctuary—a small island of Buddhist tranquility amid the luxurious world of the Jia family.
+
+Hidden among rocks and ancient trees, Longcui Nunnery possessed an atmosphere of profound peace and silence.
+
+It was also the Garden's only residence devoted to a woman living the religious life.
+
+Yet the nunnery stood within the very grounds where all the young ladies of the Jia family lived. Symbolically, this reveals that although Miaoyu had entered Buddhism, she had never completely severed herself from the secular world. At the same time, her residence stood apart from the other girls' quarters, quietly expressing her determination to remain spiritually above ordinary society and apart from its worldly attachments.
+
+The most distinctive feature of Longcui Nunnery was its grove of red plum blossoms.
+
+In Chinese culture, the plum blossom is admired for blooming in the snow and surviving the bitter cold. It symbolizes purity, resilience, and an unwillingness to compromise with the world. The crimson blossoms surrounding the nunnery perfectly mirrored Miaoyu's own character—proud, unyielding, and unwilling to be stained by worldly corruption.
+
+Yet their deep red color also hinted at something else.
+
+Although Miaoyu had entered religious life, she had never completely severed her ties with the human world. Beneath the robes of a Buddhist devotee still lived a young woman whose heart had never entirely escaped earthly emotions.
+
+Why did Miaoyu leave her quiet religious life in Suzhou, travel hundreds of miles to the imperial capital, and finally settle in the Grand View Garden?
+
+Cao Xueqin leaves two important clues.
+
+The first is that while living in Suzhou, Miaoyu's extraordinary literary talent and uncompromising personality offended certain powerful local figures. Because of her pride and refusal to yield, she eventually found herself unwelcome there. To escape their harassment, she followed her master to Beijing under the respectable pretext of paying homage to sacred Buddhist relics and ancient palm-leaf scriptures.
+
+The second clue lies in her master's final prophecy.
+
+Before her death, the old nun told Miaoyu:
+
+"Your life should not return to your native place. Remain here quietly. In time, your destiny will naturally unfold."
+
+
+Her master foresaw that returning to Suzhou would bring disaster. Instead, she instructed Miaoyu to remain in the capital and await the fate prepared for her.
+
+Entering the Jia family and taking up residence in the Grand View Garden marked the beginning of that destiny.
+
+For a time, the Garden sheltered her.
+
+In the end, it also became the place from which her tragedy began.
+
+When Miaoyu entered the Grand View Garden, she was not an ordinary Buddhist nun who had abandoned everything.
+
+She arrived as a woman practicing Buddhism while retaining her secular identity.
+
+She was accompanied by two elderly nursemaids and a young maidservant who attended to her daily needs.
+
+Although dressed in grey Buddhist robes, she kept her long hair and continued to live much as she had when she was the cherished daughter of a wealthy official family.
+
+This unusual way of life reveals an important truth.
+
+Miaoyu had entered Buddhism, but she had never experienced the hardship and simplicity that genuine monastic life demanded. Physically she belonged to the Buddhist world; materially she still lived as an aristocratic young lady.
+
+This perfectly echoes the prophetic verse Cao Xueqin later assigns to her:
+
+"She longs for purity, yet cannot truly be pure.
+She speaks of emptiness, yet has not fully emptied herself.
+Alas, a body as precious as gold and jade
+Will in the end sink into the mire."
+
+The Jia family welcomed Miaoyu into Longcui Nunnery with extraordinary courtesy and respect.
+
+Yet behind that honor lay a profound irony.
+
+A woman who least belonged to the secular world was brought into the very heart of one of its greatest aristocratic households.
+
+Longcui Nunnery, with its quiet courtyards and flowering plum trees, gave Miaoyu the illusion of a paradise beyond worldly dust.
+
+But because she entered it still surrounded by servants, refined possessions, and an uncompromising devotion to elegance and purity, the sanctuary could never truly protect her.
+
+When the mighty Jia family finally collapsed, the little nunnery collapsed with it.
+
+Thus Miaoyu lived between two worlds.
+
+She belonged completely to neither.
+
+She had left ordinary society behind, yet had never fully entered the Buddhist path.
+
+She stood suspended between the secular and the sacred, unable to return to one and unable to embrace the other.
+
+That is why her loneliness ran deeper than that of almost anyone else in Dream of the Red Chamber.
+
+
+Perhaps no episode reveals Miaoyu's true character more vividly than Chapter Forty-One, the famous scene in which Jia Baoyu visits Longcui Nunnery to drink tea.
+
+Through what appears to be an ordinary tea gathering, Cao Xueqin quietly reveals Miaoyu's obsessive pursuit of purity, her astonishing family background, her aristocratic pride, and—most importantly—the profound irony that will eventually determine her fate.
+
+The episode in Chapter Forty-One describes Grandmother Jia and Granny Liu visiting Longcui Nunnery for tea.
+
+What appears at first glance to be a simple social call gradually reveals Miaoyu's astonishing wealth, her obsession with refinement, and the almost unbelievable treasures that surrounded her.
+
+Although she lived as a Buddhist devotee, the objects she owned amazed even members of the enormously wealthy Jia family.
+
+These priceless antiques quietly confirm once again that Miaoyu was no ordinary nun. She remained, in every sense, the daughter of an elite aristocratic family.
+
+To better understand Miaoyu, it is worth reading part of Cao Xueqin's original description.
+
+Grandmother Jia and the others entered Longcui Nunnery after finishing their meal.
+
+Seeing the carefully tended flowers and trees, Grandmother Jia smiled.
+
+"Those who cultivate themselves always have time to care for such things. This place is even more beautiful than the rest of the Garden."
+
+Miaoyu welcomed them respectfully into the meditation hall.
+
+Grandmother Jia laughed.
+
+"We've just finished eating meat and drinking wine. There are Bodhisattvas here, so we shouldn't offend them. Let us simply sit for a 
+
+while and have a cup of your finest tea."
+
+Miaoyu immediately prepared the tea herself.
+
+Baoyu watched every movement carefully.
+
+She personally carried an exquisitely carved lacquer tray decorated with dragons and longevity motifs. Upon it rested a tiny covered porcelain tea cup.
+
+Grandmother Jia glanced at it and said,
+
+"I don't drink Liu'an tea."
+
+Miaoyu smiled.
+
+"I know. This is Old Gentleman Eyebrow Tea (Laojunmei)."
+
+Grandmother Jia accepted it and asked,
+
+"What water did you use?"
+
+Miaoyu replied quietly,
+
+"Rainwater collected last year."
+
+
+Grandmother Jia drank only half the cup before handing it to Granny Liu.
+
+"Taste it."
+
+Granny Liu emptied the cup in one gulp and laughed.
+
+"It's certainly good tea, but it's rather weak. It would taste better brewed stronger."
+
+Everyone burst into laughter.
+
+The scene is humorous.
+
+Yet beneath its humor lies one of the novel's sharpest social contrasts.
+
+The tiny porcelain cup used by Grandmother Jia was no ordinary teacup.
+
+It was a Chenghua imperial porcelain cup, one of the finest products of the Ming imperial kilns and an object of extraordinary rarity and value.
+
+Later, Miaoyu invited Baochai and Daiyu into her private room for what she called a more intimate cup of tea.
+
+The tea vessels she selected were even more astonishing.
+
+Baochai received a Paojia (瓟斝)—an ancient wine vessel treasured since the Jin Dynasty and said to bear an inscription by the famous aristocrat Wang Kai.
+
+Daiyu was served in a Dianxi cup (點犀䀉), an exceptionally rare vessel carved from precious jade.
+
+Then Baoyu entered.
+
+At first, Miaoyu handed him her own personal Green Jade Cup (綠玉斗).
+
+This immediately caught Baoyu's attention.
+
+In the social conventions of eighteenth-century China, for an unmarried woman to offer a man the cup she herself normally used carried unmistakable emotional significance.
+
+Realizing the delicate implication, Miaoyu quietly changed her mind.
+
+Instead, she replaced it with another vessel，an extraordinary tea cup painstakingly carved from an entire section of twisted bamboo root, known in the novel as the "Nine-Curved, Ten-Ring, One-Hundred-and-Twenty-Jointed Bamboo Root Cup."
+
+Even the immensely wealthy Jia family possessed nothing comparable.
+
+These objects were valuable not merely because they were expensive.They were cultural treasures.
+
+Each represented centuries of history, craftsmanship, and aristocratic taste.
+
+Together they reveal something that Cao Xueqin never states directly.
+
+Miaoyu's family background, at the height of its prosperity, may well have rivaled that of the Jia family itself.
+
+Yet the most dramatic conflict in this entire episode has nothing to do with priceless antiques.
+
+It lies in Miaoyu's attitude toward Granny Liu.
+
+Grandmother Jia had casually handed her own cup to the old country woman.
+
+Granny Liu drank from it without a second thought.
+
+For Granny Liu, it was merely a cup of tea.
+
+For Miaoyu, it became something entirely different.
+
+After the guests had gone, Miaoyu quietly ordered,
+
+"Set that Chenghua cup outside. Do not bring it back in."
+
+Simply because Granny Liu，a poor peasant woman，had drunk from it once, the priceless imperial porcelain had become permanently contaminated in Miaoyu's eyes.
+
+She would rather discard it than ever use it again.
+
+
+Baoyu understood Miaoyu's temperament better than anyone else.
+
+Seeing that such a priceless antique was about to be discarded, he gently suggested,
+
+"It would be a pity to waste such a fine cup. Why not give it to the old lady? She could sell it and live comfortably for quite some time."
+
+Because the suggestion came from Baoyu, Miaoyu hesitated before reluctantly agreeing.
+
+Even then she said proudly,
+
+"Fortunately, I had never drunk from it myself. Had I used it, I would rather smash it than give it away."
+
+After Granny Liu left, Miaoyu's obsession with cleanliness did not end there.
+
+She even considered the places where Granny Liu had walked and sat to be polluted.
+
+
+Several buckets of water were brought to wash the ground thoroughly, cleansing every spot the old country woman had touched.
+
+Her pursuit of refinement extended far beyond porcelain and antiques.
+
+Even the water used for making tea had to meet standards that ordinary people could scarcely imagine.
+
+When Baochai and Daiyu were invited into her private room, Daiyu asked casually,
+
+"Is this also rainwater collected last year?"
+
+Miaoyu gave a faint, almost disdainful smile.
+
+"For someone like you, how can you not taste the difference? You are, after all, quite a vulgar person."
+
+She continued,
+
+"This is snow gathered from plum blossoms five years ago while I was living at Xuanmu Panxiang Monastery. I collected enough to fill an entire ghost-face green porcelain jar. I treasured it so much that I buried it underground and waited until this summer before opening it. I have used it only once before. This is only the second time. How could last year's rainwater possibly possess such delicate lightness?"
+
+"You are actually such a vulgar person，you cannot even tell one water from another."
+
+Only Miaoyu would dare say such words to Lin Daiyu.
+
+Daiyu was universally acknowledged as the most gifted and refined young woman in the entire novel.
+
+Yet in Miaoyu's eyes, even Daiyu failed to appreciate the highest level of elegance.
+
+The scene perfectly reveals Miaoyu's absolute confidence in her own aesthetic standards，and the extraordinary pride that accompanied them.
+
+Not everyone in the Grand View Garden admired such behavior.
+
+Among those who understood Miaoyu best was Xing Xiuyan, once her impoverished companion and, in many ways, her student.
+
+
+Xiuyan was one of the Garden's clearest-minded and most easygoing young women.
+
+Her judgment of Miaoyu is famous:
+
+"She is eccentric and completely out of step with the world... neither truly a nun nor truly worldly; neither properly feminine nor masculine. What kind of life is that?"
+
+No one understood Miaoyu better.
+
+Xiuyan recognized that Miaoyu's pursuit of purity had gradually become an obsession.
+
+Miaoyu believed she had transcended the secular world.
+
+In reality, she remained tightly bound by two invisible chains:
+
+her obsession with purity,
+
+and her pride in her noble birth.
+
+She despised worldly society, yet depended upon the Jia family's worldly wealth for protection.
+
+She sought spiritual emptiness, yet remained deeply attached to distinctions of tea, water, antiques, taste, and social rank.
+
+Her heart had never truly become free.
+
+Here, Cao Xueqin quietly plants one of the greatest ironies in the entire novel.
+
+In Chapter Forty-One, Miaoyu shows almost unbearable disgust toward Granny Liu.
+
+Much later, after the Jia family collapses, fate returns that contempt with astonishing cruelty.
+
+Granny Liu，the poor country woman whom Miaoyu considered too filthy even to touch her porcelain，becomes the rescuer.
+
+She sells her own possessions, travels a great distance, and ultimately saves Qiaojie, Wang Xifeng's daughter, from being sold into a brothel.
+
+Miaoyu, however...
+
+The aristocratic lady who prided herself on remaining above the dust of the world…， the woman who had devoted her entire life to preserving absolute purity…，  finds no one willing or able to save her.
+
+She becomes the one abandoned to the darkest forces of society.
+
+What a merciless irony.
+
+The woman who could not tolerate Granny Liu touching a teacup...
+
+who ordered even the ground beneath the old woman's feet to be washed clean...
+
+is eventually seized one moonless night by ruthless bandits, overcome with drugged incense, carried away by force, and delivered into the hands of the very brutality she had spent her whole life trying to avoid.
+
+Her body is violated.
+
+Her spirit is shattered.
+
+The prophecy written long before finally comes true.
+
+"In the end, she sinks into the mire."
+
+Could there be a more tragic fulfillment of Cao Xueqin's warning?
+
+Even after settling in the Grand View Garden, Miaoyu continued to seal herself away from the people around her.
+
+She refused to associate with those whom she considered vulgar.
+
+While the other girls gathered to compose poetry, she remained detached.
+
+While they wandered through the Garden admiring flowers, she stayed alone inside her nunnery, quietly preparing tea.
+
+She treated others with courtesy, yet always with an unmistakable distance that often bordered on severity.
+
+She discarded a priceless antique simply because Granny Liu had touched it.
+
+Nor did she show much deference to the wealthy masters and ladies of the Jia household.
+
+To most people, Miaoyu seemed merely strange.
+
+Baoyu, however, saw something entirely different.
+
+He himself had never belonged comfortably to the ordinary world.
+
+Others pursued official careers, wealth, and social success.
+
+He instinctively rejected them.
+
+Others spoke endlessly of rank, reputation, and practical ambition.
+
+He regarded such things with quiet contempt.
+
+From birth, Baoyu possessed an unspoken resistance toward the values of the world around him.
+
+It was precisely for this reason that Miaoyu gradually began to notice him.
+
+First came admiration.
+
+Then affection.
+
+She discovered that this young aristocrat was unlike the others.
+
+During the famous tea gathering at Longcui Nunnery, Miaoyu brought out the treasures she had guarded for many years.
+
+She served Baochai and Daiyu with priceless antique cups.
+
+Yet when Baoyu arrived, she instinctively offered him the Green Jade Cup she herself normally used.
+
+Even Baoyu paused in surprise.
+
+He immediately understood that this was no ordinary gesture of hospitality.
+
+
+In the strict social conventions of the Qing Dynasty, for an unmarried woman to hand a man her own personal cup carried unmistakable emotional meaning.
+
+But Miaoyu was not an ordinary woman.
+
+Nor was her feeling toward Baoyu merely romantic affection.
+
+What she truly cherished was the part of Baoyu that refused to surrender to worldly values.
+
+She believed he belonged to the same lonely world that she inhabited.
+
+Both of them were outsiders.
+
+Both were strangers within society.
+
+Both possessed souls too uncompromising to fit comfortably into ordinary life.
+
+Perhaps, among everyone in the Grand View Garden, Baoyu was the only person who came close to understanding her.
+
+Yet even here, Miaoyu's tragedy surpassed that of Lin Daiyu.
+
+Daiyu possessed Baoyu's love.
+Miaoyu possessed only his understanding.
+
+Those two things are not the same.
+
+She was too proud.
+Too uncompromising.
+Too obsessed with preserving an impossible purity.
+
+Gradually, she transformed herself into an isolated island.
+
+She refused to approach others.She refused to allow others to approach her.
+
+She spent her entire life defending the purity and dignity she believed remained within her, as though standing alone against an entire corrupt world.
+
+Yet in the universe created by Cao Xueqin, those who remain the purest often suffer the cruelest fate.
+
+Then the Jia family collapsed.The Grand View Garden disappeared.
+
+One after another, the young women who had once written poetry together met tragic endings.
+
+Some died from illness.
+Some took their own lives.
+Some were destroyed by abuse and misfortune.
+
+Miaoyu also lost the final shelter protecting her.
+
+Cao Xueqin never explicitly tells us what happened afterward.His silence is deliberate.
+
+Sometimes what remains unwritten is more terrifying than what is described openly.
+
+The clues scattered throughout the novel are already enough.
+
+
+Many traditional commentators, including the early Zhiyanzhai annotations and numerous later scholars of Dream of the Red Chamber, believe that Miaoyu was abducted by bandits and ultimately violated.
+
+For a woman whose entire life had been devoted to preserving absolute purity, no fate could have been more devastating.
+
+Because the thing Miaoyu treasured most was never her life.
+
+It was her spiritual dignity.
+Her purity.
+Her refusal to become part of a corrupt world.
+
+Reality destroyed precisely that.
+
+Whenever Baoyu later remembered Miaoyu, he thought of the snowy day at Longcui Nunnery.
+
+She stood there in plain white robes among the falling snow, motionless as a sculpture.
+
+Her beauty was breathtaking.
+
+Her expression remained distant.
+
+Cold.
+Untouchable.
+Like ice.
+
+At that moment, the Grand View Garden had not yet fallen.
+
+Everyone believed those peaceful days would continue forever.
+
+No one realized they were witnessing the last quiet season of Miaoyu's life.
+
+Only much later did Baoyu finally understand.
+
+Miaoyu had never truly been untouched by the dust of the world.  She had simply spent her entire life struggling to protect the last fragment of purity still remaining within her.
+
+And even that small wish…，  was denied her.
+Thus the proudest, purest, and most uncompromising woman in Dream of the Red Chamber ultimately met one of its dirtiest, cruelest, and most humiliating destinies.
+
+Who should bear the blame?
+
+Cao Xueqin never answers.
+
+He leaves the question to every reader.
+
+Finally, let us read the prophetic verse that Cao Xueqin wrote for Miaoyu in Chapter Five, in the Register of the Twelve Beauties of Jinling in the Land of Illusion.
+
+Its philosophy remains profoundly moving.
+
+
+"The World Will Not Accept Her"
+
+Her grace is fragrant as an orchid; Her gifts surpass those of immortals. Born with a lonely spirit, She is too extraordinary to be understood.
+
+
+She rejects rich food as coarse, Despises silks and luxury as vulgar.
+
+Yet those who rise too high invite envy; Those who seek excessive purity are rejected by the world.
+
+Alas，
+
+She will grow old beneath the lonely lamp of an ancient temple, Having wasted the springtime that once belonged in crimson chambers.
+
+In the end, against her deepest wish, She will still fall into the dust and filth of the mortal world.
+
+Like flawless white jade sinking into mud...
+
+Why should noble young gentlemen lament that they never won her heart?
+
+(To be continued)</section>
+  <div id="zhFullReturn" class="bottom-return hidden"><button class="academy-ui" onclick="setModule('zh','intro')"><span class="main">返回介紹</span><span class="sub">Back to Intro</span></button></div>
+  <div id="enFullReturn" class="bottom-return hidden"><button class="academy-ui" onclick="setModule('en','intro')"><span class="main">返回介紹</span><span class="sub">Back to Intro</span></button></div>
+  <div class="bottom-return article-sequence-nav"><a class="academy-ui" href="red-mansion-xiangling.html"><span class="main">上一篇</span><span class="sub">Previous</span></a><a class="academy-ui" href="red-mansion-yuanyang.html"><span class="main">下一篇</span><span class="sub">Next</span></a></div>
+</article></section></main>
+<script src="script.js"></script>
+</body></html>
