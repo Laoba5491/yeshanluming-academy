@@ -1,0 +1,13 @@
+{
+  "node_id": "SERIES-ZHENFEI-YURUYI",
+  "template": "SERIES_TEMPLATE_V2_MATCH_RED_MANSION",
+  "title_zh": "中篇小說【珍妃玉如意】",
+  "title_en": "The Precious Consort's Jade Ruyi",
+  "page": "zhenfei-yuruyi.html",
+  "series_intro_has_image": false,
+  "articles": [
+    "zhenfei-yuruyi-101.html",
+    "zhenfei-yuruyi-102.html"
+  ],
+  "status": "FOR_REVIEW"
+}
