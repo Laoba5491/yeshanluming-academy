@@ -188,5 +188,45 @@
     "url": "red-mansion-xiangling.html",
     "order": 110,
     "series_id": "SERIES-RED-MANSION"
+  },
+  {
+    "order": 101,
+    "title_zh": "中篇小說·黑龍江左岸",
+    "title_en": "The Left Bank of the Heilongjiang River",
+    "href": "heilongjiang-left-bank-101.html",
+    "series_id": "heilongjiang-left-bank",
+    "status": "active"
+  },
+  {
+    "order": 102,
+    "title_zh": "中篇小說·黑龍江左岸",
+    "title_en": "The Left Bank of the Heilongjiang River",
+    "href": "heilongjiang-left-bank-102.html",
+    "series_id": "heilongjiang-left-bank",
+    "status": "active"
+  },
+  {
+    "order": 103,
+    "title_zh": "中篇小說·黑龍江左岸",
+    "title_en": "The Left Bank of the Heilongjiang River",
+    "href": "heilongjiang-left-bank-103.html",
+    "series_id": "heilongjiang-left-bank",
+    "status": "active"
+  },
+  {
+    "order": 104,
+    "title_zh": "中篇小說·黑龍江左岸",
+    "title_en": "The Left Bank of the Heilongjiang River",
+    "href": "heilongjiang-left-bank-104.html",
+    "series_id": "heilongjiang-left-bank",
+    "status": "active"
+  },
+  {
+    "order": 105,
+    "title_zh": "中篇小說·黑龍江左岸",
+    "title_en": "The Left Bank of the Heilongjiang River",
+    "href": "heilongjiang-left-bank-105.html",
+    "series_id": "heilongjiang-left-bank",
+    "status": "active"
   }
 ]
