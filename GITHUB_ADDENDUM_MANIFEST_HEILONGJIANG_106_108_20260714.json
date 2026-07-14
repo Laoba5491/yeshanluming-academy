@@ -1,0 +1,28 @@
+{
+  "package": "YeshanLuming Academy GitHub Addendum",
+  "date": "2026-07-14",
+  "series": "中篇小說·黑龍江左岸 / The Left Bank of the Heilongjiang River",
+  "articles_added": [
+    106,
+    107,
+    108
+  ],
+  "purpose": "Upload these files to the repository root and overwrite files with the same names.",
+  "files": [
+    "data/articles.json",
+    "fiction.html",
+    "heilongjiang-left-bank-105.html",
+    "heilongjiang-left-bank-106.html",
+    "heilongjiang-left-bank-107.html",
+    "heilongjiang-left-bank-108.html",
+    "heilongjiang-left-bank-page2.html",
+    "heilongjiang-left-bank.html",
+    "nodes/articles/ARTICLE-HEILONGJIANG-01106.json",
+    "nodes/articles/ARTICLE-HEILONGJIANG-01107.json",
+    "nodes/articles/ARTICLE-HEILONGJIANG-01108.json",
+    "nodes/pages/PAGE-ARTICLE-HEILONGJIANG-01106.json",
+    "nodes/pages/PAGE-ARTICLE-HEILONGJIANG-01107.json",
+    "nodes/pages/PAGE-ARTICLE-HEILONGJIANG-01108.json",
+    "nodes/pages/PAGE-SERIES-HEILONGJIANG-LEFT-BANK-PAGE2.json"
+  ]
+}
