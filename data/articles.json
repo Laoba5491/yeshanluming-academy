@@ -252,5 +252,21 @@
     "href": "heilongjiang-left-bank-108.html",
     "series_id": "heilongjiang-left-bank",
     "status": "active"
+  },
+  {
+    "order": 101,
+    "title_zh": "什麼是鑽石·從一顆石頭說起",
+    "title_en": "What Is a Diamond · Beginning with a Stone",
+    "href": "diamond-101.html",
+    "series_id": "diamond-series",
+    "status": "active"
+  },
+  {
+    "order": 102,
+    "title_zh": "碳如何變成鑽石·從地底深處的變化說起",
+    "title_en": "How Carbon Becomes Diamond · A Journey from Deep Within the Earth",
+    "href": "diamond-102.html",
+    "series_id": "diamond-series",
+    "status": "active"
   }
 ]
