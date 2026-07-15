@@ -1,0 +1,19 @@
+{
+  "package": "YeshanLuming Academy GitHub Increment",
+  "date": "2026-07-15",
+  "series": "Diamond Series",
+  "article": 104,
+  "status": "PASS",
+  "instructions": "Upload all files and folders to the GitHub repository root, preserving folder structure and overwriting files with the same names.",
+  "files": [
+    "diamond-102.html",
+    "diamond-104.html",
+    "diamond-series.html",
+    "assets/images/diamond-graphite-structure.png",
+    "data/articles.json",
+    "nodes/articles/ARTICLE-DIAMOND-01104.json",
+    "nodes/pages/PAGE-ARTICLE-DIAMOND-01104.json",
+    "nodes/images/IMG-DIAMOND-GRAPHITE-STRUCTURE.json"
+  ],
+  "missing": []
+}
