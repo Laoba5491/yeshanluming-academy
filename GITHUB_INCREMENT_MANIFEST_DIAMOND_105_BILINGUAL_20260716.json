@@ -1,0 +1,20 @@
+{
+  "package": "YeshanLuming Academy GitHub Increment",
+  "date": "2026-07-16",
+  "series": "Diamond Series",
+  "article": 105,
+  "revision": "Replace refraction-dispersion illustration with bilingual version",
+  "status": "PASS",
+  "instructions": "Upload all files and folders to the GitHub repository root, preserving folder structure and overwriting files with the same names.",
+  "files": [
+    "diamond-104.html",
+    "diamond-105.html",
+    "diamond-series.html",
+    "assets/images/diamond-refraction-dispersion.png",
+    "data/articles.json",
+    "nodes/articles/ARTICLE-DIAMOND-01105.json",
+    "nodes/pages/PAGE-ARTICLE-DIAMOND-01105.json",
+    "nodes/images/IMG-DIAMOND-REFRACTION-DISPERSION.json"
+  ],
+  "missing": []
+}

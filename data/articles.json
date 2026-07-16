@@ -270,6 +270,14 @@
     "status": "active"
   },
   {
+    "order": 103,
+    "title_zh": "鑽石與石墨·同一元素的兩種命運",
+    "title_en": "Diamond and Graphite · Two Destinies of the Same Element",
+    "href": "diamond-103.html",
+    "series_id": "diamond-series",
+    "status": "active"
+  },
+  {
     "order": 104,
     "title_zh": "鑽石的硬度之謎·為什麼它是最硬的天然物質",
     "title_en": "The Mystery of Diamond Hardness · Why Is It the Hardest Natural Substance?",
@@ -278,10 +286,10 @@
     "status": "active"
   },
   {
-    "order": 103,
-    "title_zh": "鑽石與石墨·同一元素的兩種命運",
-    "title_en": "Diamond and Graphite · Two Destinies of the Same Element",
-    "href": "diamond-103.html",
+    "order": 105,
+    "title_zh": "火彩從何而來·光在鑽石中的旅行",
+    "title_en": "Where Does Diamond Fire Come From? · Light’s Journey Through a Diamond",
+    "href": "diamond-105.html",
     "series_id": "diamond-series",
     "status": "active"
   }
