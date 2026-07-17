@@ -1,0 +1,21 @@
+{
+  "article": "diamond-106.html",
+  "series_updated": true,
+  "images": [
+    "assets/images/diamond-106-main.jpg",
+    "assets/images/diamond-106-higher-order-axes.png",
+    "assets/images/diamond-106-isometric-system.png"
+  ],
+  "modules": [
+    "zh-intro",
+    "zh-full",
+    "en-intro",
+    "en-full"
+  ],
+  "navigation": {
+    "previous": "diamond-105.html",
+    "directory": "diamond-series.html",
+    "home": "index.html"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,14 @@
+《野山鹿鳴書院》鑽石篇 106 上傳增補包
+日期：2026-07-17
+
+本增補包包含：
+1. diamond-106.html（新增文章 106）
+2. diamond-105.html（補回「下一篇 / Next」並連至 106）
+3. diamond-series.html（系列目錄加入 106）
+4. assets/images/diamond-106-main.jpg
+5. assets/images/diamond-106-higher-order-axes.png
+6. assets/images/diamond-106-isometric-system.png
+7. nodes/articles/ARTICLE-DIAMOND-01106.json
+8. SELF_CHECK_DIAMOND_106_20260717.json
+
+使用方式：解壓後，保持原有目錄結構，上傳到 GitHub 倉庫根目錄並覆蓋同名檔案。
