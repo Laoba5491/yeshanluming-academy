@@ -1,0 +1,39 @@
+{
+  "diamond-106.html": {
+    "exists": true,
+    "size": 24854
+  },
+  "diamond-107.html": {
+    "exists": true,
+    "size": 18302
+  },
+  "diamond-series.html": {
+    "exists": true,
+    "size": 8613
+  },
+  "diamond-series-page2.html": {
+    "exists": true,
+    "size": 6747
+  },
+  "107_has_zh_title": true,
+  "107_has_en_title": true,
+  "107_has_white_hero": true,
+  "107_has_color_figure": true,
+  "106_next_107": true,
+  "series_page2_link": true,
+  "page2_has_107": true,
+  "diamond-107-white-diamond.jpg": {
+    "size": [
+      2400,
+      1953
+    ],
+    "long_edge": 2400
+  },
+  "diamond-107-color-comparison.png": {
+    "size": [
+      3000,
+      2000
+    ],
+    "long_edge": 3000
+  }
+}

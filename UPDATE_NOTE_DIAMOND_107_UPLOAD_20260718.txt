@@ -1,0 +1,14 @@
+《野山鹿鳴書院》鑽石篇 107 上傳增補包
+日期：2026-07-18
+
+本增補包僅包含相對於已批准之鑽石篇 106 Full ZIP 的新增或更新檔案：
+
+1. diamond-107.html（新增）
+2. diamond-106.html（更新：加入下一篇 107 導航）
+3. diamond-series.html（更新：加入第二頁目錄入口）
+4. diamond-series-page2.html（新增：收錄 107）
+5. assets/images/diamond-107-white-diamond.jpg（新增：107 白鑽文章主圖）
+6. assets/images/diamond-107-color-comparison.png（新增：107 顏色對比知識圖）
+7. SELF_CHECK_DIAMOND_107_FOR_REVIEW_20260718.json（自查紀錄）
+
+上傳方式：解壓後保持原目錄結構，將全部檔案上傳至 GitHub 儲存庫根目錄，允許覆蓋同名檔案。
