@@ -1,0 +1,22 @@
+《野山鹿鳴書院》鑽石篇 108 GitHub 上傳增補包
+日期：2026-07-19
+
+本增補包以已通過作者審查的 108 Full ZIP 為唯一來源，只包含本次新增或修改的網站檔案：
+
+1. diamond-108.html
+   - 新增鑽石篇第 108 篇中英文文章。
+   - 使用藍色鑽石照片作為文章報頭。
+
+2. diamond-107.html
+   - 補上「下一篇／Next」至 diamond-108.html。
+
+3. diamond-series-page2.html
+   - 系列第二頁目錄加入第 108 篇。
+
+4. assets/images/diamond-108-blue-diamond.jpg
+   - 第 108 篇藍色鑽石報頭圖片。
+
+5. SELF_CHECK_DIAMOND_108_FOR_REVIEW_20260719.json
+   - 本次工程自查紀錄。
+
+上傳方式：將本 ZIP 內檔案依原有目錄結構上傳至 GitHub 倉庫根目錄，覆蓋同名檔案並保留 assets/images 路徑。

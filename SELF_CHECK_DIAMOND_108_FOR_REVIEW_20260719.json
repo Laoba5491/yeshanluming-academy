@@ -1,0 +1,18 @@
+{
+  "article": "diamond-108.html",
+  "hero": "assets/images/diamond-108-blue-diamond.jpg",
+  "source_dimensions": [
+    640,
+    425
+  ],
+  "updated": [
+    "diamond-107.html",
+    "diamond-series-page2.html"
+  ],
+  "checks": {
+    "108_exists": true,
+    "107_next_to_108": true,
+    "series_page2_has_108": true,
+    "hero_exists": true
+  }
+}
