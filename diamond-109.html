@@ -6,14 +6,14 @@
 <style>
 .article-illustration img[data-enlargeable="true"]{cursor:zoom-in}
 .image-enlarge-note{text-align:center;margin:.55rem 0 1rem;font-size:.95rem;line-height:1.45;color:#5b5148}
-.yla-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px;overflow:auto}
-.yla-lightbox-stage{position:relative;display:flex;align-items:center;justify-content:center;min-width:100%;min-height:100%}
-.yla-lightbox-toolbar{position:fixed;top:12px;right:16px;z-index:10001;display:flex;gap:10px}
+.yla-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px;box-sizing:border-box;overflow:hidden}
+.yla-lightbox-overlay.open{display:flex}
+.yla-lightbox-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:100%}
+.yla-lightbox-toolbar{position:fixed;top:12px;right:16px;z-index:10001}
 .yla-lightbox-toolbar button{border:1px solid rgba(255,255,255,.75);border-radius:8px;background:rgba(0,0,0,.72);color:#fff;padding:9px 14px;font-size:15px;cursor:pointer}
 .yla-lightbox-toolbar button:hover{background:rgba(70,70,70,.92)}
-.yla-lightbox-overlay.open{display:flex}
-.yla-lightbox-overlay img{display:block;max-width:96vw;max-height:92vh;width:auto;height:auto;object-fit:contain;cursor:zoom-in;box-shadow:0 4px 30px rgba(0,0,0,.45)}
-.yla-lightbox-overlay img.actual-size{max-width:none;max-height:none;width:auto;height:auto;cursor:zoom-out}
+.yla-lightbox-overlay img{display:block;width:auto;height:auto;max-width:calc(100vw - 48px);max-height:calc(100vh - 48px);object-fit:contain;box-shadow:0 4px 30px rgba(0,0,0,.45);cursor:default}
+@media(max-width:720px){.yla-lightbox-overlay{padding:12px}.yla-lightbox-overlay img{max-width:calc(100vw - 24px);max-height:calc(100vh - 24px)}.yla-lightbox-toolbar{top:8px;right:8px}.yla-lightbox-toolbar button{padding:8px 11px;font-size:14px}}
 </style>
 </head>
 <body>
@@ -45,13 +45,12 @@
 <div class="bottom-return article-sequence-nav"><a class="academy-ui" href="diamond-108.html"><span class="main">上一篇</span><span class="sub">Prev</span></a></div>
 </article></section></main>
 <script src="script.js"></script>
-<div class="yla-lightbox-overlay" id="ylaLightbox" onclick="closeYlaLightbox()">
-<div class="yla-lightbox-toolbar" onclick="event.stopPropagation()">
-<button id="ylaZoomBtn" type="button" onclick="toggleYlaActualSize()">原始大小 1:1<br/>Actual Size</button>
+<div class="yla-lightbox-overlay" id="ylaLightbox" role="dialog" aria-modal="true" aria-label="圖像全螢幕檢視">
+<div class="yla-lightbox-toolbar">
 <button type="button" onclick="closeYlaLightbox()">關閉<br/>Close</button>
 </div>
 <div class="yla-lightbox-stage">
-<img alt="" id="ylaLightboxImage" src="" onclick="event.stopPropagation();toggleYlaActualSize()"/>
+<img alt="" id="ylaLightboxImage" src=""/>
 </div>
 </div>
 <script>
@@ -59,47 +58,25 @@ function openYlaLightbox(img){
   const box=document.getElementById('ylaLightbox');
   const large=document.getElementById('ylaLightboxImage');
   large.src=img.dataset.fullSrc || img.currentSrc || img.src;
-  large.alt=img.alt||'';
-  large.classList.remove('actual-size');
-  box.scrollTop=0;
-  box.scrollLeft=0;
+  large.alt=img.alt || '';
   box.classList.add('open');
   document.body.style.overflow='hidden';
-  refreshYlaZoomButton();
-}
-function toggleYlaActualSize(){
-  const box=document.getElementById('ylaLightbox');
-  const large=document.getElementById('ylaLightboxImage');
-  large.classList.toggle('actual-size');
-  if(large.classList.contains('actual-size')){
-    requestAnimationFrame(()=>{
-      box.scrollLeft=Math.max(0,(large.naturalWidth-box.clientWidth)/2);
-      box.scrollTop=Math.max(0,(large.naturalHeight-box.clientHeight)/2);
-    });
-  }else{
-    box.scrollTop=0;
-    box.scrollLeft=0;
-  }
-  refreshYlaZoomButton();
-}
-function refreshYlaZoomButton(){
-  const large=document.getElementById('ylaLightboxImage');
-  const btn=document.getElementById('ylaZoomBtn');
-  if(!btn) return;
-  btn.innerHTML=large.classList.contains('actual-size')
-    ? '適合螢幕<br/>Fit Screen'
-    : '原始大小 1:1<br/>Actual Size';
 }
 function closeYlaLightbox(){
   const box=document.getElementById('ylaLightbox');
-  const large=document.getElementById('ylaLightboxImage');
   box.classList.remove('open');
-  large.classList.remove('actual-size');
   document.body.style.overflow='';
-  refreshYlaZoomButton();
 }
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape') closeYlaLightbox();
+document.getElementById('ylaLightbox').addEventListener('click',function(event){
+  if(event.target===this){
+    closeYlaLightbox();
+  }
+});
+document.getElementById('ylaLightboxImage').addEventListener('click',function(event){
+  event.stopPropagation();
+});
+document.addEventListener('keydown',function(event){
+  if(event.key==='Escape') closeYlaLightbox();
 });
 </script>
 </body></html>
