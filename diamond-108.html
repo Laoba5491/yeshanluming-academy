@@ -6,9 +6,6 @@
 <style>
 .article-illustration img[data-enlargeable="true"]{cursor:zoom-in}
 .image-enlarge-note{text-align:center;margin:.55rem 0 1rem;font-size:.95rem;line-height:1.45;color:#5b5148}
-.yla-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px}
-.yla-lightbox-overlay.open{display:flex}
-.yla-lightbox-overlay img{max-width:96vw;max-height:92vh;width:auto;height:auto;object-fit:contain;cursor:zoom-out}
 </style>
 </head>
 <body>
@@ -40,25 +37,4 @@
 <div class="bottom-return article-sequence-nav"><a class="academy-ui" href="diamond-107.html"><span class="main">上一篇</span><span class="sub">Prev</span></a><a class="academy-ui" href="diamond-109.html"><span class="main">下一篇</span><span class="sub">Next</span></a></div>
 </article></section></main>
 <script src="script.js"></script>
-<div class="yla-lightbox-overlay" id="ylaLightbox" onclick="closeYlaLightbox()">
-<img alt="" id="ylaLightboxImage" src=""/>
-</div>
-<script>
-function openYlaLightbox(img){
-  const box=document.getElementById('ylaLightbox');
-  const large=document.getElementById('ylaLightboxImage');
-  large.src=img.src;
-  large.alt=img.alt||'';
-  box.classList.add('open');
-  document.body.style.overflow='hidden';
-}
-function closeYlaLightbox(){
-  const box=document.getElementById('ylaLightbox');
-  box.classList.remove('open');
-  document.body.style.overflow='';
-}
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape') closeYlaLightbox();
-});
-</script>
 </body></html>

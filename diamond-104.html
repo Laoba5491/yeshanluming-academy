@@ -5,9 +5,6 @@
 <style>
 .article-illustration img[data-enlargeable="true"]{cursor:zoom-in}
 .image-enlarge-note{text-align:center;margin:.55rem 0 1rem;font-size:.95rem;line-height:1.45;color:#5b5148}
-.yla-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px}
-.yla-lightbox-overlay.open{display:flex}
-.yla-lightbox-overlay img{max-width:96vw;max-height:92vh;width:auto;height:auto;object-fit:contain;cursor:zoom-out}
 </style>
 </head>
 <body>
@@ -80,7 +77,7 @@
 化學鍵結：每個碳原子透過 sp³ 混成軌域與周圍的四個碳原子緊密相連，形成穩定的正四面體幾何構型。
 
 有點繞嘴不好懂是不是，沒關係，看看下面的圖像，就明白了。
-<figure class="article-illustration"><img src="assets/images/diamond-graphite-structure.png" alt="石墨層狀結構與鑽石三維晶體結構比較圖" data-enlargeable="true" onclick="openYlaLightbox(this)"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
+<figure class="article-illustration"><img src="assets/images/diamond-graphite-structure.png" alt="石墨層狀結構與鑽石三維晶體結構比較圖" data-enlargeable="true"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
 （未完待續）</section>
   <section class="text-block hidden en" data-lang="en" data-mode="intro">Among all the descriptions of diamonds, there is one statement that almost everyone has heard: a diamond is the hardest natural substance on Earth. The sentence sounds simple enough, yet it naturally raises an intriguing question. Why is it diamond? Why, among all the minerals found on our planet, has diamond alone reached the ultimate limit of hardness?
 
@@ -126,7 +123,7 @@ The essential features of this atomic structure are as follows: its crystal syst
 Its chemical bonding is equally remarkable. Each carbon atom forms sp³ hybridized covalent bonds with four neighboring carbon atoms, creating a stable tetrahedral geometric structure.
 
 That may sound a little complicated—and perhaps even a bit confusing. Don't worry. Take a look at the illustration below, and everything will become much easier to understand.
-<figure class="article-illustration"><img src="assets/images/diamond-graphite-structure.png" alt="石墨層狀結構與鑽石三維晶體結構比較圖" data-enlargeable="true" onclick="openYlaLightbox(this)"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
+<figure class="article-illustration"><img src="assets/images/diamond-graphite-structure.png" alt="石墨層狀結構與鑽石三維晶體結構比較圖" data-enlargeable="true"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
 (To be continued)</section>
   <div id="zhFullReturn" class="bottom-return hidden"><button class="academy-ui" onclick="setModule('zh','intro')"><span class="main">返回介紹</span><span class="sub">Back to Intro</span></button></div>
   <div id="enFullReturn" class="bottom-return hidden"><button class="academy-ui" onclick="setModule('en','intro')"><span class="main">返回介紹</span><span class="sub">Back to Intro</span></button></div>
@@ -134,26 +131,4 @@ That may sound a little complicated—and perhaps even a bit confusing. Don't wo
 </article></section></main>
 <script src="script.js"></script>
 
-<div id="ylaLightbox" class="yla-lightbox-overlay" onclick="closeYlaLightbox()">
-  <img id="ylaLightboxImage" src="" alt="">
-</div>
-
-<script>
-function openYlaLightbox(img){
-  const box=document.getElementById('ylaLightbox');
-  const large=document.getElementById('ylaLightboxImage');
-  large.src=img.src;
-  large.alt=img.alt||'';
-  box.classList.add('open');
-  document.body.style.overflow='hidden';
-}
-function closeYlaLightbox(){
-  const box=document.getElementById('ylaLightbox');
-  box.classList.remove('open');
-  document.body.style.overflow='';
-}
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape') closeYlaLightbox();
-});
-</script>
 </body></html>

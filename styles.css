@@ -296,3 +296,35 @@ body.large-text .text-block{
 }
 /* END SERIES MASTER v1.0 SOURCE FIX */
 
+
+
+/* YLA GLOBAL LIGHTBOX V2 */
+img.article-hero,
+.article-illustration img,
+img[data-enlargeable="true"] { cursor: zoom-in; }
+
+.yla-global-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 12px;
+  background: rgba(0,0,0,.92);
+  cursor: zoom-out;
+  overflow: hidden;
+}
+.yla-global-lightbox.open { display: flex; }
+.yla-global-lightbox img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vh - 24px);
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: zoom-out;
+}

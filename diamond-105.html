@@ -5,9 +5,6 @@
 <style>
 .article-illustration img[data-enlargeable="true"]{cursor:zoom-in}
 .image-enlarge-note{text-align:center;margin:.55rem 0 1rem;font-size:.95rem;line-height:1.45;color:#5b5148}
-.yla-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px}
-.yla-lightbox-overlay.open{display:flex}
-.yla-lightbox-overlay img{max-width:96vw;max-height:92vh;width:auto;height:auto;object-fit:contain;cursor:zoom-out}
 </style>
 </head>
 <body>
@@ -81,7 +78,7 @@
 陽光射入水滴時會同時以不同角度入射，在水滴内亦以不同的角度反射。 當中以40至42度的反射最為强烈，造成我們所見到的七色， 或多色美麗彩虹。 
 
 寶石學的解釋原理也是如此：色散值越高的物質，分解光的能力就越強。鑽石的色散值約為0.044，這在天然寶石中屬於較高水平，因此在正確的打磨之後，光線進入鑽石後， 就好像光線進入充滿大量微小水滴的大氣， 就能呈現出清晰而明亮的不同彩色閃光。
-<figure class="article-illustration"><img src="assets/images/diamond-refraction-dispersion.png" alt="鑽石折射與色散原理示意圖" data-enlargeable="true" onclick="openYlaLightbox(this)"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
+<figure class="article-illustration"><img src="assets/images/diamond-refraction-dispersion.png" alt="鑽石折射與色散原理示意圖" data-enlargeable="true"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
 不過，如果只有材料本身的高折射率， 高色散特質，而沒有良好的切割、打磨，這些被稱為火彩的光學效果，也無法充分展現。這也是為什麼同樣重量、同樣品質的鑽石，有些看起來光芒閃耀，有些卻黯淡無光， 不同之處就在於是否被科學地進行了切割，打磨。
 
 鑽石的切割打磨，實際上是在「控制光」在鑽石內部的運動路線。每一個刻面的角度與比例，都會影響光線進入與離開的路徑。如果切工精準，光線會以最美的形式，反射回觀察者的眼睛；如果切工不當，光線則可能從側面逸出，使鑽石看起來黯淡無光。
@@ -149,7 +146,7 @@ When sunlight enters a water droplet, it is refracted once, reflected from the r
 Sunlight enters the droplet at different angles and is also reflected within it at different angles. The strongest returning light appears at angles of approximately 40 to 42 degrees, producing the seven-colored—or, more accurately, many-colored—rainbow that we see.
 
 The same principle applies in gemology: the higher a material’s dispersion value, the greater its ability to separate light into different colors. Diamond has a dispersion value of approximately 0.044, which is relatively high among natural gemstones. After proper cutting and polishing, light entering a diamond behaves somewhat like light entering an atmosphere filled with countless tiny water droplets, producing clear and vivid flashes of different colors.
-<figure class="article-illustration"><img src="assets/images/diamond-refraction-dispersion.png" alt="鑽石折射與色散原理示意圖" data-enlargeable="true" onclick="openYlaLightbox(this)"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
+<figure class="article-illustration"><img src="assets/images/diamond-refraction-dispersion.png" alt="鑽石折射與色散原理示意圖" data-enlargeable="true"><figcaption><span data-lang="zh">圖像：野山鹿鳴書院原創科學示意圖</span><span data-lang="en" class="hidden">Original Scientific Illustration by YeshanLuming Academy</span></figcaption><div class="image-enlarge-note">點擊查看大圖<br>Click to enlarge</div></figure>
 However, even if a material possesses a high refractive index and strong dispersion, these optical effects known as fire cannot be fully displayed without excellent cutting and polishing. This is why diamonds of the same weight and similar quality may appear entirely different: some blaze with light, while others look dull and lifeless. The difference lies in whether they have been cut and polished according to sound scientific principles.
 
 Cutting and polishing a diamond is, in essence, the art of controlling the path of light within the stone. The angle and proportion of every facet influence the route by which light enters and leaves the diamond. When the cut is precise, light is reflected back toward the observer’s eyes in its most beautiful form; when the cut is poorly executed, light may escape through the sides, leaving the diamond looking dim and lifeless.
@@ -176,26 +173,4 @@ If hardness makes diamond one of humanity’s finest materials and tools for cut
 </article></section></main>
 <script src="script.js"></script>
 
-<div id="ylaLightbox" class="yla-lightbox-overlay" onclick="closeYlaLightbox()">
-  <img id="ylaLightboxImage" src="" alt="">
-</div>
-
-<script>
-function openYlaLightbox(img){
-  const box=document.getElementById('ylaLightbox');
-  const large=document.getElementById('ylaLightboxImage');
-  large.src=img.src;
-  large.alt=img.alt||'';
-  box.classList.add('open');
-  document.body.style.overflow='hidden';
-}
-function closeYlaLightbox(){
-  const box=document.getElementById('ylaLightbox');
-  box.classList.remove('open');
-  document.body.style.overflow='';
-}
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape') closeYlaLightbox();
-});
-</script>
 </body></html>

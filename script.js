@@ -218,3 +218,68 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 });
 window.addEventListener("beforeunload", () => stopReadAloud());
+
+
+/* YLA GLOBAL LIGHTBOX V2 */
+(function(){
+  let overlay = null;
+  let overlayImage = null;
+  let previousHtmlOverflow = '';
+  let previousBodyOverflow = '';
+
+  function ensureOverlay(){
+    if (overlay) return;
+    overlay = document.createElement('div');
+    overlay.className = 'yla-global-lightbox';
+    overlay.setAttribute('aria-hidden','true');
+    overlay.setAttribute('role','dialog');
+
+    overlayImage = document.createElement('img');
+    overlayImage.alt = '';
+    overlayImage.draggable = false;
+    overlay.appendChild(overlayImage);
+
+    overlay.addEventListener('click', closeYlaLightbox);
+    overlayImage.addEventListener('click', function(event){
+      event.stopPropagation();
+      closeYlaLightbox();
+    });
+    document.body.appendChild(overlay);
+  }
+
+  function openYlaLightbox(img){
+    if (!img) return;
+    ensureOverlay();
+    previousHtmlOverflow = document.documentElement.style.overflow;
+    previousBodyOverflow = document.body.style.overflow;
+    overlayImage.src = img.currentSrc || img.src;
+    overlayImage.alt = img.alt || '';
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden','false');
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeYlaLightbox(){
+    if (!overlay || !overlay.classList.contains('open')) return;
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden','true');
+    overlayImage.removeAttribute('src');
+    document.documentElement.style.overflow = previousHtmlOverflow;
+    document.body.style.overflow = previousBodyOverflow;
+  }
+
+  window.openYlaLightbox = openYlaLightbox;
+  window.closeYlaLightbox = closeYlaLightbox;
+
+  document.addEventListener('click', function(event){
+    const img = event.target.closest('img.article-hero, .article-illustration img, img[data-enlargeable="true"]');
+    if (!img || img.id === 'ylaLightboxImage') return;
+    event.preventDefault();
+    openYlaLightbox(img);
+  });
+
+  document.addEventListener('keydown', function(event){
+    if (event.key === 'Escape') closeYlaLightbox();
+  });
+})();
