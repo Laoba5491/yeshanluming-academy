@@ -224,5 +224,14 @@
     "section": "gems",
     "series_id": "diamond-series",
     "order": 110
+  },
+  {
+    "id": "PAGE-ARTICLE-DIAMOND-01111",
+    "article_id": "ARTICLE-DIAMOND-01111",
+    "title_cn": "粉鑽阿蓋爾礦興衰史·從鑽石開採業傳奇到光榮退場",
+    "title_en": "From a Legend of the Diamond Industry to an Honorable Farewell",
+    "url": "diamond-111.html",
+    "template": "ARTICLE_MASTER",
+    "status": "active"
   }
 ]

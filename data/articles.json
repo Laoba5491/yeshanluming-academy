@@ -314,5 +314,15 @@
     "url": "diamond-110.html",
     "image": "assets/images/diamond-110-argyle-pink-diamond.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "ARTICLE-DIAMOND-01111",
+    "title_cn": "粉鑽阿蓋爾礦興衰史·從鑽石開採業傳奇到光榮退場",
+    "title_en": "From a Legend of the Diamond Industry to an Honorable Farewell",
+    "series_id": "SERIES-DIAMOND",
+    "order": 111,
+    "status": "active",
+    "url": "diamond-111.html",
+    "image": "assets/images/diamond-111-argyle-mine-hero.png"
   }
 ]
