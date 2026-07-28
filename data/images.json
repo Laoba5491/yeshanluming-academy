@@ -31,7 +31,7 @@
     "id": "IMG-ARTICLE-MAIN-MF0001",
     "type": "image_node",
     "role": "article_main_image",
-    "file": "assets/images/microfiction-001-airport-hero.png",
+    "file": "assets/images/article-main.png",
     "display": {
       "mode": "article_hero",
       "width": "100%",
@@ -39,37 +39,7 @@
       "height": "auto"
     },
     "status": "ACTIVE",
-    "note": "戴高樂機場舉牌迎接野山報頭圖。"
-  },
-  {
-    "id": "IMG-ARTICLE-MF0001-WAREHOUSE-BREAK",
-    "type": "image_node",
-    "role": "article_inline_image",
-    "file": "assets/images/microfiction-001-warehouse-break.png",
-    "display": {
-      "mode": "article_illustration",
-      "width": "80%",
-      "max_width": "100%",
-      "height": "auto",
-      "lightbox": true
-    },
-    "status": "ACTIVE",
-    "note": "瑪瑙原石倉庫中場休息正文插圖。"
-  },
-  {
-    "id": "IMG-ARTICLE-MF0001-ONE-YEAR-LATER",
-    "type": "image_node",
-    "role": "article_inline_image",
-    "file": "assets/images/microfiction-001-one-year-later.png",
-    "display": {
-      "mode": "article_illustration",
-      "width": "80%",
-      "max_width": "100%",
-      "height": "auto",
-      "lightbox": true
-    },
-    "status": "ACTIVE",
-    "note": "一年以後機場道別正文插圖。"
+    "note": "雨天機場版主圖。"
   },
   {
     "id": "IMG-ACADEMY-HEADER-MASTER-v3",
@@ -153,5 +123,23 @@
     "title_cn": "秦可卿·天香樓上的那根繩子",
     "title_en": "Qin Keqing: The Rope on the Tower of Heavenly Fragrance",
     "status": "DRAFT"
+  },
+  {
+    "id": "IMG-ABING-WHITE-BACKGROUND",
+    "type": "article_background",
+    "src": "assets/images/abing-white-page-background.png",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-ABING-SERIES-HEADER",
+    "type": "article_header",
+    "src": "assets/images/abing-series-header.png",
+    "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-ABING-0101-HUA-QINGHE-WU-AFEN",
+    "type": "article_image",
+    "src": "assets/images/abing-101-hua-qinghe-wu-afen.png",
+    "status": "ACTIVE"
   }
 ]

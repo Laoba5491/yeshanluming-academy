@@ -305,24 +305,14 @@
     "status": "ACTIVE"
   },
   {
-    "id": "ARTICLE-DIAMOND-01110",
-    "title_cn": "阿蓋爾礦粉紅鑽石橫空出世·顛覆鑽石母岩的認知革命",
-    "title_en": "The Argyle Pink Diamonds That Changed the World · A Revolution in Understanding Diamond Host Rocks",
-    "series_id": "diamond-series",
-    "section": "寶石世界",
-    "order": 110,
-    "url": "diamond-110.html",
-    "image": "assets/images/diamond-110-argyle-pink-diamond.png",
+    "id": "ARTICLE-ABING-0101",
+    "title_cn": "華彥鈞悲劇降生·不合傳統禮教出生的「野種」",
+    "title_en": "Hua Yanjun’s Tragic Birth · The “Bastard” Born Outside the Bounds of Traditional Morality",
+    "series_id": "SERIES-ABING",
+    "section": "音樂之鄉",
+    "order": 101,
+    "url": "abing-101.html",
+    "image": "assets/images/abing-series-header.png",
     "status": "ACTIVE"
-  },
-  {
-    "id": "ARTICLE-DIAMOND-01111",
-    "title_cn": "粉鑽阿蓋爾礦興衰史·從鑽石開採業傳奇到光榮退場",
-    "title_en": "From a Legend of the Diamond Industry to an Honorable Farewell",
-    "series_id": "SERIES-DIAMOND",
-    "order": 111,
-    "status": "active",
-    "url": "diamond-111.html",
-    "image": "assets/images/diamond-111-argyle-mine-hero.png"
   }
 ]
