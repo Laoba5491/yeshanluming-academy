@@ -143,5 +143,11 @@
     "type": "article_image",
     "src": "assets/images/abing-101-hua-qinghe-wu-afen.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-ABING-0102-TAOIST-CULTURE",
+    "type": "article_image",
+    "src": "assets/images/abing-102-taoist-culture.png",
+    "status": "ACTIVE"
   }
 ]

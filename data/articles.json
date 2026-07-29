@@ -319,5 +319,16 @@
     "url": "abing-101.html",
     "image": "assets/images/abing-series-header.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "ARTICLE-ABING-0102",
+    "title_cn": "認識華清和·了解道教文化的內涵和美學價值",
+    "title_en": "Knowing Hua Qinghe · Understanding the Cultural Meaning and Aesthetic Value of Taoism",
+    "series_id": "SERIES-ABING",
+    "section": "音樂之鄉",
+    "order": 102,
+    "url": "abing-102.html",
+    "image": "assets/images/abing-series-header.png",
+    "status": "ACTIVE"
   }
 ]
