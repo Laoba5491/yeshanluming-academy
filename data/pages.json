@@ -253,5 +253,12 @@
     "href": "abing-102.html",
     "article_node": "ARTICLE-ABING-0102",
     "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-ARTICLE-ABING-0103",
+    "type": "article_page",
+    "href": "abing-103.html",
+    "article_node": "ARTICLE-ABING-0103",
+    "status": "ACTIVE"
   }
 ]

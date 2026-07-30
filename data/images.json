@@ -149,5 +149,11 @@
     "type": "article_image",
     "src": "assets/images/abing-102-taoist-culture.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-ABING-0103-YOUNG-ABING-ERHU-TRAINING",
+    "type": "article_image",
+    "src": "assets/images/abing-103-young-abing-erhu-training.png",
+    "status": "ACTIVE"
   }
 ]

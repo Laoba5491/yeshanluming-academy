@@ -330,5 +330,16 @@
     "url": "abing-102.html",
     "image": "assets/images/abing-series-header.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "ARTICLE-ABING-0103",
+    "title_cn": "嚴師慈父·師徒相稱的荒誕",
+    "title_en": "A Stern Master, a Loving Father · The Absurdity of a Father and Son Calling Each Other Master and Disciple",
+    "series_id": "SERIES-ABING",
+    "section": "音樂之鄉",
+    "order": 103,
+    "url": "abing-103.html",
+    "image": "assets/images/abing-series-header.png",
+    "status": "ACTIVE"
   }
 ]
