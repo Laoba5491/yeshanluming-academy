@@ -1,0 +1,11 @@
+《野山鹿鳴書院》阿炳105補充上傳包
+日期：2026-08-02
+
+本包以已通過作者審查的105 Full ZIP為唯一來源，只包含相對阿炳104新增或修改的正式網站文件：
+
+1. abing-series.html（系列中英文目錄加入105）
+2. abing-104.html（加入通往105的下一篇導航）
+3. abing-105.html（105中英文文章頁）
+4. assets/images/abing-105-street-performer-beggars-gang.png（105專屬圖像）
+
+上傳時請保持原有目錄結構，覆蓋同名文件。
