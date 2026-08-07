@@ -341,5 +341,14 @@
     "url": "abing-103.html",
     "image": "assets/images/abing-series-header.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "ARTICLE-ABING-0112",
+    "title_cn": "一波三折·弦樂版《二泉映月》走向世界的曲折歷程",
+    "title_en": "A Twisting Journey · The String Orchestra Version of The Moon Reflected on the Second Spring Reaches the World",
+    "order": 112,
+    "href": "abing-112.html",
+    "url": "abing-112.html",
+    "series_id": "SERIES-ABING"
   }
 ]
