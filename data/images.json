@@ -155,5 +155,11 @@
     "type": "article_image",
     "src": "assets/images/abing-103-young-abing-erhu-training.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-ABING-0113-SEIJI-OZAWA-JIANG-JIANHUA",
+    "type": "article_image",
+    "src": "assets/images/abing-113-seiji-ozawa-jiang-jianhua.png",
+    "status": "ACTIVE"
   }
 ]
