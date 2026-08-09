@@ -1,7 +1,7 @@
 <!-- UI_STANDARD_V08B: row1=中文全文|中文介紹|繁體/簡體|英文全文|英文介紹 ; row2=大字閱讀|開始朗讀|返回目錄|返回首頁 -->
 <!doctype html>
 <html lang="zh-Hant">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>林黛玉之死｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"><style>.article-illustration{margin:2rem auto 1.3rem;text-align:center}.article-illustration img{display:block;width:80%;max-width:100%;height:auto;margin:0 auto;border-radius:10px}.article-illustration figcaption{margin-top:.7rem;font-size:.92rem;line-height:1.5;color:#4b4037}@media(max-width:720px){.article-illustration img{width:100%}}.article-illustration img[data-enlargeable="true"]{cursor:zoom-in}.image-enlarge-note{text-align:center;margin:.55rem 0 1rem;font-size:.95rem;line-height:1.45;color:#5b5148}</style></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>林黛玉之死｜野山鹿鳴書院</title><link rel="stylesheet" href="styles.css"><style>.article-illustration{margin:2rem auto 1.3rem;text-align:center}.article-illustration img{display:block;width:62%;max-width:720px;height:auto;margin:0 auto;border-radius:10px}.article-illustration figcaption{margin-top:.7rem;font-size:.92rem;line-height:1.5;color:#4b4037}@media(max-width:720px){.article-illustration img{width:100%;max-width:100%}}.article-illustration img[data-enlargeable="true"]{cursor:zoom-in}.image-enlarge-note{text-align:center;margin:.55rem 0 1rem;font-size:.95rem;line-height:1.45;color:#5b5148}.yla-lightbox-overlay{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;box-sizing:border-box;padding:2vh 2vw;background:rgba(0,0,0,.92);cursor:zoom-out;overflow:hidden}.yla-lightbox-overlay.open{display:flex}.yla-lightbox-overlay img{display:block;width:auto;height:auto;max-width:96vw;max-height:96vh;object-fit:contain;border-radius:0;cursor:zoom-out;user-select:none;-webkit-user-drag:none;touch-action:manipulation}</style></head>
 <body>
 <main class="master-page"><section class="master-sheet"><article class="master-content" data-page-node="PAGE-ARTICLE-RED-0108" data-article-node="ARTICLE-RED-0108">
   <img class="article-hero" src="assets/images/red-mansion-series.png" alt="林黛玉之死 文章圖像">
@@ -196,5 +196,29 @@ From that day onward, half of Jia Baoyu died as well，though no one else could 
   <div id="enFullReturn" class="bottom-return hidden"><button class="academy-ui" onclick="setModule('en','intro')"><span class="main">返回介紹</span><span class="sub">Back to Intro</span></button></div>
 </article></section></main>
 <script src="script.js"></script>
-<script src="yla-lightbox.js"></script>
+<div aria-hidden="true" class="yla-lightbox-overlay" id="ylaLightbox" onclick="closeYlaLightbox()" role="dialog"><img alt="" draggable="false" id="ylaLightboxImage" onclick="closeYlaLightbox()" src=""/></div>
+<script>
+function openYlaLightbox(img){
+  const box=document.getElementById('ylaLightbox');
+  const large=document.getElementById('ylaLightboxImage');
+  if(!box || !large) return;
+  large.src=img.currentSrc || img.src;
+  large.alt=img.alt || '';
+  box.classList.add('open');
+  box.setAttribute('aria-hidden','false');
+  document.documentElement.style.overflow='hidden';
+  document.body.style.overflow='hidden';
+}
+function closeYlaLightbox(){
+  const box=document.getElementById('ylaLightbox');
+  const large=document.getElementById('ylaLightboxImage');
+  if(!box) return;
+  box.classList.remove('open');
+  box.setAttribute('aria-hidden','true');
+  if(large) large.removeAttribute('src');
+  document.documentElement.style.overflow='';
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',function(e){if(e.key==='Escape') closeYlaLightbox();});
+</script>
 </body></html>
