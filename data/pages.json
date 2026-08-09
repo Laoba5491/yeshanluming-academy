@@ -278,5 +278,16 @@
     "section": "gems",
     "series_id": "diamond-series",
     "order": 112
+  },
+  {
+    "id": "PAGE-ARTICLE-DIAMOND-01113",
+    "article_id": "ARTICLE-DIAMOND-01113",
+    "title_cn": "世界鑽石產地·從南非到西伯利亞",
+    "title_en": "Diamond Sources of the World · From South Africa to Siberia",
+    "url": "diamond-113.html",
+    "type": "article",
+    "section": "gems",
+    "series_id": "diamond-series",
+    "order": 113
   }
 ]

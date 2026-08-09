@@ -205,5 +205,49 @@
     },
     "status": "ACTIVE",
     "note": "林黛玉與賈寶玉葬花正文插圖。"
+  },
+  {
+    "id": "IMG-ARTICLE-DIAMOND-01113-HERO",
+    "type": "image_node",
+    "role": "article_main_image",
+    "file": "assets/images/diamond-113-world-sources-header.png",
+    "display": {
+      "mode": "article_hero",
+      "width": "100%",
+      "max_width": "860px",
+      "height": "auto"
+    },
+    "status": "ACTIVE",
+    "note": "鑽石113世界鑽石產地報頭。"
+  },
+  {
+    "id": "IMG-ARTICLE-DIAMOND-01113-INLINE",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/diamond-113-world-sources.png",
+    "display": {
+      "mode": "article_illustration",
+      "width": "80%",
+      "max_width": "100%",
+      "height": "auto",
+      "lightbox": true
+    },
+    "status": "ACTIVE",
+    "note": "世界主要鑽石產地正文插圖。"
+  },
+  {
+    "id": "IMG-ARTICLE-RED-0109-INLINE",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/red-mansion-109-yingchun-jia-she-sun-shaozu.png",
+    "display": {
+      "mode": "article_illustration",
+      "width": "80%",
+      "max_width": "100%",
+      "height": "auto",
+      "lightbox": true
+    },
+    "status": "ACTIVE",
+    "note": "賈迎春、賈赦與孫紹祖正文插圖。"
   }
 ]
