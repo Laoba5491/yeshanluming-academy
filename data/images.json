@@ -161,5 +161,49 @@
     "type": "article_image",
     "src": "assets/images/abing-113-seiji-ozawa-jiang-jianhua.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-ARTICLE-DIAMOND-01112-HERO",
+    "type": "image_node",
+    "role": "article_main_image",
+    "file": "assets/images/diamond-112-black-diamond-header.png",
+    "display": {
+      "mode": "article_hero",
+      "width": "100%",
+      "max_width": "860px",
+      "height": "auto"
+    },
+    "status": "ACTIVE",
+    "note": "鑽石112黑色鑽石報頭。"
+  },
+  {
+    "id": "IMG-ARTICLE-DIAMOND-01112-INLINE",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/diamond-112-popigai-impact-diamonds.png",
+    "display": {
+      "mode": "article_illustration",
+      "width": "80%",
+      "max_width": "100%",
+      "height": "auto",
+      "lightbox": true
+    },
+    "status": "ACTIVE",
+    "note": "波皮蓋撞擊鑽石正文插圖。"
+  },
+  {
+    "id": "IMG-ARTICLE-RED-0108-INLINE",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/red-mansion-108-daiyu-baoyu-bury-flowers.png",
+    "display": {
+      "mode": "article_illustration",
+      "width": "80%",
+      "max_width": "100%",
+      "height": "auto",
+      "lightbox": true
+    },
+    "status": "ACTIVE",
+    "note": "林黛玉與賈寶玉葬花正文插圖。"
   }
 ]

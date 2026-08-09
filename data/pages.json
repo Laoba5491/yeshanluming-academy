@@ -267,5 +267,16 @@
     "href": "abing-113.html",
     "article_node": "ARTICLE-ABING-0113",
     "status": "ACTIVE"
+  },
+  {
+    "id": "PAGE-ARTICLE-DIAMOND-01112",
+    "article_id": "ARTICLE-DIAMOND-01112",
+    "title_cn": "鑽石中的黑馬·《黑色鑽石》真的來自外太空？",
+    "title_en": "The Dark Horse of the Diamond World · Do “Black Diamonds” Really Come from Outer Space?",
+    "url": "diamond-112.html",
+    "type": "article",
+    "section": "gems",
+    "series_id": "diamond-series",
+    "order": 112
   }
 ]
