@@ -1,0 +1,17 @@
+{
+  "build": "DIAMOND_119_RED_MANSION_115_IMAGE_FOR_REVIEW_20260812",
+  "baseline": "DIAMOND_118_RED_MANSION_114_IMAGE_FOR_REVIEW_20260812_SPLIT",
+  "status": "PASS",
+  "checks": {
+    "diamond_119_bilingual_full_and_intro": true,
+    "diamond_119_header_thumbnail_to_original": true,
+    "diamond_119_inline_thumbnail_to_original": true,
+    "diamond_directory_page_3_six_items": true,
+    "diamond_directory_page_4_contains_119": true,
+    "diamond_118_119_sequence_navigation": true,
+    "red_mansion_115_image_in_chinese_full": true,
+    "red_mansion_115_image_in_english_full": true,
+    "red_mansion_115_thumbnail_to_original": true,
+    "all_new_assets_present": true
+  }
+}
