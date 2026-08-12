@@ -1,0 +1,14 @@
+{
+  "package": "UPDATE_DIAMOND_120_RED_MANSION_116_IMAGE",
+  "date": "2026-08-13",
+  "expected_payload_files": 13,
+  "checks": {
+    "only_current_update_files_included": "PASS",
+    "paths_preserved_from_site_root": "PASS",
+    "diamond_120_complete": "PASS",
+    "diamond_119_next_navigation": "PASS",
+    "diamond_page4_bilingual_directory": "PASS",
+    "red_mansion_116_bilingual_image": "PASS",
+    "thumbnail_and_independent_full_image": "PASS"
+  }
+}
