@@ -1,0 +1,13 @@
+{
+  "fix": "DIAMOND_120_RED_MANSION_116_TRUE_ENLARGE",
+  "date": "2026-08-13",
+  "checks": {
+    "inline_max_width_px": 760,
+    "diamond_120_thumbnail_px": "760x461",
+    "diamond_120_full_px": "1610x977",
+    "red_mansion_116_thumbnail_px": "760x507",
+    "red_mansion_116_full_px": "1536x1024",
+    "versioned_paths_avoid_cache": "PASS",
+    "independent_thumbnail_and_full_files": "PASS"
+  }
+}
