@@ -1,0 +1,20 @@
+野山鹿鳴書院｜紅樓夢117補充上傳包
+
+用途：在已部署「鑽石121 V2 FINAL BASELINE」或其後續完整版本上，增補紅樓夢117。
+
+上傳方法：
+1. 解壓本補充 ZIP。
+2. 將解壓所得文件與資料夾上傳至 GitHub 倉庫根目錄。
+3. 遇到同名文件時選擇覆蓋。
+4. 保持 assets/images/ 原有資料夾路徑，不要只上傳圖片本身。
+
+本包內容：
+- red-mansion-fangguan.html（新增紅樓夢117）
+- red-mansion-page3.html（第三頁目錄新增第六篇）
+- red-mansion-shi-xiangyun.html（116增加下一篇連結）
+- assets/images/red-mansion-117-fangguan.png（原圖）
+- assets/images/red-mansion-117-fangguan-thumb.jpg（正文縮圖）
+- README_RED_MANSION_117_FOR_REVIEW_20260813.txt
+- SELF_CHECK_RED_MANSION_117_20260813.json
+
+圖像顯示：沿用 V2 四階段模式。

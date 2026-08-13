@@ -1,0 +1,18 @@
+{
+  "build": "RED_MANSION_117_FOR_REVIEW_20260813",
+  "baseline": "DIAMOND_121_V2_FINAL_BASELINE_20260813",
+  "article": "red-mansion-fangguan.html",
+  "directory": "red-mansion-page3.html",
+  "sequence": 117,
+  "page3_position": 6,
+  "image_v2": {
+    "thumbnail": "red-mansion-117-fangguan-thumb.jpg",
+    "original": "red-mansion-117-fangguan.png"
+  },
+  "checks": {
+    "bilingual_full_and_intro": true,
+    "directory_six_items": true,
+    "previous_next_navigation": true,
+    "v2_lightbox": true
+  }
+}
