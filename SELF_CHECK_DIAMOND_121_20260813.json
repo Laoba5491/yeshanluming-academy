@@ -1,0 +1,18 @@
+{
+  "build": "DIAMOND_121",
+  "date": "2026-08-13",
+  "base": "DIAMOND_120_RED_MANSION_116_IMAGE",
+  "checks": {
+    "diamond_121_bilingual_full_and_intro": "PASS",
+    "diamond_121_directory_zh_en_once_each": "PASS",
+    "diamond_120_to_121_navigation": "PASS",
+    "diamond_121_to_120_navigation": "PASS",
+    "diamond_121_zh_en_image_position": "PASS",
+    "v2_four_stage_image_state_machine": "PASS",
+    "article_max_width_520": "PASS",
+    "first_enlargement_max_width_1200": "PASS",
+    "original_pixels_scrollable": "PASS",
+    "missing_local_references": 0,
+    "split_archive_required": true
+  }
+}
