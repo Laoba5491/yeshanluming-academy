@@ -9,8 +9,23 @@
     target && target.closest &&
     target.closest('img.article-hero, .article-illustration img');
 
+  function ensureStyles() {
+    if (document.getElementById('yla-lightbox-v2-styles')) return;
+    const style = document.createElement('style');
+    style.id = 'yla-lightbox-v2-styles';
+    style.textContent = `
+      .yla-v2-lightbox{position:fixed!important;inset:0!important;z-index:2147483647!important;display:none!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;padding:24px!important;overflow:hidden!important;background:rgba(0,0,0,.9)!important}
+      .yla-v2-lightbox.open{display:flex!important}
+      .yla-v2-lightbox img{display:block!important;width:auto!important;height:auto!important;max-width:min(1200px,96vw)!important;max-height:92vh!important;object-fit:contain!important;cursor:zoom-in!important}
+      .yla-v2-lightbox.open.original{display:block!important;padding:24px!important;overflow:auto!important}
+      .yla-v2-lightbox.original img{width:auto!important;height:auto!important;max-width:none!important;max-height:none!important;margin:0 auto!important;object-fit:none!important;cursor:zoom-out!important}
+    `;
+    document.head.appendChild(style);
+  }
+
   function ensureOverlay() {
     if (overlay) return;
+    ensureStyles();
     overlay = document.createElement('div');
     overlay.className = 'yla-v2-lightbox';
     overlay.setAttribute('role', 'dialog');
@@ -91,6 +106,7 @@
   window.addEventListener('pageshow', close);
 
   document.addEventListener('DOMContentLoaded', () => {
+    ensureStyles();
     window.openYlaLightbox = open;
     window.closeYlaLightbox = close;
     document.documentElement.style.overflow = '';
