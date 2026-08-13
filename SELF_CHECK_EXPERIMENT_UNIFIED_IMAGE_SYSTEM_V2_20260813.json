@@ -1,0 +1,15 @@
+{
+  "experiment": "UNIFIED_IMAGE_SYSTEM_V2",
+  "date": "2026-08-13",
+  "test_pages": ["diamond-120.html", "red-mansion-shi-xiangyun.html"],
+  "checks": {
+    "isolated_from_legacy_pages": "PASS",
+    "inline_image_max_width": "720px",
+    "first_click_fit_mode": "PASS",
+    "second_click_actual_pixel_mode": "PASS",
+    "overflow_scroll_in_actual_mode": "PASS",
+    "escape_and_close_button": "PASS",
+    "versioned_css_and_js": "PASS",
+    "javascript_syntax": "PASS"
+  }
+}
