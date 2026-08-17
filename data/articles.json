@@ -375,5 +375,31 @@
     "url": "diamond-113.html",
     "order": 113,
     "series_id": "diamond-series"
+  },
+  {
+    "id": "ARTICLE-DIAMOND-01114",
+    "title_cn": "4C的誕生·一套改變鑽石世界的標準",
+    "title_en": "The Birth of the 4Cs: A Standard That Changed the Diamond World",
+    "url": "diamond-114.html",
+    "order": 114,
+    "series_id": "diamond-series"
+  },
+  {
+    "id": "ARTICLE-RED-01118",
+    "title_cn": "愛是專屬的·給寶玉上課的女孩齡官",
+    "title_en": "Love Is Meant for One Alone · Lingguan, the Girl Who Taught Baoyu a Lesson",
+    "order": 118,
+    "href": "red-mansion-lingguan.html",
+    "url": "red-mansion-lingguan.html",
+    "series_id": "red-mansion"
+  },
+  {
+    "id": "ARTICLE-RED-01119",
+    "title_cn": "藕官·癡情又理性的女孩",
+    "title_en": "Ouguan · A Girl Both Devoted and Clear-Minded in Love",
+    "order": 119,
+    "href": "red-mansion-ouguan.html",
+    "url": "red-mansion-ouguan.html",
+    "series_id": "red-mansion"
   }
 ]

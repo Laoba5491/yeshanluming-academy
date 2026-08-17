@@ -1,0 +1,22 @@
+{
+  "build": "RED_MANSION_118_119_V2_FOR_REVIEW_20260818",
+  "baseline": "RED_MANSION_117_V2_FOR_REVIEW_20260813",
+  "articles": [
+    {
+      "order": 118,
+      "page": "red-mansion-lingguan.html",
+      "image": "assets/images/red-mansion-lingguan.png",
+      "thumbnail": "assets/images/red-mansion-lingguan-thumb.jpg"
+    },
+    {
+      "order": 119,
+      "page": "red-mansion-ouguan.html",
+      "image": "assets/images/red-mansion-ouguan.png",
+      "thumbnail": "assets/images/red-mansion-ouguan-thumb.jpg"
+    }
+  ],
+  "directory": "red-mansion-page4.html",
+  "lightbox": "V2 four-stage: 520px inline → 1200px → original 1536px scrollable → inline",
+  "navigation": "117 → 118 → 119; page 3 ↔ page 4",
+  "status": "for author review"
+}
