@@ -1,0 +1,1 @@
+Red Mansion 120 and 121 review build. Both articles use the V2 four-stage lightbox, 520px thumbnails, 1200px first enlargement, original 1536px second enlargement, and return-to-page third click. Page 4 directory and article sequence navigation updated.
