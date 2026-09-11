@@ -306,5 +306,50 @@
       "lightbox": true
     },
     "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-RUBY-102-FLAME-FUSION",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/ruby-102-flame-fusion.png",
+    "thumbnail": "assets/images/ruby-102-flame-fusion-thumb.jpg",
+    "display": {
+      "mode": "IMAGE_DISPLAY_V2",
+      "small_max_width": "520px",
+      "fitted_max_width": "1200px",
+      "original_pixels": true,
+      "lightbox": true
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-RUBY-102-FLUX-GROWN",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/ruby-102-flux-grown.png",
+    "thumbnail": "assets/images/ruby-102-flux-grown-thumb.jpg",
+    "display": {
+      "mode": "IMAGE_DISPLAY_V2",
+      "small_max_width": "520px",
+      "fitted_max_width": "1200px",
+      "original_pixels": true,
+      "lightbox": true
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-RUBY-102-HYDROTHERMAL",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/ruby-102-hydrothermal.png",
+    "thumbnail": "assets/images/ruby-102-hydrothermal-thumb.jpg",
+    "display": {
+      "mode": "IMAGE_DISPLAY_V2",
+      "small_max_width": "520px",
+      "fitted_max_width": "1200px",
+      "original_pixels": true,
+      "lightbox": true
+    },
+    "status": "ACTIVE"
   }
 ]

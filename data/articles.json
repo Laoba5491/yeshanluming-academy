@@ -413,5 +413,17 @@
     "url": "ruby-101.html",
     "image": "assets/images/ruby-series-header.png",
     "status": "ACTIVE"
+  },
+  {
+    "id": "ARTICLE-RUBY-01102",
+    "type": "article_node",
+    "title_cn": "鏡頭下的真假謎局：天然與人造紅寶石的顯微鏡秘密",
+    "title_en": "A Mystery of True and False Beneath the Lens · The Microscopic Secrets of Natural and Synthetic Rubies",
+    "series_id": "SERIES-RUBY",
+    "section": "寶石世界",
+    "order": 102,
+    "url": "ruby-102.html",
+    "image": "assets/images/ruby-series-header.png",
+    "status": "ACTIVE"
   }
 ]

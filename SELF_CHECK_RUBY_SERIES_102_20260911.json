@@ -1,0 +1,27 @@
+{
+  "project": "YeshanLuming Academy",
+  "section": "寶石世界",
+  "series": "紅寶石篇",
+  "article": 102,
+  "review_build_date": "2026-09-11",
+  "checks": {
+    "baseline_ruby_101_preserved": true,
+    "ruby_102_page_created": true,
+    "series_directory_zh_updated": true,
+    "series_directory_en_updated": true,
+    "chinese_full_paragraphs": 49,
+    "english_full_paragraphs": 49,
+    "chinese_intro_paragraphs": 9,
+    "english_intro_paragraphs": 9,
+    "bilingual_paragraph_alignment": true,
+    "inline_images": 3,
+    "image_display_v2": true,
+    "image_small_width_px": 520,
+    "full_resolution_images_preserved": true,
+    "bilingual_copyright_captions": true,
+    "article_page_links_valid": true,
+    "json_data_valid": true,
+    "missing_local_assets": 0
+  },
+  "status": "READY_FOR_AUTHOR_REVIEW"
+}

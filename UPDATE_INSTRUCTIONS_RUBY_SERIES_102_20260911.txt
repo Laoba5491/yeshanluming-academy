@@ -1,0 +1,21 @@
+《野山鹿鳴書院》紅寶石系列（102）上傳補充包
+日期：2026-09-11
+
+使用方法：
+1. 在 GitHub 儲存庫根目錄選擇 Add file → Upload files。
+2. 將本 ZIP 解壓後所得的全部文件及資料夾，保持原有路徑上傳。
+3. 如系統提示同名文件，確認覆蓋更新。
+4. 提交後等待 Cloudflare Pages 自動部署完成。
+
+本包新增或更新：
+- ruby-102.html
+- ruby-series.html
+- data/articles.json
+- data/pages.json
+- data/images.json
+- nodes/articles/ARTICLE-RUBY-01102.json
+- nodes/pages/PAGE-ARTICLE-RUBY-01102.json
+- assets/images/ 中紅寶石102三幅原圖及三幅縮圖
+- SELF_CHECK_RUBY_SERIES_102_20260911.json
+
+重要：本包只包含紅寶石102所需的新增與更新文件，不包含全站其他文件。
