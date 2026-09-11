@@ -289,5 +289,27 @@
     "section": "gems",
     "series_id": "diamond-series",
     "order": 113
+  },
+  {
+    "id": "PAGE-ARTICLE-DIAMOND-01114",
+    "article_id": "ARTICLE-DIAMOND-01114",
+    "title_cn": "4C的誕生·一套改變鑽石世界的標準",
+    "title_en": "The Birth of the 4Cs: A Standard That Changed the Diamond World",
+    "url": "diamond-114.html",
+    "type": "article",
+    "section": "gems",
+    "series_id": "diamond-series",
+    "order": 114
+  },
+  {
+    "id": "PAGE-ARTICLE-RUBY-01101",
+    "article_id": "ARTICLE-RUBY-01101",
+    "title_cn": "燃燒的地下火焰 · 解密紅寶石的誕生與傳奇",
+    "title_en": "The Burning Flame Beneath the Earth · Unraveling the Birth and Legend of Ruby",
+    "url": "ruby-101.html",
+    "type": "article",
+    "section": "gems",
+    "series_id": "ruby-series",
+    "order": 101
   }
 ]

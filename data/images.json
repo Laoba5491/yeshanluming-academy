@@ -249,5 +249,62 @@
     },
     "status": "ACTIVE",
     "note": "賈迎春、賈赦與孫紹祖正文插圖。"
+  },
+  {
+    "id": "IMG-ARTICLE-DIAMOND-01114-HERO",
+    "type": "image_node",
+    "role": "article_main_image",
+    "file": "assets/images/diamond-114-4cs-header.png",
+    "display": {
+      "mode": "article_hero",
+      "width": "100%",
+      "max_width": "860px",
+      "height": "auto"
+    },
+    "status": "ACTIVE",
+    "note": "鑽石114的4C標準報頭。"
+  },
+  {
+    "id": "IMG-ARTICLE-RED-0110-INLINE",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/red-mansion-110-xiangling-thumb.png",
+    "original_file": "assets/images/red-mansion-110-xiangling.png",
+    "display": {
+      "mode": "article_illustration",
+      "width": "80%",
+      "max_width": "100%",
+      "height": "auto",
+      "lightbox": true
+    },
+    "status": "ACTIVE",
+    "note": "香菱在夏金桂與薛蟠折磨中默默承受的正文插圖。"
+  },
+  {
+    "id": "IMG-RUBY-SERIES-HEADER",
+    "type": "image_node",
+    "role": "article_header",
+    "file": "assets/images/ruby-series-header.png",
+    "thumbnail": "assets/images/ruby-series-header-thumb.jpg",
+    "display": {
+      "mode": "article_hero",
+      "lightbox": true
+    },
+    "status": "ACTIVE"
+  },
+  {
+    "id": "IMG-RUBY-101-FORMATION",
+    "type": "image_node",
+    "role": "article_inline_image",
+    "file": "assets/images/ruby-101-formation.png",
+    "thumbnail": "assets/images/ruby-101-formation-thumb.jpg",
+    "display": {
+      "mode": "IMAGE_DISPLAY_V2",
+      "small_max_width": "520px",
+      "fitted_max_width": "1200px",
+      "original_pixels": true,
+      "lightbox": true
+    },
+    "status": "ACTIVE"
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "build": "RUBY_SERIES_101_FOR_REVIEW_20260911",
+  "status": "PASS",
+  "checks": {
+    "multipart_baseline_integrity": true,
+    "gems_ruby_series_route": true,
+    "series_page_without_image": true,
+    "directory_number_101": true,
+    "article_route": true,
+    "zh_full_paragraphs": 40,
+    "en_full_paragraphs": 40,
+    "zh_intro_paragraphs": 7,
+    "en_intro_paragraphs": 7,
+    "inline_image_position_aligned": true,
+    "image_display_v2": true,
+    "original_images_present": true,
+    "thumbnails_present": true
+  }
+}

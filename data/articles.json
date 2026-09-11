@@ -401,5 +401,17 @@
     "href": "red-mansion-ouguan.html",
     "url": "red-mansion-ouguan.html",
     "series_id": "red-mansion"
+  },
+  {
+    "id": "ARTICLE-RUBY-01101",
+    "type": "article_node",
+    "title_cn": "燃燒的地下火焰 · 解密紅寶石的誕生與傳奇",
+    "title_en": "The Burning Flame Beneath the Earth · Unraveling the Birth and Legend of Ruby",
+    "series_id": "SERIES-RUBY",
+    "section": "寶石世界",
+    "order": 101,
+    "url": "ruby-101.html",
+    "image": "assets/images/ruby-series-header.png",
+    "status": "ACTIVE"
   }
 ]
