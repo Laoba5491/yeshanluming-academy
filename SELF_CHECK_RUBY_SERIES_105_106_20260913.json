@@ -1,0 +1,13 @@
+{
+  "build": "RUBY_SERIES_105_106_V2_FOR_REVIEW_20260913",
+  "articles": [
+    105,
+    106
+  ],
+  "directory_count": 6,
+  "header_desktop": "76%, max 560px",
+  "inline_thumb_max_px": 520,
+  "v2_lightbox": true,
+  "bilingual": true,
+  "sequence_navigation": true
+}
