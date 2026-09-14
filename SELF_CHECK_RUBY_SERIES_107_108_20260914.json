@@ -1,0 +1,17 @@
+{
+  "build": "RUBY_SERIES_107_108",
+  "date": "2026-09-14",
+  "baseline": "RUBY_SERIES_105_106_V2_UI_CORRECTED",
+  "pages": [
+    "ruby-107.html",
+    "ruby-108.html",
+    "ruby-series-page2.html"
+  ],
+  "checks": {
+    "bilingual_modules": true,
+    "directory_six_per_page": true,
+    "image_display": "V2 four-step",
+    "white_background": true,
+    "article_header_enlarged": true
+  }
+}
