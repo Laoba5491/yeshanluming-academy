@@ -1,0 +1,33 @@
+夜山鹿鳴書院｜紅寶石系列（109–110）正式上傳增補包
+日期：2026-09-15
+
+使用方法
+1. 以目前已通過審查的紅寶石系列107–108網站版本為基準。
+2. 將本ZIP內的全部內容上傳到GitHub網站倉庫根目錄。
+3. 保持原有資料夾結構，並允許覆蓋同名文件。
+4. 請勿只上傳HTML；assets/images內的六個圖像文件必須一併上傳。
+5. 等待Cloudflare Pages自動完成部署。
+
+本次新增
+- ruby-109.html
+- ruby-110.html
+- assets/images/ruby-109-discovery.png
+- assets/images/ruby-109-discovery-thumb.jpg
+- assets/images/ruby-109-auction.png
+- assets/images/ruby-109-auction-thumb.jpg
+- assets/images/ruby-110-illustration.png
+- assets/images/ruby-110-illustration-thumb.jpg
+
+本次更新
+- ruby-108.html：加入前往紅寶石109的下一篇連結。
+- ruby-series-page2.html：加入紅寶石109及110目錄卡片。
+
+部署後檢查
+- 第二目錄頁可正常開啟107、108、109、110。
+- 108 → 109 → 110的上一篇／下一篇連結正確。
+- 109及110的中文導讀、英文導讀、中文全文、英文全文均可切換。
+- 109兩幅圖與110一幅圖均可正常顯示。
+- 點擊圖像後，V2四步圖像燈箱可正常操作。
+
+安全說明
+- 本增補包不包含styles.css、script.js或yla-lightbox-v2.js，避免覆蓋已通過審查的網站核心文件。

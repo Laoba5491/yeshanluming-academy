@@ -1,0 +1,34 @@
+{
+  "build": "RUBY_SERIES_109_110",
+  "date": "2026-09-15",
+  "baseline": "RUBY_SERIES_107_108_V2_FOR_REVIEW_20260914",
+  "pages": [
+    "ruby-108.html",
+    "ruby-109.html",
+    "ruby-110.html",
+    "ruby-series-page2.html"
+  ],
+  "images": [
+    "assets/images/ruby-109-discovery.png",
+    "assets/images/ruby-109-auction.png",
+    "assets/images/ruby-110-illustration.png"
+  ],
+  "checks": {
+    "bilingual_modules": true,
+    "zh_en_intro_block_counts_match": true,
+    "zh_en_full_block_counts_match": true,
+    "directory_six_per_page": true,
+    "directory_page2_articles": [107, 108, 109, 110],
+    "navigation_108_109_110": true,
+    "intro_has_no_inline_images": true,
+    "full_image_positions_match_bilingually": true,
+    "image_display": "V2 four-step",
+    "white_background": true,
+    "article_header_enlarged": true,
+    "local_asset_links_resolve": true,
+    "input_typo_cleanup": {
+      "zh_110": "著名hbs → 著名寶石",
+      "en_109": "no no longer → no longer"
+    }
+  }
+}
