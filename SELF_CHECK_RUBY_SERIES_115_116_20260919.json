@@ -1,0 +1,26 @@
+{
+  "project": "YeshanLuming Academy",
+  "scope": "Ruby Series 115-116 full review build",
+  "date": "2026-09-19",
+  "status": "PASS",
+  "checks": {
+    "source_baseline": "Ruby Series 113-114 V3 full review archive",
+    "articles_added": ["ruby-115.html", "ruby-116.html"],
+    "directory_updated": "ruby-series-page3.html",
+    "sequence": "113 -> 114 -> 115 -> 116",
+    "modules_per_article": ["中文介紹", "中文全文", "英文介紹", "英文全文"],
+    "paragraph_alignment": true,
+    "traditional_simplified_toggle": true,
+    "read_aloud": true,
+    "large_text": true,
+    "image_display": "V2 four-step lightbox",
+    "images": {
+      "115": 2,
+      "116": 1,
+      "bilingual_captions": true,
+      "thumbnails_present": true
+    },
+    "background": "ARTICLE_BACKGROUND_MASTER white reading background",
+    "review_only": true
+  }
+}
